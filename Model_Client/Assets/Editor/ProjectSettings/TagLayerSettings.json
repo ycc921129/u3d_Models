@@ -1,0 +1,28 @@
+{
+    "tags": [
+        "Untagged",
+        "Respawn",
+        "Finish",
+        "EditorOnly",
+        "MainCamera",
+        "Player",
+        "GameController",
+
+        "Entity"
+    ],
+    "sortLayers": [
+        "Default",
+
+        "Down",
+        "Top"
+    ],
+    "layers": [
+        "Default",
+        "TransparentFX",
+        "Ignore Raycast",
+        "Water",
+        "UI",
+
+        "Entity"
+    ]
+}

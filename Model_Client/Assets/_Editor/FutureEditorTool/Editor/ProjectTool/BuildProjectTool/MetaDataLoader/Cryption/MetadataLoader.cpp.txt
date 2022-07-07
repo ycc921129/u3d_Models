@@ -1,0 +1,50 @@
+#include "il2cpp-config.h"
+#include "MetadataLoader.h"
+#include "os/File.h"
+#include "os/Mutex.h"
+#include "utils/MemoryMappedFile.h"
+#include "utils/PathUtils.h"
+#include "utils/Runtime.h"
+#include "utils/Logging.h"
+
+void* il2cpp::vm::MetadataLoader::LoadMetadataFile(const char* fileName)
+{
+    std::string resourcesDirectory = utils::PathUtils::Combine(utils::Runtime::GetDataDir(), utils::StringView<char>("Metadata"));
+
+    std::string resourceFilePath = utils::PathUtils::Combine(resourcesDirectory, utils::StringView<char>(fileName, strlen(fileName)));
+
+    int error = 0;
+    os::FileHandle* handle = os::File::Open(resourceFilePath, kFileModeOpen, kFileAccessRead, kFileShareRead, kFileOptionsNone, &error);
+	int64_t length = 0;
+    if (error != 0)
+    {
+        utils::Logging::Write("ERROR: Could not open %s", resourceFilePath.c_str());
+        return NULL;
+    }else{
+		length = os::File::GetLength(handle, &error);
+	}
+
+    void* fileBuffer = utils::MemoryMappedFile::Map(handle);
+    uint8_t* data =(uint8_t*)malloc(length);
+	memcpy(data, fileBuffer, length);
+
+    os::File::Close(handle, &error);
+    if (error != 0)
+    {
+        utils::MemoryMappedFile::Unmap(fileBuffer);
+        fileBuffer = NULL;
+        return NULL;
+    }
+	char key[] = "{Key}";
+	char vector[] = "{Ivector}";
+	int keyLen = strlen(key);
+	
+	int nowindex = 0;
+	for(int i = 0; i < length; ++i){
+		uint8_t k = key[nowindex++];
+		nowindex %= length;
+		data[i] ^= k;
+	}
+
+    return (void*)data;
+}

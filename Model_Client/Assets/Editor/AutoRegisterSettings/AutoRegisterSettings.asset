@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a930ccf07ba3ca64ba2d885176f22c6f, type: 3}
+  m_Name: AutoRegisterSettings
+  m_EditorClassIdentifier: 
+  autoRegisterPath:
+  - {fileID: 102900000, guid: edae29a998f2a6441939fd3719937eee, type: 3}
+  - {fileID: 102900000, guid: 81593fc43f952904b9be7051971ce56f, type: 3}
+  - {fileID: 102900000, guid: a332946ae5588f74880d95cdb7e5be20, type: 3}
