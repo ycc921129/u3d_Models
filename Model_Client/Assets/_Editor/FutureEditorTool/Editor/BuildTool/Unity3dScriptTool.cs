@@ -59,7 +59,7 @@ namespace FutureEditor
         public static void SetReleaseDefineSymbol()
         {
             PlatformTool.DynamicPlatformFolder();
-            EditorUserBuildSettings.androidCreateSymbolsZip = true; 
+
             SetDefineSymbol(BuildTargetGroup.Standalone, true);
             SetDefineSymbol(BuildTargetGroup.Android, true);
             SetDefineSymbol(BuildTargetGroup.iOS, true);

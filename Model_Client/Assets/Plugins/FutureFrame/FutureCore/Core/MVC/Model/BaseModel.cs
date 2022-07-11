@@ -18,7 +18,6 @@ namespace FutureCore
         protected UICtrlDispatcher uiCtrlDispatcher;
         protected DataDispatcher dataDispatcher;
         protected GameDispatcher gameDispatcher;
-        protected WSNetDispatcher wsNetDispatcher;
 
         public void New()
         {
@@ -66,7 +65,6 @@ namespace FutureCore
             uiCtrlDispatcher = UICtrlDispatcher.Instance;
             dataDispatcher = DataDispatcher.Instance;
             gameDispatcher = GameDispatcher.Instance;
-            wsNetDispatcher = WSNetDispatcher.Instance;
         }
         protected virtual void UnAssignment()
         {
@@ -78,7 +76,6 @@ namespace FutureCore
             uiCtrlDispatcher = null;
             dataDispatcher = null;
             gameDispatcher = null;
-            wsNetDispatcher = null;
         }
 
         protected virtual void OnNew() { }

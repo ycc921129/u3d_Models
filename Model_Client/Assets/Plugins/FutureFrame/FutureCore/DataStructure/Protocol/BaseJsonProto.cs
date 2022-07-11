@@ -60,7 +60,7 @@ namespace FutureCore
         /// <returns></returns>
         public bool Send(bool notify = false) 
         {
-            return WSNetMgr.Instance.Send(this, notify);
+            return false; 
         }
     }
 

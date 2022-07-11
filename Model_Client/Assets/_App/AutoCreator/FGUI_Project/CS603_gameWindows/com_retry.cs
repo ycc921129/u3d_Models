@@ -7,6 +7,7 @@ namespace UI.CS603_gameWindows
 {
     public partial class com_retry : GComponent
     {
+        public GTextField text_title;
         public com_btnStatus com_btnStatus;
         public GTextField text_reconnectStatus;
         public GTextField text_status;
@@ -22,10 +23,11 @@ namespace UI.CS603_gameWindows
         {
             base.ConstructFromXML(xml);
 
-            com_btnStatus = (com_btnStatus)GetChildAt(5);
-            text_reconnectStatus = (GTextField)GetChildAt(6);
-            text_status = (GTextField)GetChildAt(7);
-            text_time = (GTextField)GetChildAt(8);
+            text_title = (GTextField)GetChildAt(1);
+            com_btnStatus = (com_btnStatus)GetChildAt(3);
+            text_reconnectStatus = (GTextField)GetChildAt(4);
+            text_status = (GTextField)GetChildAt(5);
+            text_time = (GTextField)GetChildAt(6);
         }
     }
 }

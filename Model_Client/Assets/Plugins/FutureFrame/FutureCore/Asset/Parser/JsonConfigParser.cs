@@ -185,15 +185,7 @@ namespace FutureCore
                 return null;
             }
 
-            string configDir = null;
-            if (WSNetMgr.Instance.IsAppWssUrl())
-            {
-                configDir = PathConst.WssConfigDir;
-            }
-            else
-            {
-                configDir = PathConst.ObsoleteConfigDir;
-            }
+            string configDir = PathConst.ObsoleteConfigDir;
             string serverConfigPath = configDir + fullConfigServerVersion + AppConst.ABExtName;
             return serverConfigPath;
         }
@@ -268,8 +260,6 @@ namespace FutureCore
 
         private void NotificationParseError(Exception e)
         {
-            LogUtil.LogErrorFormat("[JsonConfigParser]ConfigPath: {0} ConfigName: {1} ParseError: {2}", assetPath, configName, e.ToString());
-            WSNetMgr.Instance.State = WSNetState.ConfigParseError;
             AppDispatcher.Instance.Dispatch(AppMsg.System_ConfigInitError);
             // 异常统计
             Channel.Current.onEvent(s_Statistic_config_parseerror);
@@ -277,8 +267,6 @@ namespace FutureCore
 
         private void NotificationSerializeError(Exception e)
         {
-            LogUtil.LogErrorFormat("[JsonConfigParser]ConfigPath: {0} ConfigName: {1} SerializeError: {2}", assetPath, configName, e.ToString());
-            WSNetMgr.Instance.State = WSNetState.ConfigSerializeError;
             AppDispatcher.Instance.Dispatch(AppMsg.System_ConfigInitError);
             // 异常统计
             Channel.Current.onEvent(s_Statistic_config_serializeerror);

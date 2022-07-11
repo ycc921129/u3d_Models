@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string mz="string" name="string">string</string>
+  <string mz="控件名字" name="组件索引">越南</string>
+  <string mz="L" name="L">L</string>
+  <string mz="title" name="9gpz896kp4of6v-n6_fvxn">TỰ DO</string>
+  <string mz="title" name="9gpz896kqgal3b-n2_kft3">CHẮC CHẮN RỒI</string>
+  <string mz="title" name="06ybtwdrgki4a-n4_gki4">SỰ HỦY BỎ</string>
+  <string mz="n2" name="06ybtwdrunhvg-n2_u7at">ĐĂNG NHẬP BẰNG FACEBOOK</string>
+  <string mz="n1" name="06ybtwdrunhvh-n1_g7u0">ĐĂNG NHẬP BẰNG GOOGLE</string>
+  <string mz="n2" name="06ybtwdrgki4b-n2_pnsc">Cứu giúp</string>
+  <string mz="title" name="06ybtwdrwdfo9-n2_pnsc">THỬ LẠI</string>
+  <string mz="title" name="06ybtwdrwdfo5-n3_mccl">CẬP NHẬT</string>
+  <string mz="btn_retry" name="06ybtwdrum1vd-n17_pnsc">THỬ LẠI</string>
+  <string mz="btn_cancel" name="06ybtwdrum1vd-n24_gki4">CỨU GIÚP</string>
+  <string mz="text_title" name="06ybtwdrwdfo0-n28_wb9d">CẬP NHẬT</string>
+  <string mz="text_tips0" name="06ybtwdrwdfo0-n25_scox">Phiên bản mới có sẵn.
+Cập nhật bây giờ!</string>
+  <string mz="n7" name="06ybtwdrunhvf-n7_kmcp">ĐĂNG NHẬP</string>
+  <string mz="text_title" name="06ybtwdrwdfo7-n33_wb9d">KHÔNG CÓ MẠNG!!!</string>
+  <string mz="text_reconnectStatus" name="06ybtwdrwdfo7-n22_b72q">Không có mạng!!!</string>
+  <string mz="text_status" name="06ybtwdrwdfo7-n24_b72q">Tình trạng: Init</string>
+  <string mz="n31" name="06ybtwdrwdfo7-n31_mdwa">Rất tiếc, có vẻ như một cái gì đó
+đã sai!</string>
+  <string mz="text_code" name="06ybtwdrxeq4i-n58_rcj0">RRRRRR</string>
+  <string mz="title" name="9euvtldhlh5y3j-n1_lh5y">VÂNG</string>
+  <string mz="btn_exit" name="9euvtldhlh5y3i-n3_lh5y">KHÔNG</string>
+  <string mz="text_title" name="9euvtldhlh5y3i-n5_lh5y">VÀO TRÒ CHƠI?</string>
+  <string mz="text_tips" name="9euvtldhlh5y3i-n6_lh5y">Sau khi đồng ý với &lt;Privacy Policy&gt;
+ và &lt;Terms of Use&gt;, chúng tôi có thể cung cấp
+bạn với các dịch vụ trò chơi. Xác nhận
+ hiệp định?</string>
+  <string mz="text_website" name="9euvtldhd4qv0-n14_c6nc">Đồng ý với &lt;a href='xxx'&gt; Chính sách quyền riêng tư &lt;/a&gt; và &lt;a href2='xxx2'&gt; Điều khoản hoặc sử dụng &lt;/a&gt;</string>
+  <string mz="n5" name="5tzgfbiwm9c27-n5_m9c2">Không bao giờ xuất hiện nữa</string>
+  <string mz="title" name="5tzgfbiwp5cs11-n2_p3x0">ĐƯỢC RỒI</string>
+  <string mz="text_title" name="5tzgfbiws5oq1q-n1_s5oq">HƯỚNG DẪN</string>
+  <string mz="text_tips0" name="5tzgfbiws5oq1q-n2_s5oq">CHUYỂN GẠCH SỐ ĐẾN CỘNG 1,
+KẾT HỢP 3 SỐ CÙNG ĐỂ LẬP.</string>
+  <string mz="txt" name="sirjnrkkqj6mi-n54_ilew">Tiếng Anh</string>
+  <string mz="txt" name="sirjnrkkqj6mp-n61_ilew">Tiếng Anh</string>
+  <string mz="title" name="sirjnrkkqj6md-n2_waaa">Hướng dẫn</string>
+  <string mz="title" name="sirjnrkkqj6m3-n2_waaa">Khởi động lại</string>
+  <string mz="title" name="sirjnrkkqj6m8-n2_waaa">BẬT âm thanh</string>
+  <string mz="title" name="sirjnrkkqj6m8-n2_waaa-texts_0">BẬT âm thanh</string>
+  <string mz="title" name="sirjnrkkqj6m8-n2_waaa-texts_1">TẮT âm thanh</string>
+  <string mz="title" name="sirjnrkku4s6t-n2_waaa">Rung BẬT</string>
+  <string mz="title" name="sirjnrkku4s6t-n2_waaa-texts_0">Rung BẬT</string>
+  <string mz="title" name="sirjnrkku4s6t-n2_waaa-texts_1">Rung TẮT</string>
+  <string mz="text_title" name="sirjnrkkqj6m0-n14_e5ju">CÀI ĐẶT</string>
+  <string mz="title" name="rl7u9y2lmdwa0-n11_djob">&lt;img src=ui://9gpz896kdjob26&gt; TÀI KHOẢN</string>
+  <string mz="title" name="rl7u9y2ldjob27-n3_djob">&lt;img src=ui://rl7u9y2ldjob28&gt; [U] Thay đổi trò chơi [/U]</string>
+  <string mz="title" name="rl7u9y2lntzg30-n4_ntzg">PUBG Mobile</string>
+  <string mz="title" name="rl7u9y2lmdwa8-n3_pxc1">XÁC NHẬN</string>
+  <string mz="title" name="rl7u9y2lmdwa9-n17_pxdq">CHUỘC LẠI</string>
+  <string mz="title" name="rl7u9y2lmdwac-n3_pxc1">GỬI LỚP</string>
+  <string mz="text_target" name="rl7u9y2lmdwae-n66_djob">Thu thập [color=#FF9000] {target=10,000} [/color] tiền tệ</string>
+  <string mz="text_target" name="rl7u9y2lmdwae-n66_djob-texts_0">Thu thập [color=#FF9000] {target=10,000} [/color] tiền tệ</string>
+  <string mz="text_target" name="rl7u9y2lmdwae-n66_djob-texts_1">Đạt cấp độ [color=#FF9000] {target=10,000} [/color]</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg">Bạn phải xem thêm [color=#00CC00] {ad=500} [/color] video để Kích hoạt đơn đặt hàng</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg-texts_0">Xem video [color=#FF8700] {ad=500} [/color] để giành phần thưởng</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg-texts_1">Xem videl sẽ giảm thời gian xem lại [color=#00CC00] {minute=5} [/color] phút</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg-texts_def">Bạn phải xem thêm [color=#00CC00] {ad=500} [/color] video để Kích hoạt đơn đặt hàng</string>
+  <string mz="text_queueText" name="rl7u9y2lmdwae-n69_ntzg">{queuePlayers=9999} người chơi trước mặt bạn</string>
+  <string mz="text_queueMove" name="rl7u9y2lmdwae-n44_m6sp">Bạn phải xem thêm [color=#00CC00] {ad=500} [/color] video để Kích hoạt đơn đặt hàng</string>
+  <string mz="text_queueMove" name="rl7u9y2lmdwae-n44_m6sp-texts_0">Một video đưa bạn đến [color=#FF8700] {movePlayers=50} [/color] địa điểm!</string>
+  <string mz="text_queueMove" name="rl7u9y2lmdwae-n44_m6sp-texts_def">Bạn phải xem thêm [color=#00CC00] {ad=500} [/color] video để Kích hoạt đơn đặt hàng</string>
+  <string mz="text_finish" name="rl7u9y2lmdwae-n70_ntzg">Đổi thành công!</string>
+  <string mz="text_finishWait" name="rl7u9y2lmdwae-n61_iqhi">Bạn sẽ nhận được phần thưởng này trong vòng [color=#06FF00] 7 [/color] ngày làm việc.</string>
+  <string mz="text_successful" name="rl7u9y2lmdwae-n72_ntzg">Thành công</string>
+  <string mz="n1" name="rl7u9y2ll3r63l-n1_hm08">PUBG Mobile</string>
+  <string mz="text_title" name="rl7u9y2lu4s63c-n4_u4s6">ĐANG TẢI</string>
+  <string mz="text_tips0" name="rl7u9y2lu4s63c-n5_u4s6">Máy chủ được liên kết ...</string>
+  <string mz="text_tips1" name="rl7u9y2lu4s63c-n6_u4s6">Gửi tài khoản ...</string>
+  <string mz="text_tips2" name="rl7u9y2lu4s63c-n7_u4s6">Thực hiện các thay đổi ...</string>
+  <string mz="text_tips0" name="rl7u9y2lmdwau-n12_djob">Vui lòng nhập tài khoản trò chơi thực của bạn!</string>
+  <string mz="text_accouont" name="rl7u9y2lmdwau-n3_pxc1-prompt">[color=#818181] Nhập tài khoản của bạn [/color]</string>
+  <string mz="btn_guest" name="rl7u9y2lmdwau-n13_wb9d">TIẾP CẬN KHÁCH</string>
+  <string mz="btn_close" name="rl7u9y2lmdwau-n14_wb9d">Không thay đổi</string>
+  <string mz="text_title" name="rl7u9y2ll3r63j-n3_ntzg">PHẦN THƯỞNG MIỄN PHÍ</string>
+  <string mz="text_tips0" name="rl7u9y2ll3r63j-n4_ntzg">Chọn trò chơi bạn muốn được thưởng!</string>
+  <string mz="text_tips1" name="rl7u9y2ll3r63j-n10_pjbr">Bạn không thể thay đổi trò chơi nếu bạn xác nhận!</string>
+  <string mz="text_account" name="rl7u9y2lmdwaz-n53_wb9d">987654321@qq.com</string>
+  <string mz="text_guestAccount" name="rl7u9y2lmdwaz-n57_ntzg">Tài khoản khách</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981">Bạn có thể thay đổi trò chơi mà bạn muốn.</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_0">Bạn có thể thay đổi trò chơi mà bạn muốn.</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_1">Bạn có thể thay đổi tài khoản trước khi gửi đơn đặt hàng.</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_2">Nhận đủ kim cương để giành phần thưởng, bạn cũng có thể hoàn thành các thử thách để giành phần thưởng.</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_3">Chơi trò chơi và giành phần thưởng ngay bây giờ!</string>
+  <string mz="text_title" name="rl7u9y2lmciw3z-n1_mciw">TRÓI BUỘC</string>
+  <string mz="text_gameName" name="rl7u9y2lmciw3z-n9_pjbr">PUBG</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw3z-n8_mciw">Liên kết tài khoản {gameName=PUBG} của bạn để đơn vị tiền tệ bạn rút sẽ được phân phối chính xác vào tài khoản của bạn</string>
+  <string mz="btn_bind" name="rl7u9y2lmciw3z-n5_mciw">TRÓI BUỘC</string>
+  <string mz="btn_later" name="rl7u9y2lmciw3z-n6_mciw">SAU</string>
+  <string mz="text_title" name="rl7u9y2lmciw40-n1_mciw">THÀNH CÔNG</string>
+  <string mz="text_title" name="rl7u9y2lmciw40-n1_mciw-texts_0">THẤT BẠI</string>
+  <string mz="text_title" name="rl7u9y2lmciw40-n1_mciw-texts_def">THÀNH CÔNG</string>
+  <string mz="text_gameName" name="rl7u9y2lmciw40-n10_pjbr">PUBG</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw40-n8_mciw">Ràng buộc thành công!
+Bây giờ chơi trò chơi và thu thập tiền tệ!</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw40-n8_mciw-texts_0">Ràng buộc thành công!
+Bây giờ chơi trò chơi và thu thập tiền tệ!</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw40-n8_mciw-texts_1">Ràng buộc không thành công!
+Ứng dụng {gameName=PUBG} không được phát hiện, vui lòng liên kết sau</string>
+  <string mz="btn_confirm" name="rl7u9y2lmciw40-n5_mciw">XÁC NHẬN</string>
+  <string mz="text_account" name="rl7u9y2lmdwa18-n15_x8xq">111@outlook.com</string>
+  <string mz="text_title" name="rl7u9y2lmdwa18-n19_w8q4">TÀI KHOẢN</string>
+  <string mz="text_tips0" name="rl7u9y2lmdwa18-n7_wlb4">Liên kết thành công!
+Giành phần thưởng ngay bây giờ!</string>
+  <string mz="btn_continue" name="rl7u9y2lmdwa18-n3_pxc1">TIẾP TỤC</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw3y-n3_mciw">Bạn có chắc chắn đổi sang tài khoản này không?</string>
+  <string mz="text_account" name="rl7u9y2lmciw3y-n5_mciw">helloworld@outlook.com</string>
+  <string mz="btn_confirm" name="rl7u9y2lmciw3y-n6_mciw">XÁC NHẬN</string>
+  <string mz="btn_change" name="rl7u9y2lmciw3y-n7_mciw">THAY ĐỔI TÀI KHOẢN</string>
+  <string mz="text_title" name="rl7u9y2lmdwa1f-n18_navc">THÀNH CÔNG</string>
+  <string mz="text_tips0" name="rl7u9y2lmdwa1f-n8_nzkm">Hoàn thành tất cả các nhiệm vụ và giành được phần thưởng này!</string>
+  <string mz="btn_next" name="rl7u9y2lmdwa1f-n1_pxc1">ĐƯỢC RỒI</string>
+  <string mz="text_title" name="rl7u9y2lu4s63e-n4_u4s6">CHUỘC LẠI</string>
+  <string mz="text_tips0" name="rl7u9y2lu4s63e-n5_u4s6">Máy chủ được liên kết ...</string>
+  <string mz="text_tips1" name="rl7u9y2lu4s63e-n6_u4s6">Nộp đơn đặt hàng...</string>
+  <string mz="text_tips2" name="rl7u9y2lu4s63e-n7_u4s6">Xem xét đơn hàng ...</string>
+  <string mz="title" name="3ajwo69pqj6mf4j-n4_lq0a">YÊU CẦU</string>
+  <string mz="title" name="3ajwo69pqj6mf47-n4_10cvf">KHÔNG, CÁM ƠN</string>
+  <string mz="title" name="3ajwo69pqj6mf3x-n5_e8og">NHẬN</string>
+  <string mz="text_value" name="3ajwo69pqj6mf42-n2_eimb">× {count=4}</string>
+  <string mz="text_title" name="3ajwo69pqj6mf3u-n33_ntzg">COMBO LỚN</string>
+  <string mz="text_rate" name="3ajwo69pqj6mf3u-n40_illt">{abc=RATE}</string>
+  <string mz="text_mutiple" name="3ajwo69pqj6mf3u-n36_ntzg">x5</string>
+  <string mz="btn_coliect" name="3ajwo69pqj6mf3u-n3_e8og">NHẬN</string>
+  <string mz="text_pbTips" name="3ajwo69pqj6mf3u-n44_u4s6">Thu thập đủ để đổi!</string>
+  <string mz="text_title" name="3ajwo69pmciwf4u-n18_ntzg">COMBO</string>
+  <string mz="btn_claim" name="3ajwo69pmciwf4u-n14_lq0a">YÊU CẦU</string>
+  <string mz="text_pbTips" name="3ajwo69pmciwf4u-n26_u4s6">Thu thập đủ để đổi!</string>
+  <string mz="text_title" name="3ajwo69pqj6mf48-n9_lq0a">LÊN CẤP</string>
+  <string mz="text_pbTips" name="3ajwo69pqj6mf48-n19_u4s6">Thu thập đủ để đổi!</string>
+  <string mz="text_pbTips" name="3ajwo69pmciwf4t-n15_mciw">Thu thập đủ để đổi!</string>
+  <string mz="text_title" name="3ajwo69pqj6mf4k-n18_ntzg">CHÚC MỪNG</string>
+  <string mz="btn_claim" name="3ajwo69pqj6mf4k-n14_lq0a">YÊU CẦU</string>
+  <string mz="text_pbTips" name="3ajwo69pqj6mf4k-n26_u4s6">Thu thập đủ để đổi!</string>
+  <string mz="title" name="ayq1m1qumciw0-n1_mciw">CHƠI TRÒ CHƠI ĐỂ THU</string>
+  <string mz="title" name="ayq1m1qumciw2-n3_mciw">CHUỘC LẠI</string>
+  <string mz="text_title" name="ayq1m1qumciw41-n1_mciw">SỰ NGẠC NHIÊN CHO BẠN</string>
+  <string mz="text_leftTips" name="ayq1m1qumciw41-n2_mciw">THỜI GIAN CÒN LẠI:</string>
+  <string mz="text_timeShow" name="ayq1m1qumciw41-n6_mciw">Bạn có thể nhận được những phần thưởng này sau [color=#FFD600] {time=48} giờ [/color]</string>
+  <string mz="text_maxWin" name="ayq1m1qumciw41-n13_mciw">Chiến thắng tối đa [color=#FFD600] {max=9999} [/color]</string>
+  <string mz="text_getTips" name="ayq1m1qumciw41-n15_mciw">Nhận càng nhiều càng tốt</string>
+  <string mz="text_title" name="ayq1m1qumciw42-n4_mciw">KẾT THÚC</string>
+  <string mz="text_tips0" name="ayq1m1qumciw42-n14_mciw">Nhận phần thưởng của bạn ngay bây giờ!
+Và tìm thấy nhiều bất ngờ!</string>
+  <string mz="title" name="a1jbnm9hmciw2-n11_djob">&lt;img src=ui://9gpz896kdjob26&gt; TÀI KHOẢN</string>
+  <string mz="title" name="a1jbnm9hr4ip49-n4_r4ip">XÁC NHẬN</string>
+  <string mz="title" name="a1jbnm9hmciw0-n17_pxdq">CHUỘC LẠI</string>
+  <string mz="title_value" name="a1jbnm9he31h3t-n4_e31h">{chip=999} &lt;img src=ui://9gpz896kpjbras width=32 height=32&gt; REDEEM</string>
+  <string mz="title" name="a1jbnm9hmciw1-n3_pxc1">GỬI LỚP</string>
+  <string mz="text_tips0" name="a1jbnm9he31h3r-n5_lln7">Được gửi đến tài khoản của bạn trong vòng 14 ngày làm việc</string>
+  <string mz="text_account" name="a1jbnm9he31h3u-n53_wb9d">987654321@qq.com</string>
+  <string mz="text_guestAccount" name="a1jbnm9he31h3u-n57_ntzg">TÀI KHOẢN KHÁCH</string>
+  <string mz="text_account" name="a1jbnm9hmciw3w-n5_mciw">helloworld@outlook.com</string>
+  <string mz="text_tips0" name="a1jbnm9hmciw3w-n3_mciw">Bạn có chắc chắn đổi sang tài khoản này không?</string>
+  <string mz="btn_confirm" name="a1jbnm9hmciw3w-n6_mciw">XÁC NHẬN</string>
+  <string mz="btn_change" name="a1jbnm9hmciw3w-n7_mciw">THAY ĐỔI TÀI KHOẢN</string>
+  <string mz="text_title" name="a1jbnm9hmciw3x-n10_lln7">THÀNH CÔNG</string>
+  <string mz="text_tips1" name="a1jbnm9hmciw3x-n3_mciw">Phần thưởng sẽ được gửi đến tài khoản của bạn trong vòng 14 ngày làm việc</string>
+  <string mz="text_title" name="a1jbnm9hmdwa1g-n9_w8q4">LỜI KHUYÊN</string>
+  <string mz="text_tips0" name="a1jbnm9hmdwa1g-n8_wb9d">Bây giờ bạn là một khách.</string>
+  <string mz="text_tips1" name="a1jbnm9hmdwa1g-n6_nzkm">Bạn phải liên kết tài khoản của mình để đổi phần thưởng</string>
+  <string mz="btn_confirm" name="a1jbnm9hmdwa1g-n1_pxc1">LIÊN KẾT</string>
+  <string mz="text_title" name="fmr5mo8pg5fl1k-n30_e5ju">TIẾN HÀNH</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3">Nhấn vào một viên gạch số đến trừ 1</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3-texts_0">Nhấn vào một viên gạch số để cộng 2</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3-texts_1">Nhấn vào một viên gạch số để phá hủy</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3-texts_def">Nhấn vào một viên gạch số đến trừ 1</string>
+  <string mz="n4" name="tiosr750e9kl1-n4_e9kl">LỐI RA</string>
+  <string mz="title" name="tiosr750p3x0k1l-n1_p3x0">KIỂM TRA LẠI</string>
+  <string mz="text_title" name="tiosr750e9kl0-n34_e5ju">TRÒ CHƠI HẾT</string>
+  <string mz="text_title" name="7xruccmafntl0-n36_mfgs">PHẢN HỒI</string>
+  <string mz="text_tips0" name="7xruccmafntl0-n28_nop9">Đánh giá chúng tôi và làm cho chúng tôi tốt hơn</string>
+  <string mz="title" name="94fbq9npw8q42q-n1_w8q4">XÁC NHẬN</string>
+  <string mz="title" name="94fbq9nppjbr2c-n1_pjbr">CÂY BÚA</string>
+  <string mz="title" name="94fbq9nppjbr2c-n1_pjbr-texts_0">TĂNG</string>
+  <string mz="title" name="94fbq9nppjbr2c-n1_pjbr-texts_1">CÂY BÚA</string>
+  <string mz="title" name="94fbq9nppjbr2b-n1_pjbr">CHUỘC LẠI</string>
+  <string mz="title" name="94fbq9nppjbr27-n1_pjbr">LÀN DA</string>
+  <string mz="text_level" name="94fbq9nppjbr27-n4_pjbr">LEVEL {unlockSkinLevel=5}</string>
+  <string mz="info" name="94fbq9npw8q42p-n9_ht85">Bạn có thể giành được skin trò chơi miễn phí</string>
+  <string mz="text_title" name="zrdho07jotfn34-n17_sulh">LỜI KHUYÊN</string>
+  <string mz="text_content" name="zrdho07jotfn34-n2_naor">Chức năng này vẫn chưa có sẵn!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2">Hoàn thành nhiệm vụ để giành được phần thưởng này!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_0">Hoàn thành nhiệm vụ để giành được phần thưởng này!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_1">Bạn cũng có thể thu thập tiền tệ để đổi các phần thưởng khác!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_2">Thu thập đủ mảnh để đổi làn da yêu thích của bạn!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_3">Chơi trò chơi ngay bây giờ để thu thập các mảnh miễn phí!</string>
+  <string mz="txt" name="v5jd19r68d5zh-n54_ilew">Tiếng Anh</string>
+  <string mz="txt" name="v5jd19r68d5zo-n61_ilew">Tiếng Anh</string>
+  <string mz="title" name="v5jd19r6fi6if-n1_fi6i">adsf</string>
+  <string mz="on" name="v5jd19r6fi6i2-n8_wwb2">开启</string>
+  <string mz="off" name="v5jd19r6fi6i2-n9_wwb2">关闭</string>
+  <string mz="title" name="v5jd19r6fi6i2-n12_fi6i">广告 过滤</string>
+  <string mz="n14" name="v5jd19r6fi6i1-n14_l0se">Công cụ</string>
+  <string mz="btn_adSetting" name="v5jd19r6fi6i1-n4_waaa">广告 过滤</string>
+  <string mz="btn_open_exchange" name="v5jd19r6fi6i1-n49_8d5z">兑换 开启</string>
+  <string mz="btn_addGold1" name="v5jd19r6fi6i1-n21_fi6i">+5000 金币 、 + 500 碎片</string>
+  <string mz="btn_addGold2" name="v5jd19r6fi6i1-n27_fi6i">+50000 金币</string>
+  <string mz="btn_addLevel" name="v5jd19r6fi6i1-n37_fi6i">+1 等级</string>
+  <string mz="btn_addVideo" name="v5jd19r6fi6i1-n36_fi6i">+1 视频</string>
+</resources>

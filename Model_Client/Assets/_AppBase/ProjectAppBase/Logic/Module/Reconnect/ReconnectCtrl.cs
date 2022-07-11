@@ -66,26 +66,10 @@ namespace ProjectApp
         #region 逻辑
         private void OnNetworkStatusChangedTrue(object param)
         {
-            if (!WSNetMgr.Instance.hasFirstConnect) return;
-
-            // 立即重连
-            ResumeAutoReConnectState();
-            AutoReConnectLogin();
         }
 
         private void OnAppPauseFalse(object param)
-        {
-            if (!WSNetMgr.Instance.hasFirstConnect) return;
-
-            // 立即重连
-            if (App.GetCurrProgressStateValue() < (int)ProgressState.ConnectLogin_30)
-                return;
-            if (WSNetMgr.Instance.isConnected)
-                return;
-            if (!NetConst.IsNetAvailable)
-                return;
-            ResumeAutoReConnectState();
-            AutoReConnectLogin();
+        {           
         }
 
         private void OnConnectWebSocketException(object param)
@@ -110,62 +94,12 @@ namespace ProjectApp
 
         private void OnGameStart(object obj)
         {
-            checkConnectTimer = TimerUtil.General.AddLoopTimer(checkConnectTime, (timer) =>
-            {
-                if (WSNetMgr.Instance.isConnected)
-                    return;
-                if (WSNetMgr.Instance.isConnecting)
-                    return;
-                if (!NetConst.IsNetAvailable)
-                    return;
-
-                ResumeAutoReConnectState();
-                AutoReConnectLogin();
-            });
+            
         }
 
         private void AutoReConnectLogin()
         {
-            LogUtil.LogFormat("[LoginCtrl]AutoReConnectLogin IsAppPause:{0} IsConnected:{1} IsNetAvailable:{2} isDelayLogin:{3} isAutoReConnecting:{4}",
-                ProjectApplication.Instance.IsAppPause, WSNetMgr.Instance.isConnected, NetConst.IsNetAvailable, LoginCtrl.Instance.isDelayLogining, isAutoReConnecting);
 
-            // 断线设置状态
-            AppGlobal.IsLoginSucceed = false;
-
-            if (ProjectApplication.Instance.IsAppPause)
-                return;
-            if (WSNetMgr.Instance.isConnected)
-                return;
-            if (!NetConst.IsNetAvailable)
-                return;
-            if (LoginCtrl.Instance.isDelayLogining)
-                return;
-            if (isAutoReConnecting)
-                return;
-
-            isAutoReConnecting = true;
-            autoReConnectTimes++;
-            if (autoReConnectTimes > 1)
-            {
-                autoReConnectDelayTime *= 2;
-                if (autoReConnectDelayTime > 60)
-                {
-                    autoReConnectDelayTime = 60;
-                }
-            }
-            TimerUtil.Simple.AddTimer(autoReConnectDelayTime, () =>
-            {
-                if (WSNetMgr.Instance.isConnected)
-                    return;
-                if (LoginCtrl.Instance.isDelayLogining)
-                    return;
-                bool result = LoginCtrl.Instance.ConnectLogin();
-                if (!result && !WSNetMgr.Instance.isConnected && NetConst.IsNetAvailable)
-                {
-                    isAutoReConnecting = false;
-                    AutoReConnectLogin();
-                }
-            });
         }
         #endregion
     }

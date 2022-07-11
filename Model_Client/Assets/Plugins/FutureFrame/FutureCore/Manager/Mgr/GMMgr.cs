@@ -98,7 +98,7 @@ namespace FutureCore
             }
             else
             {
-                LogUtil.LogFormat ("[GMMgr]找不到此命令类型: {0}", classTypeName);
+                LogUtil.LogWarningFormat("[GMMgr]找不到此命令类型: {0}", classTypeName);
             }
         }
 

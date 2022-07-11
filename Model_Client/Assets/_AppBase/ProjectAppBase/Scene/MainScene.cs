@@ -148,7 +148,6 @@ namespace ProjectApp
 
             TimerUtil.Simple.AddTimer(weakNetWaitTime, () =>
             {
-                if (AppGlobal.IsLoginSucceed) return;
                 if (LoginCtrl.Instance.hasUpdateApkUIDisplay) return;
                 if (WeakNetworkCtrl.Instance.IsCanOfflineLogin())
                 {

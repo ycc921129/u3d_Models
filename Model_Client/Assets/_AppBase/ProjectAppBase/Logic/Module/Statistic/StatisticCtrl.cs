@@ -22,13 +22,13 @@ namespace ProjectApp
         {
             get
             {
-                if (loginModel == null) 
+                if (loginModel == null)
                 {
                     loginModel = ModuleMgr.Instance.GetModel(ModelConst.LoginModel) as LoginModel;
                 }
                 if (loginModel != null && loginModel.loginData != null && loginModel.loginData.info != null)
                 {
-                    return loginModel.loginData.info.is_open_exchange;    
+                    return loginModel.loginData.info.is_open_exchange;
                 }
 
                 return false;
@@ -50,7 +50,7 @@ namespace ProjectApp
             ctrlDispatcher.AddListener(CtrlMsg.Game_Start, DoStatistic);
             ctrlDispatcher.AddListener(CtrlMsg.Module_GiftSwitchChange, DoStatistic);
         }
-            
+
         protected override void RemoveListener()
         {
             ctrlDispatcher.RemoveListener(CtrlMsg.Game_Start, DoStatistic);
@@ -89,6 +89,7 @@ namespace ProjectApp
             if (giftsSwitch)
             {
                 ChannelMgr.Instance.SendStatisticEvent(StatisticConst.gifts_switch_on);
+                Paypal_homepage();  
                 Gifts_switch_open_duration();
             }
         }
@@ -128,7 +129,7 @@ namespace ProjectApp
             {
                 UserSessionCtrl.Instance.StatisticEvent(StatisticConst.stuff_impression_free);
                 ChannelMgr.Instance.SendStatisticEvent(StatisticConst.stuff_impression_free);
-                return; 
+                return;
             }
 
             UserSessionCtrl.Instance.StatisticEvent(StatisticConst.PayPal_impression);
@@ -159,7 +160,7 @@ namespace ProjectApp
             if (isFree)
             {
                 UserSessionCtrl.Instance.StatisticEvent(StatisticConst.stuff_get_success_free);
-                ChannelMgr.Instance.SendStatisticEvent(StatisticConst.stuff_get_success_free);  
+                ChannelMgr.Instance.SendStatisticEvent(StatisticConst.stuff_get_success_free);
                 return;
             }
 

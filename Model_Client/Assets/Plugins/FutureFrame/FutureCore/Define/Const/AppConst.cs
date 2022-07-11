@@ -135,9 +135,11 @@ namespace FutureCore
         // 安卓SDK类名
         public static string AndroidSDKClassName = "com.unity3d.player.UnityPlayer";  
         // 渠道测试_Debug版本 
-        public static bool ChannelTest_Debug = true;  
+        public static bool ChannelTest_Debug = true;      
+        // 渠道测试_Debug版本_是否是开发环境
+        public static bool Unity_dev = false;   
         // 渠道测试_Debug版本_是否使用国内链接
-        public static bool Unity_CH = true;
+        public static bool Unity_dev_CH = true;
         // 渠道测试_编译类型  
         public static AppBuildType ChannelTest_BuildType = AppBuildType.Debug;
         // 渠道测试_开发机版本号
@@ -147,11 +149,11 @@ namespace FutureCore
         // 渠道测试_视频广告是否缓存成功
         public static bool ChannelTest_isPreLoadVideoAdSuccess = true;
         // 是否多语言
-        public static bool IsMultiLangue = false;
+        public static bool IsMultiLangue = true;
         // 当前多语言
         public static string CurrMultiLangue = "en";
         // 默认语言
-        public static string DefaultLangue = "en";
+        public static string DefaultLangue = "en";    
         // 内置语言
         public static string InternalLangue = "en";
         // 是否提示App更新

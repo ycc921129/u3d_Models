@@ -435,8 +435,8 @@ namespace ProjectApp
         /// </summary>
         public void Share() 
         {
-            string url = InviteCtrl.Instance.Invite_url;
-            string code = InviteCtrl.Instance.Invite_Code;
+            string url = CommonGlobal.Instance.LoginData.info.invite_url;
+            string code = CommonGlobal.Instance.LoginData.info.invite_code;
             LogUtil.Log("[ChannelMgr]分享 url:" + url);
             LoginModel userModel = ModuleMgr.Instance.GetModel(ModelConst.LoginModel) as LoginModel;
 
@@ -632,14 +632,7 @@ namespace ProjectApp
             C2S_adwords req = new C2S_adwords();
             req.data = new C2S_adwords_data();
             req.data.referrer = adwords;
-
-            // 登录成功才能发送Adwords
-            // 要放在登录成功之后才发送
-            if (WSNetMgr.Instance.Send(req))
-            {
-                //Channel.Current.clearAdWords();
-                LogUtil.Log("[ChannelMgr]OnSendAdwords adwords:" + adwords);
-            }
+                       
         }
         #endregion
 

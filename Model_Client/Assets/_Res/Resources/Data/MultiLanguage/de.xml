@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string mz="string" name="string">string</string>
+  <string mz="控件名字" name="组件索引">德国</string>
+  <string mz="L" name="L">L</string>
+  <string mz="title" name="9gpz896kp4of6v-n6_fvxn">FREI</string>
+  <string mz="title" name="9gpz896kqgal3b-n2_kft3">UNBEDINGT</string>
+  <string mz="title" name="06ybtwdrgki4a-n4_gki4">ABBRECHEN</string>
+  <string mz="n2" name="06ybtwdrunhvg-n2_u7at">MIT FACEBOOK ANMELDEN</string>
+  <string mz="n1" name="06ybtwdrunhvh-n1_g7u0">ANMELDUNG MIT GOOGLE</string>
+  <string mz="n2" name="06ybtwdrgki4b-n2_pnsc">Hilfe</string>
+  <string mz="title" name="06ybtwdrwdfo9-n2_pnsc">VERSUCHEN SIE ES NOCHMAL</string>
+  <string mz="title" name="06ybtwdrwdfo5-n3_mccl">AKTUALISIEREN</string>
+  <string mz="btn_retry" name="06ybtwdrum1vd-n17_pnsc">VERSUCHEN SIE ES NOCHMAL</string>
+  <string mz="btn_cancel" name="06ybtwdrum1vd-n24_gki4">HILFE</string>
+  <string mz="text_title" name="06ybtwdrwdfo0-n28_wb9d">AKTUALISIEREN</string>
+  <string mz="text_tips0" name="06ybtwdrwdfo0-n25_scox">Neue Version ist verfügbar.
+Jetzt aktualisieren!</string>
+  <string mz="n7" name="06ybtwdrunhvf-n7_kmcp">ANMELDUNG</string>
+  <string mz="text_title" name="06ybtwdrwdfo7-n33_wb9d">KEIN NETZWERK!!!</string>
+  <string mz="text_reconnectStatus" name="06ybtwdrwdfo7-n22_b72q">Kein Netzwerk!!!</string>
+  <string mz="text_status" name="06ybtwdrwdfo7-n24_b72q">Status : Init</string>
+  <string mz="n31" name="06ybtwdrwdfo7-n31_mdwa">Ups, es scheint etwas zu sein
+ging schief!</string>
+  <string mz="text_code" name="06ybtwdrxeq4i-n58_rcj0">RRRRRR</string>
+  <string mz="title" name="9euvtldhlh5y3j-n1_lh5y">JAWOHL</string>
+  <string mz="btn_exit" name="9euvtldhlh5y3i-n3_lh5y">NEIN</string>
+  <string mz="text_title" name="9euvtldhlh5y3i-n5_lh5y">IN DAS SPIEL KOMMEN?</string>
+  <string mz="text_tips" name="9euvtldhlh5y3i-n6_lh5y">Nachdem Sie der &lt;Privacy Policy&gt; zugestimmt haben
+ und &lt;Terms of Use&gt;, können wir bereitstellen
+Sie mit Spieldiensten. Bestätige das
+ Zustimmung?</string>
+  <string mz="text_website" name="9euvtldhd4qv0-n14_c6nc">Stimmen Sie der &lt;a href='xxx'&gt;Datenschutzerklärung&lt;/a&gt; und den &lt;a href2='xxx2'&gt;Nutzungsbedingungen&lt;/a&gt; zu</string>
+  <string mz="n5" name="5tzgfbiwm9c27-n5_m9c2">Nie wieder auftauchen</string>
+  <string mz="title" name="5tzgfbiwp5cs11-n2_p3x0">OK</string>
+  <string mz="text_title" name="5tzgfbiws5oq1q-n1_s5oq">LERNPROGRAMM</string>
+  <string mz="text_tips0" name="5tzgfbiws5oq1q-n2_s5oq">BEWEGE EINEN ZAHLENSTEIN AUF PLUS 1,
+KOMBINIERE 3 GLEICHE ZAHLEN ZUM ZUSAMMENFÜHREN.</string>
+  <string mz="txt" name="sirjnrkkqj6mi-n54_ilew">Englisch</string>
+  <string mz="txt" name="sirjnrkkqj6mp-n61_ilew">Englisch</string>
+  <string mz="title" name="sirjnrkkqj6md-n2_waaa">Lernprogramm</string>
+  <string mz="title" name="sirjnrkkqj6m3-n2_waaa">Neu starten</string>
+  <string mz="title" name="sirjnrkkqj6m8-n2_waaa">Ton an</string>
+  <string mz="title" name="sirjnrkkqj6m8-n2_waaa-texts_0">Ton an</string>
+  <string mz="title" name="sirjnrkkqj6m8-n2_waaa-texts_1">Ton aus</string>
+  <string mz="title" name="sirjnrkku4s6t-n2_waaa">Vibration EIN</string>
+  <string mz="title" name="sirjnrkku4s6t-n2_waaa-texts_0">Vibration EIN</string>
+  <string mz="title" name="sirjnrkku4s6t-n2_waaa-texts_1">Vibration AUS</string>
+  <string mz="text_title" name="sirjnrkkqj6m0-n14_e5ju">DIE EINSTELLUNGEN</string>
+  <string mz="title" name="rl7u9y2lmdwa0-n11_djob">&lt;img src=ui://9gpz896kdjob26&gt;KONTO</string>
+  <string mz="title" name="rl7u9y2ldjob27-n3_djob">&lt;img src=ui://rl7u9y2ldjob28&gt; [U]Spiel wechseln[/U]</string>
+  <string mz="title" name="rl7u9y2lntzg30-n4_ntzg">PUBG-Mobil</string>
+  <string mz="title" name="rl7u9y2lmdwa8-n3_pxc1">BESTÄTIGEN</string>
+  <string mz="title" name="rl7u9y2lmdwa9-n17_pxdq">TILGEN</string>
+  <string mz="title" name="rl7u9y2lmdwac-n3_pxc1">SCHICHT SENDEN</string>
+  <string mz="text_target" name="rl7u9y2lmdwae-n66_djob">Sammle [color=#FF9000]{target=10,000}[/color] Währung</string>
+  <string mz="text_target" name="rl7u9y2lmdwae-n66_djob-texts_0">Sammle [color=#FF9000]{target=10,000}[/color] Währung</string>
+  <string mz="text_target" name="rl7u9y2lmdwae-n66_djob-texts_1">Erreiche Level [color=#FF9000]{target=10,000}[/color]</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg">Sie müssen sich mehr [color=#00CC00]{ad=500}[/color] Videos ansehen, um die Bestellung zu aktivieren</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg-texts_0">Sieh dir Videos von [color=#FF8700]{ad=500}[/color] an, um eine Prämie zu gewinnen</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg-texts_1">Wenn Sie sich ein Video ansehen, verkürzt sich die Überprüfungszeit um [color=#00CC00]{minute=5}[/color] Minuten</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg-texts_def">Sie müssen sich mehr [color=#00CC00]{ad=500}[/color] Videos ansehen, um die Bestellung zu aktivieren</string>
+  <string mz="text_queueText" name="rl7u9y2lmdwae-n69_ntzg">{queuePlayers=9999} Spieler vor dir</string>
+  <string mz="text_queueMove" name="rl7u9y2lmdwae-n44_m6sp">Sie müssen sich mehr [color=#00CC00]{ad=500}[/color] Videos ansehen, um die Bestellung zu aktivieren</string>
+  <string mz="text_queueMove" name="rl7u9y2lmdwae-n44_m6sp-texts_0">Ein Video bringt dich um [color=#FF8700]{movePlayers=50} [/color]Plätze nach oben!</string>
+  <string mz="text_queueMove" name="rl7u9y2lmdwae-n44_m6sp-texts_def">Sie müssen sich mehr [color=#00CC00]{ad=500}[/color] Videos ansehen, um die Bestellung zu aktivieren</string>
+  <string mz="text_finish" name="rl7u9y2lmdwae-n70_ntzg">Einlösung erfolgreich!</string>
+  <string mz="text_finishWait" name="rl7u9y2lmdwae-n61_iqhi">Sie erhalten diese Prämie innerhalb von [color=#06FF00]7[/color] Werktagen.</string>
+  <string mz="text_successful" name="rl7u9y2lmdwae-n72_ntzg">Erfolgreich</string>
+  <string mz="n1" name="rl7u9y2ll3r63l-n1_hm08">PUBG-Mobil</string>
+  <string mz="text_title" name="rl7u9y2lu4s63c-n4_u4s6">WIRD GELADEN</string>
+  <string mz="text_tips0" name="rl7u9y2lu4s63c-n5_u4s6">Verbundener Server...</string>
+  <string mz="text_tips1" name="rl7u9y2lu4s63c-n6_u4s6">Konto einreichen...</string>
+  <string mz="text_tips2" name="rl7u9y2lu4s63c-n7_u4s6">Änderungen vornehmen...</string>
+  <string mz="text_tips0" name="rl7u9y2lmdwau-n12_djob">Bitte geben Sie Ihr echtes Spielkonto ein!</string>
+  <string mz="text_accouont" name="rl7u9y2lmdwau-n3_pxc1-prompt">[color=#818181]Geben Sie Ihr Konto ein[/color]</string>
+  <string mz="btn_guest" name="rl7u9y2lmdwau-n13_wb9d">GASTZUGANG</string>
+  <string mz="btn_close" name="rl7u9y2lmdwau-n14_wb9d">Nicht ändern</string>
+  <string mz="text_title" name="rl7u9y2ll3r63j-n3_ntzg">KOSTENLOSE BELOHNUNG</string>
+  <string mz="text_tips0" name="rl7u9y2ll3r63j-n4_ntzg">Wählen Sie das Spiel, für das Sie belohnt werden möchten!</string>
+  <string mz="text_tips1" name="rl7u9y2ll3r63j-n10_pjbr">Sie können das Spiel nicht ändern, wenn Sie bestätigen!</string>
+  <string mz="text_account" name="rl7u9y2lmdwaz-n53_wb9d">987654321@qq.com</string>
+  <string mz="text_guestAccount" name="rl7u9y2lmdwaz-n57_ntzg">Gästekonto</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981">Sie können das gewünschte Spiel ändern.</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_0">Sie können das gewünschte Spiel ändern.</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_1">Sie können das Konto ändern, bevor Sie die Bestellung absenden.</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_2">Erhalte genug Diamanten, um Belohnungen zu gewinnen, außerdem kannst du Herausforderungen abschließen, um Belohnungen zu gewinnen.</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_3">Spiele jetzt und gewinne Belohnungen!</string>
+  <string mz="text_title" name="rl7u9y2lmciw3z-n1_mciw">BINDEN</string>
+  <string mz="text_gameName" name="rl7u9y2lmciw3z-n9_pjbr">PUBG</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw3z-n8_mciw">Binden Sie Ihr {gameName=PUBG}-Konto, damit die von Ihnen abgehobene Währung korrekt auf Ihr Konto verteilt wird</string>
+  <string mz="btn_bind" name="rl7u9y2lmciw3z-n5_mciw">BINDEN</string>
+  <string mz="btn_later" name="rl7u9y2lmciw3z-n6_mciw">SPÄTER</string>
+  <string mz="text_title" name="rl7u9y2lmciw40-n1_mciw">ERFOLGREICH</string>
+  <string mz="text_title" name="rl7u9y2lmciw40-n1_mciw-texts_0">GESCHEITERT</string>
+  <string mz="text_title" name="rl7u9y2lmciw40-n1_mciw-texts_def">ERFOLGREICH</string>
+  <string mz="text_gameName" name="rl7u9y2lmciw40-n10_pjbr">PUBG</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw40-n8_mciw">Bindung erfolgreich!
+Jetzt Spiel spielen und Währung sammeln!</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw40-n8_mciw-texts_0">Bindung erfolgreich!
+Jetzt Spiel spielen und Währung sammeln!</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw40-n8_mciw-texts_1">Bindung fehlgeschlagen!
+Die {gameName=PUBG} APP wurde nicht erkannt, bitte später binden</string>
+  <string mz="btn_confirm" name="rl7u9y2lmciw40-n5_mciw">BESTÄTIGEN</string>
+  <string mz="text_account" name="rl7u9y2lmdwa18-n15_x8xq">111@outlook.com</string>
+  <string mz="text_title" name="rl7u9y2lmdwa18-n19_w8q4">KONTO</string>
+  <string mz="text_tips0" name="rl7u9y2lmdwa18-n7_wlb4">Verlinkung erfolgreich!
+Jetzt Belohnungen gewinnen!</string>
+  <string mz="btn_continue" name="rl7u9y2lmdwa18-n3_pxc1">FORTSETZEN</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw3y-n3_mciw">Möchten Sie dieses Guthaben wirklich auf dieses Konto einlösen?</string>
+  <string mz="text_account" name="rl7u9y2lmciw3y-n5_mciw">hallowelt@outlook.com</string>
+  <string mz="btn_confirm" name="rl7u9y2lmciw3y-n6_mciw">BESTÄTIGEN</string>
+  <string mz="btn_change" name="rl7u9y2lmciw3y-n7_mciw">ACCOUNT WECHSELN</string>
+  <string mz="text_title" name="rl7u9y2lmdwa1f-n18_navc">ERFOLGREICH</string>
+  <string mz="text_tips0" name="rl7u9y2lmdwa1f-n8_nzkm">Beende alle Aufgaben und gewinne diese Belohnung!</string>
+  <string mz="btn_next" name="rl7u9y2lmdwa1f-n1_pxc1">OK</string>
+  <string mz="text_title" name="rl7u9y2lu4s63e-n4_u4s6">TILGEN</string>
+  <string mz="text_tips0" name="rl7u9y2lu4s63e-n5_u4s6">Verbundener Server...</string>
+  <string mz="text_tips1" name="rl7u9y2lu4s63e-n6_u4s6">Bestellung abschicken...</string>
+  <string mz="text_tips2" name="rl7u9y2lu4s63e-n7_u4s6">Bestellübersicht...</string>
+  <string mz="title" name="3ajwo69pqj6mf4j-n4_lq0a">KLAGE</string>
+  <string mz="title" name="3ajwo69pqj6mf47-n4_10cvf">NEIN DANKE</string>
+  <string mz="title" name="3ajwo69pqj6mf3x-n5_e8og">ERHALTEN</string>
+  <string mz="text_value" name="3ajwo69pqj6mf42-n2_eimb">×{count=4}</string>
+  <string mz="text_title" name="3ajwo69pqj6mf3u-n33_ntzg">GROSSE KOMBINATION</string>
+  <string mz="text_rate" name="3ajwo69pqj6mf3u-n40_illt">{abc=RATE}</string>
+  <string mz="text_mutiple" name="3ajwo69pqj6mf3u-n36_ntzg">x5</string>
+  <string mz="btn_coliect" name="3ajwo69pqj6mf3u-n3_e8og">ERHALTEN</string>
+  <string mz="text_pbTips" name="3ajwo69pqj6mf3u-n44_u4s6">Sammle genug zum Einlösen!</string>
+  <string mz="text_title" name="3ajwo69pmciwf4u-n18_ntzg">COMBO</string>
+  <string mz="btn_claim" name="3ajwo69pmciwf4u-n14_lq0a">KLAGE</string>
+  <string mz="text_pbTips" name="3ajwo69pmciwf4u-n26_u4s6">Sammle genug zum Einlösen!</string>
+  <string mz="text_title" name="3ajwo69pqj6mf48-n9_lq0a">AUFLEVELN</string>
+  <string mz="text_pbTips" name="3ajwo69pqj6mf48-n19_u4s6">Sammle genug zum Einlösen!</string>
+  <string mz="text_pbTips" name="3ajwo69pmciwf4t-n15_mciw">Sammle genug zum Einlösen!</string>
+  <string mz="text_title" name="3ajwo69pqj6mf4k-n18_ntzg">GRATULIEREN</string>
+  <string mz="btn_claim" name="3ajwo69pqj6mf4k-n14_lq0a">KLAGE</string>
+  <string mz="text_pbTips" name="3ajwo69pqj6mf4k-n26_u4s6">Sammle genug zum Einlösen!</string>
+  <string mz="title" name="ayq1m1qumciw0-n1_mciw">SPIEL SPIELEN ZUM SAMMELN</string>
+  <string mz="title" name="ayq1m1qumciw2-n3_mciw">TILGEN</string>
+  <string mz="text_title" name="ayq1m1qumciw41-n1_mciw">ÜBERRASCHUNG FÜR DICH</string>
+  <string mz="text_leftTips" name="ayq1m1qumciw41-n2_mciw">ÜBRIGE ZEIT:</string>
+  <string mz="text_timeShow" name="ayq1m1qumciw41-n6_mciw">Sie können diese Belohnungen nach [color=#FFD600]{time=48} Stunden[/color] erhalten</string>
+  <string mz="text_maxWin" name="ayq1m1qumciw41-n13_mciw">Maximaler Gewinn [color=#FFD600]{max=9999}[/color]</string>
+  <string mz="text_getTips" name="ayq1m1qumciw41-n15_mciw">Holen Sie sich so viel wie Sie sammeln</string>
+  <string mz="text_title" name="ayq1m1qumciw42-n4_mciw">FERTIG</string>
+  <string mz="text_tips0" name="ayq1m1qumciw42-n14_mciw">Holen Sie sich jetzt Ihre Belohnungen!
+Und finden Sie mehr Überraschung!</string>
+  <string mz="title" name="a1jbnm9hmciw2-n11_djob">&lt;img src=ui://9gpz896kdjob26&gt;KONTO</string>
+  <string mz="title" name="a1jbnm9hr4ip49-n4_r4ip">BESTÄTIGEN</string>
+  <string mz="title" name="a1jbnm9hmciw0-n17_pxdq">TILGEN</string>
+  <string mz="title_value" name="a1jbnm9he31h3t-n4_e31h">{chip=999}&lt;img src=ui://9gpz896kpjbras width=32 height=32&gt;EINLÖSEN</string>
+  <string mz="title" name="a1jbnm9hmciw1-n3_pxc1">SCHICHT SENDEN</string>
+  <string mz="text_tips0" name="a1jbnm9he31h3r-n5_lln7">Innerhalb von 14 Werktagen an Ihr Konto gesendet</string>
+  <string mz="text_account" name="a1jbnm9he31h3u-n53_wb9d">987654321@qq.com</string>
+  <string mz="text_guestAccount" name="a1jbnm9he31h3u-n57_ntzg">GAST ACCOUT</string>
+  <string mz="text_account" name="a1jbnm9hmciw3w-n5_mciw">hallowelt@outlook.com</string>
+  <string mz="text_tips0" name="a1jbnm9hmciw3w-n3_mciw">Möchten Sie dieses Konto wirklich einlösen?</string>
+  <string mz="btn_confirm" name="a1jbnm9hmciw3w-n6_mciw">BESTÄTIGEN</string>
+  <string mz="btn_change" name="a1jbnm9hmciw3w-n7_mciw">ACCOUNT WECHSELN</string>
+  <string mz="text_title" name="a1jbnm9hmciw3x-n10_lln7">ERFOLGREICH</string>
+  <string mz="text_tips1" name="a1jbnm9hmciw3x-n3_mciw">Die Prämie wird innerhalb von 14 Werktagen an Ihr Konto gesendet</string>
+  <string mz="text_title" name="a1jbnm9hmdwa1g-n9_w8q4">TIPPS</string>
+  <string mz="text_tips0" name="a1jbnm9hmdwa1g-n8_wb9d">Sie sind jetzt Gast.</string>
+  <string mz="text_tips1" name="a1jbnm9hmdwa1g-n6_nzkm">Sie müssen Ihr Konto verknüpfen, um Prämien einzulösen</string>
+  <string mz="btn_confirm" name="a1jbnm9hmdwa1g-n1_pxc1">VERKNÜPFUNG</string>
+  <string mz="text_title" name="fmr5mo8pg5fl1k-n30_e5ju">REQUISITEN</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3">Tippen Sie auf einen Zahlenstein auf minus 1</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3-texts_0">Tippen Sie auf einen Zahlenstein auf plus 2</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3-texts_1">Tippe auf einen Zahlenstein, um ihn zu zerstören</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3-texts_def">Tippen Sie auf einen Zahlenstein auf minus 1</string>
+  <string mz="n4" name="tiosr750e9kl1-n4_e9kl">AUSFAHRT</string>
+  <string mz="title" name="tiosr750p3x0k1l-n1_p3x0">REZENSION</string>
+  <string mz="text_title" name="tiosr750e9kl0-n34_e5ju">SPIEL IST AUS</string>
+  <string mz="text_title" name="7xruccmafntl0-n36_mfgs">RÜCKMELDUNG</string>
+  <string mz="text_tips0" name="7xruccmafntl0-n28_nop9">Bewerten Sie uns und machen Sie uns besser</string>
+  <string mz="title" name="94fbq9npw8q42q-n1_w8q4">BESTÄTIGEN</string>
+  <string mz="title" name="94fbq9nppjbr2c-n1_pjbr">HAMMER</string>
+  <string mz="title" name="94fbq9nppjbr2c-n1_pjbr-texts_0">ZUNAHME</string>
+  <string mz="title" name="94fbq9nppjbr2c-n1_pjbr-texts_1">HAMMER</string>
+  <string mz="title" name="94fbq9nppjbr2b-n1_pjbr">TILGEN</string>
+  <string mz="title" name="94fbq9nppjbr27-n1_pjbr">HAUT</string>
+  <string mz="text_level" name="94fbq9nppjbr27-n4_pjbr">LEVEL{unlockSkinLevel=5}</string>
+  <string mz="info" name="94fbq9npw8q42p-n9_ht85">Sie können Spiele-Skin kostenlos gewinnen</string>
+  <string mz="text_title" name="zrdho07jotfn34-n17_sulh">TIPPS</string>
+  <string mz="text_content" name="zrdho07jotfn34-n2_naor">Diese Funktion ist noch nicht verfügbar!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2">Schließe die Aufgabe ab, um diese Belohnung zu gewinnen!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_0">Schließe die Aufgabe ab, um diese Belohnung zu gewinnen!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_1">Sie können auch Währung sammeln, um andere Belohnungen einzulösen!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_2">Sammle genug Splitter, um deinen Lieblings-Skin einzulösen!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_3">Spiele das Spiel jetzt, um kostenlos Splitter zu sammeln!</string>
+  <string mz="txt" name="v5jd19r68d5zh-n54_ilew">Englisch</string>
+  <string mz="txt" name="v5jd19r68d5zo-n61_ilew">Englisch</string>
+  <string mz="title" name="v5jd19r6fi6if-n1_fi6i">adsf</string>
+  <string mz="on" name="v5jd19r6fi6i2-n8_wwb2">开启</string>
+  <string mz="off" name="v5jd19r6fi6i2-n9_wwb2">关闭</string>
+  <string mz="title" name="v5jd19r6fi6i2-n12_fi6i">广告过滤</string>
+  <string mz="n14" name="v5jd19r6fi6i1-n14_l0se">Werkzeug</string>
+  <string mz="btn_adSetting" name="v5jd19r6fi6i1-n4_waaa">广告过滤</string>
+  <string mz="btn_open_exchange" name="v5jd19r6fi6i1-n49_8d5z">兑换开启</string>
+  <string mz="btn_addGold1" name="v5jd19r6fi6i1-n21_fi6i">+5000 金币、+500 碎片</string>
+  <string mz="btn_addGold2" name="v5jd19r6fi6i1-n27_fi6i">+50000金币</string>
+  <string mz="btn_addLevel" name="v5jd19r6fi6i1-n37_fi6i">+1等级</string>
+  <string mz="btn_addVideo" name="v5jd19r6fi6i1-n36_fi6i">+1视频</string>
+</resources>

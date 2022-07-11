@@ -3,6 +3,7 @@
 * 请勿修改!!!
 ****************************************************************************/
 
+using System;
 using FutureCore;
 
 namespace ProjectApp
@@ -62,14 +63,17 @@ namespace ProjectApp
 
             uiCtrlDispatcher.AddListener(UICtrlMsg.WaterMaskUI_Open, OpenUI);
             uiCtrlDispatcher.AddListener(UICtrlMsg.WaterMaskUI_Close, CloseUI);
-        }
 
+            AppDispatcher.Instance.AddListener(AppMsg.App_SwitchLanguage, OnSwitchLanguage);
+        }
         protected override void RemoveListener()
         {
             ctrlDispatcher.RemoveListener(CtrlMsg.Game_Start, OpenUI);
 
             uiCtrlDispatcher.RemoveListener(UICtrlMsg.WaterMaskUI_Open, OpenUI);
             uiCtrlDispatcher.RemoveListener(UICtrlMsg.WaterMaskUI_Close, CloseUI);
+
+            AppDispatcher.Instance.RemoveListener(AppMsg.App_SwitchLanguage, OnSwitchLanguage);
         }
 
         protected override void AddServerListener()
@@ -86,5 +90,12 @@ namespace ProjectApp
         private void OnS2CXXXResp(BaseS2CJsonProto protoMsg)
         {
         }
+
+        private void OnSwitchLanguage(object obj)
+        {
+            if (ui == null) return;
+            ui.UpdateCode();
+        }
+
     }
 }

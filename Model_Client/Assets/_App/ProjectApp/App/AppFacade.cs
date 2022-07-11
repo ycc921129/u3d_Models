@@ -13,27 +13,27 @@ namespace ProjectApp
         /// <summary>
         /// 应用代号
         /// </summary>
-        public const string AppName = "payday";    
+        public const string AppName = "facerob";    
 
         /// <summary>
         /// 项目描述
         /// </summary>
-        public const string AppDesc = "主框架";    
+        public const string AppDesc = "facerob";    
 
         /// <summary>
         /// 包名  
         /// </summary>
-        public const string PackageName = "com.integralwallb.payday";  
+        public const string PackageName = "com.robfeel.facerob";  
 
         /// <summary>
         /// 密钥Key
         /// </summary>
-        public const string AESKey = "3KdDaa0yvNziL9rz";  
+        public const string AESKey = "Je46VSkBwimpQjh0";  
 
         /// <summary>    
         /// 密钥IVector
         /// </summary>  
-        public const string AESIVector = "KJSDNwZTDaTSHqJc";
+        public const string AESIVector = "ek3ztXonGd1O9mgH";
 
         /// <summary>
         /// 服务器标签
@@ -43,16 +43,16 @@ namespace ProjectApp
         /// <summary>
         /// 域名
         /// </summary>
-        public const string Domain = "pondmurmurs.link"; 
+        public const string Domain = "relescomedic.fun"; 
          
         /// <summary> 
         /// 游戏服连接组
         /// </summary> 
         public static string[] WebSocketUrls =
         {
-            "wss://pondmurmurs.link",
-            "wss://www.pondmurmurs.link",
-            "wss://cloudflare.pondmurmurs.link",
+            "wss://relescomedic.fun",
+            "wss://www.relescomedic.fun",
+            "wss://cloudflare.relescomedic.fun",
         };
 
         /// <summary>
@@ -89,12 +89,12 @@ namespace ProjectApp
         /// <summary>
         /// 是否弱联网
         /// </summary>
-        public const bool IsWeakNetwork = false;    
+        public const bool IsWeakNetwork = true;            
 
         /// <summary>  
         /// 是否离线游戏
         /// </summary>
-        public const bool IsOfflineGame = false;
+        public const bool IsOfflineGame = true;
 
         /// <summary>
         /// 自定义SDK组

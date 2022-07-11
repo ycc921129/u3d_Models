@@ -20,7 +20,6 @@ namespace FutureCore
             UICtrlDispatcher.Instance.Clear();
             // Specific
             RedDotDispatcher.Instance.Clear();
-            WSNetDispatcher.Instance.Clear();
             // Other
             NetTimerDispatcher.Instance.Clear();
         }

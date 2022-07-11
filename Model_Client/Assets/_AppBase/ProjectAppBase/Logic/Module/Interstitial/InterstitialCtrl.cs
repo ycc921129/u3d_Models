@@ -84,7 +84,7 @@ namespace ProjectApp
         protected override void AddListener()
         {
             ctrlDispatcher.AddListener(CtrlMsg.ServerNewDays, OnNewDay);
-            ctrlDispatcher.AddListener(CtrlMsg.Game_Start, OnGameStart);
+            ctrlDispatcher.AddListener(CtrlMsg.Game_StartBefore, OnGameStart);
             ChannelDispatcher.Instance.AddListener(ChannelRawMsg.OnInterstitialAdOpen, OnInterstitialAdOpen);
             ChannelDispatcher.Instance.AddListener(ChannelRawMsg.OnInterstitialAdClick, OnInterstitialClick);
             ChannelDispatcher.Instance.AddListener(ChannelRawMsg.OnInterstitialAdClose, OnInterstitialClose);
@@ -93,11 +93,11 @@ namespace ProjectApp
         protected override void RemoveListener()
         {
             ctrlDispatcher.RemoveListener(CtrlMsg.ServerNewDays, OnNewDay);
-            ctrlDispatcher.RemoveListener(CtrlMsg.Game_Start, OnGameStart);
+            ctrlDispatcher.RemoveListener(CtrlMsg.Game_StartBefore, OnGameStart);
             ChannelDispatcher.Instance.RemoveListener(ChannelRawMsg.OnInterstitialAdOpen, OnInterstitialAdOpen);
             ChannelDispatcher.Instance.RemoveListener(ChannelRawMsg.OnInterstitialAdClick, OnInterstitialClick);
             ChannelDispatcher.Instance.RemoveListener(ChannelRawMsg.OnInterstitialAdClose, OnInterstitialClose);
-        }
+        }  
 
         protected override void AddServerListener()
         {
@@ -112,10 +112,9 @@ namespace ProjectApp
         #region 回调
 
         private void OnGameStart(object param)
-        {
+        {  
             // 获取配置
             config = InsterstitialVOModel.Instance.GetFirstVO();
-            CameraMgr.Instance.SetWorldRaycasterEnabled(true);
         }
 
         private void OnNewDay(object param)

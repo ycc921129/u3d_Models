@@ -23,7 +23,7 @@ namespace ProjectApp.Data
         public override string VOName { get { return "Langue"; } }
 
         public override VOIdentifyType IdentifyType { get { return VOIdentifyType.Local; } }
-        public override List<string> HeadFields { get { return new List<string> { "id", "key", "en", "zh", "zh_CN", "es", "fr", "ja", "de", "ru", "pt", "@in", "hi_IN", "vi", "tr", "ar", "pl", "th", "ko", "uk", "ro", }; } }
+        public override List<string> HeadFields { get { return new List<string> { "id", "key", "en", "zh", "zh_CN", "es", "fr", "ja", "de", "ru", "pt", "@in", "hi_IN", "vi", "tr", "ar", "pl", "th", "ko", "uk", "ro", "ms", }; } }
 
         public override bool HasStringKey { get { return true; } }
         public override bool HasStaticField { get { return false; } }

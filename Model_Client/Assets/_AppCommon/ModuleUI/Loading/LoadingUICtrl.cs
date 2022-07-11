@@ -3,6 +3,7 @@
 * 请勿修改!!!
 ****************************************************************************/
 
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using FutureCore;
@@ -51,7 +52,7 @@ namespace ProjectApp
         public override void CloseUI(object args = null)
         {
             if (ui != null)
-            {
+            {  
                 ui.Close();
                 ui = null;
             }
@@ -63,13 +64,13 @@ namespace ProjectApp
         {
             uiCtrlDispatcher.AddListener(UICtrlMsg.Ctrl_LoadingOpen, OpenUI);
             uiCtrlDispatcher.AddListener(UICtrlMsg.Ctrl_LoadingClose, CloseUI);
-
+            
             ctrlDispatcher.AddListener(CtrlMsg.Login_Succeed, RemoveDownTimeEvent);
             ctrlDispatcher.AddListener(CtrlMsg.Login_ReloginSucceed, RemoveDownTimeEvent);
 
             AppDispatcher.Instance.AddListener(AppMsg.UI_DisplayLoadingUI, OpenUI);
             AppDispatcher.Instance.AddListener(AppMsg.UI_SetLoadingUIProgress, SetLoadingValue);
-            AppDispatcher.Instance.AddListener(AppMsg.UI_HideLoadingUI, CloseUI);
+            AppDispatcher.Instance.AddListener(AppMsg.UI_HideLoadingUI, OnHideLoading);
 
             AppDispatcher.Instance.AddListener(AppMsg.WebSocketServer_PreferencesParseError, SetPreferencesParseError);
             AppDispatcher.Instance.AddListener(AppMsg.System_ConfigInitError, SetConfigInitFailed);
@@ -86,7 +87,7 @@ namespace ProjectApp
 
             AppDispatcher.Instance.RemoveListener(AppMsg.UI_DisplayLoadingUI, OpenUI);
             AppDispatcher.Instance.RemoveListener(AppMsg.UI_SetLoadingUIProgress, SetLoadingValue);
-            AppDispatcher.Instance.RemoveListener(AppMsg.UI_HideLoadingUI, CloseUI);
+            AppDispatcher.Instance.RemoveListener(AppMsg.UI_HideLoadingUI, OnHideLoading);
 
             AppDispatcher.Instance.RemoveListener(AppMsg.WebSocketServer_PreferencesParseError, SetPreferencesParseError);
             AppDispatcher.Instance.RemoveListener(AppMsg.System_ConfigInitError, SetConfigInitFailed);
@@ -133,6 +134,18 @@ namespace ProjectApp
         private void OpenReconnectUI()
         {
             uiCtrlDispatcher.Dispatch(UICtrlMsg.C_OpenReconnectUI);
+        }
+
+        private void OnHideLoading(object obj)
+        {
+            if (ui == null) return;
+            ui.CheckAgree();
+        }
+
+        private void OnAgree(object obj)
+        {
+            if (ui == null) return;
+            ui.SetAgree();
         }
         #endregion
     }

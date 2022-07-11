@@ -213,6 +213,13 @@ namespace FutureCore
 
             CameraAdaptiveMB adaptiveCom = mainCamera.gameObject.AddComponent<CameraAdaptiveMB>();
             adaptiveCom.DoAdaptive(isOrthographic: true, orthographicSize: ScreenConst.OrthographicSize_1280H);
+
+
+            Physics2DRaycaster physics2DRaycaster = mainCamera.GetComponent<Physics2DRaycaster>();
+            if (physics2DRaycaster == null)
+                this.BindWorldRaycaster(mainCamera.gameObject.AddComponent<Physics2DRaycaster>());
+            else
+                this.BindWorldRaycaster(physics2DRaycaster);  
         }
 
         public void CreateFGUICamera()

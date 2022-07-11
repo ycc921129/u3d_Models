@@ -24,8 +24,6 @@ namespace ProjectApp
             // UIMgr
             RegisterFont();
             RegisterCustomCommonPackage();
-            // WSNetMgr
-            RegisterProtoLogIgnore();
         }
 
         public static void StartUpAfterRegister()
@@ -59,22 +57,15 @@ namespace ProjectApp
         private static void RegisterFont()
         {  
             UIMgr uiMgr = UIMgr.Instance; 
-            uiMgr.RegisterDefaultFont("framd");
-            uiMgr.RegisterFont("Impact");
-            uiMgr.RegisterFont("RADNIKA-BOLD");                
+            uiMgr.RegisterDefaultFont("Techna Sans");
+            uiMgr.RegisterFont("Blogger Sans");
+            uiMgr.RegisterFont("GrilledCheese BTN Toasted");   
         }
 
         private static void RegisterCustomCommonPackage()
         {
             UIMgr uiMgr = UIMgr.Instance;
             //uiMgr.RegisterCommonPackage("自定义公共UI资源包名");
-        }
-
-        private static void RegisterProtoLogIgnore()
-        {
-            WSNetMgr wsNetMgr = WSNetMgr.Instance;
-            wsNetMgr.RegisterC2SProtoLogIgnore(WSNetMsg.C2S_heartbeat);
-            wsNetMgr.RegisterS2CProtoLogIgnore(WSNetMsg.S2C_heartbeat);
         }
     }
 }

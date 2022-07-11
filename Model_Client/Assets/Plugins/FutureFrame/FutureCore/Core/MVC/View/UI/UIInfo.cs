@@ -10,7 +10,7 @@ namespace FutureCore
 {
     public static class UIInfoConst
     {
-        public static Color DefaultUIMaskColor = new Color(0, 0, 0, 0.65f);
+        public static Color DefaultUIMaskColor = new Color(0, 0, 0, 0.9f);  
     }
 
     public class UIInfo

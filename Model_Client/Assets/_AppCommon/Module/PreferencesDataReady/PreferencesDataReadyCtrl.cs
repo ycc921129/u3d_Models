@@ -40,8 +40,8 @@ namespace ProjectApp
 
         protected override void RemoveListener()
         {
-            ctrlDispatcher.RemoveListener(CtrlMsg.Preferences_InitComplete, PreferenceDataReady);
-            ctrlDispatcher.RemoveListener(CtrlMsg.Game_StartBefore, SendCtrlMsg);  
+            ctrlDispatcher.RemoveListener(CtrlMsg.Preferences_InitComplete, PreferenceDataReady);  
+            ctrlDispatcher.RemoveListener(CtrlMsg.Game_StartBefore, SendCtrlMsg);
         }
 
         protected override void AddServerListener()
@@ -76,12 +76,12 @@ namespace ProjectApp
                 msgList.Add(CtrlMsg.NewDays);
                 PreferencesMgr.Instance.LoginGameTodayTimes = 1;
                 CommonConst.RaffleRedPiont = true;
-            }
+            }  
             else
             {
                 PreferencesMgr.Instance.LoginGameTodayTimes++;
             }
-            if (userModel.loginData == null) return;
+            if (userModel.loginData == null || userModel.loginData.statis == null) return;  
             if (userModel.loginData.statis.online_day != PreferencesMgr.Instance.LastLoginDays) //服务器新的一天
             {
                 PreferencesMgr.Instance.LastLoginDays = userModel.loginData.statis.online_day;  

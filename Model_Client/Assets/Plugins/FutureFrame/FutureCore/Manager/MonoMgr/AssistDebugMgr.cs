@@ -28,7 +28,7 @@ namespace FutureCore
 
         private void EnableDebugLog()
         {
-            LogUtil.Log($"EnableDebugLog : {AppConst.IsEnabledLog}");  
+            LogUtil.EnableLog(AppConst.IsEnabledLog, SerializeUtil.ToJson);
         }
 
         private void PrintDeviceInfo()

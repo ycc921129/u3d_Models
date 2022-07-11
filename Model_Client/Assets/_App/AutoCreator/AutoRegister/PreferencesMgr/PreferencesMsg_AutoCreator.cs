@@ -67,13 +67,5 @@ namespace ProjectApp
         /// 插屏冷却时间戳
         /// </summary>
         public const string interstitial_TimeStamp = "Preferences_interstitial_TimeStamp";
-        /// <summary>
-        /// 有效用户视频次数
-        /// </summary>
-        public const string videoEffective_count = "Preferences_videoEffective_count";
-        /// <summary>
-        /// 是否已经打点了有效用户
-        /// </summary>
-        public const string isLogEffective = "Preferences_isLogEffective";
     }
 }

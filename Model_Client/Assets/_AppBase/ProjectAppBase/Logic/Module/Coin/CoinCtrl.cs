@@ -46,13 +46,13 @@ namespace ProjectApp
 
         protected override void AddServerListener()
         {
-            wsNetDispatcher.AddPriorityListener(WSNetMsg.S2C_InvokeUpdateCoin, OnUpdateCoin);
+
 
         }
 
         protected override void RemoveServerListener()
         {
-            wsNetDispatcher.RemovePriorityListener(WSNetMsg.S2C_InvokeUpdateCoin, OnUpdateCoin);
+
 
         }
 

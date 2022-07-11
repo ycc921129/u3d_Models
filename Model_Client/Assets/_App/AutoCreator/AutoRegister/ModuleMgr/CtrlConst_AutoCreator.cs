@@ -12,15 +12,12 @@ namespace ProjectApp
         public const string PreferencesDataReadyCtrl = "PreferencesDataReadyCtrl";
         public const string CoinCtrl = "CoinCtrl";
         public const string HeartBeatCtrl = "HeartBeatCtrl";
-        public const string IAPCtrl = "IAPCtrl";
         public const string InfoCtrl = "InfoCtrl";
-        public const string InviteCtrl = "InviteCtrl";
         public const string InterstitialCtrl = "InterstitialCtrl";
         public const string LangueConfigCtrl = "LangueConfigCtrl";
         public const string LangueCtrl = "LangueCtrl";
         public const string LangueGameCtrl = "LangueGameCtrl";
         public const string LoginCtrl = "LoginCtrl";
-        public const string NetTimerCtrl = "NetTimerCtrl";
         public const string NetworkErrorCtrl = "NetworkErrorCtrl";
         public const string OfflineTimeCtrl = "OfflineTimeCtrl";
         public const string ReconnectCtrl = "ReconnectCtrl";

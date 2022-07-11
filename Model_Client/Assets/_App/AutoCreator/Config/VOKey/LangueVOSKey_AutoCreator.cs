@@ -13,26 +13,110 @@ namespace ProjectApp.Data
     {
         /// <summary>
         /// [id=1]
-        /// 签到界面
+        /// facerob
         /// </summary>
-        public static string Get_up_to_coins = "Get_up_to_coins";
+        public static string Cancel = "Cancel";
 
         /// <summary>
         /// [id=2]
-        /// 邀请界面(copy成功提示)
+        /// facerob
         /// </summary>
-        public static string copy_success = "copy_success";
+        public static string Interstitial_fail_to_load = "Interstitial fail to load";
 
         /// <summary>
         /// [id=3]
-        /// 邀请界面(成功邀请数量提示)
+        /// facerob
         /// </summary>
-        public static string invite_friends = "invite_friends";
+        public static string Exit_to_lobby = "Exit to lobby";
 
         /// <summary>
         /// [id=4]
-        /// 邀请界面(邀请码为空提示)
+        /// facerob
         /// </summary>
-        public static string Invitation__code_cannot_be_empty = "Invitation _code_cannot_be_empty";
+        public static string Are_you_really_want_to_leave_ = "Are you really want to leave?";
+
+        /// <summary>
+        /// [id=5]
+        /// facerob
+        /// </summary>
+        public static string RESTART = "RESTART";
+
+        /// <summary>
+        /// [id=6]
+        /// facerob
+        /// </summary>
+        public static string Are_you_sure_to_start_over_again_ = "Are you sure to start over again?";
+
+        /// <summary>
+        /// [id=7]
+        /// facerob
+        /// </summary>
+        public static string Do_you_want_to_continue_ = "Do you want to continue?";
+
+        /// <summary>
+        /// [id=8]
+        /// facerob
+        /// </summary>
+        public static string Free = "Free";
+
+        /// <summary>
+        /// [id=9]
+        /// facerob
+        /// </summary>
+        public static string TIPS = "TIPS";
+
+        /// <summary>
+        /// [id=10]
+        /// facerob
+        /// </summary>
+        public static string NO = "NO";
+
+        /// <summary>
+        /// [id=11]
+        /// facerob
+        /// </summary>
+        public static string YES = "YES";
+
+        /// <summary>
+        /// [id=12]
+        /// facerob
+        /// </summary>
+        public static string LEVEL = "LEVEL";
+
+        /// <summary>
+        /// [id=13]
+        /// facerob
+        /// </summary>
+        public static string Account_not_right_ = "Account not right.";
+
+        /// <summary>
+        /// [id=14]
+        /// facerob
+        /// </summary>
+        public static string not_enough = "not enough";
+
+        /// <summary>
+        /// [id=15]
+        /// facerob
+        /// </summary>
+        public static string Change_account_successful_ = "Change account successful.";
+
+        /// <summary>
+        /// [id=16]
+        /// facerob
+        /// </summary>
+        public static string Please_choose_a_game = "Please choose a game";
+
+        /// <summary>
+        /// [id=17]
+        /// facerob
+        /// </summary>
+        public static string Reach_level__0__to_unlock = "Reach level {0} to unlock";
+
+        /// <summary>
+        /// [id=18]
+        /// facerob
+        /// </summary>
+        public static string Reach_level__color__FFD700__0___color__to_win_a_big_gift = "Reach level <color=#FFD700>{0}</color> to win a big gift";
     }
 }

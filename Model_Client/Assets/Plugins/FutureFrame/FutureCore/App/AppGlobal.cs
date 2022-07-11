@@ -10,21 +10,9 @@ namespace FutureCore
     /// </summary>
     public static class AppGlobal
     {
-        private static bool m_isLoginSucceed = false;
-        /// <summary>
-        /// 是否用户登录成功
-        /// </summary>
-        public static bool IsLoginSucceed
-        {
-            get
-            {
-                return WSNetMgr.Instance.isConnected && NetConst.IsNetAvailable && m_isLoginSucceed;
-            }
-            set
-            {
-                m_isLoginSucceed = value;
-            }
-        }
+
+        public static bool IsLoginSucceed { get { return m_isLoginSucceed; } }
+        private static bool m_isLoginSucceed = false;    
 
         /// <summary>
         /// 游戏是否开始

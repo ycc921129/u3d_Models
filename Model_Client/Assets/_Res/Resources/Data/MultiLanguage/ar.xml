@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string mz="string" name="string">string</string>
+  <string mz="控件名字" name="组件索引">阿拉伯</string>
+  <string mz="L" name="L">L</string>
+  <string mz="title" name="9gpz896kp4of6v-n6_fvxn">مجانا</string>
+  <string mz="title" name="9gpz896kqgal3b-n2_kft3">إطلاقا</string>
+  <string mz="title" name="06ybtwdrgki4a-n4_gki4">إلغاء</string>
+  <string mz="n2" name="06ybtwdrunhvg-n2_u7at">قم بتسجيل الدخول باستخدام الفيسبوك</string>
+  <string mz="n1" name="06ybtwdrunhvh-n1_g7u0">الدخول مع جوجل</string>
+  <string mz="n2" name="06ybtwdrgki4b-n2_pnsc">مساعدة</string>
+  <string mz="title" name="06ybtwdrwdfo9-n2_pnsc">حاول مرة أخرى</string>
+  <string mz="title" name="06ybtwdrwdfo5-n3_mccl">تحديث</string>
+  <string mz="btn_retry" name="06ybtwdrum1vd-n17_pnsc">حاول مرة أخرى</string>
+  <string mz="btn_cancel" name="06ybtwdrum1vd-n24_gki4">يساعد</string>
+  <string mz="text_title" name="06ybtwdrwdfo0-n28_wb9d">تحديث</string>
+  <string mz="text_tips0" name="06ybtwdrwdfo0-n25_scox">نسخة جديدة متاحة.
+تحديث الان!</string>
+  <string mz="n7" name="06ybtwdrunhvf-n7_kmcp">تسجيل الدخول</string>
+  <string mz="text_title" name="06ybtwdrwdfo7-n33_wb9d">لا يوجد شبكة!!!</string>
+  <string mz="text_reconnectStatus" name="06ybtwdrwdfo7-n22_b72q">لا يوجد شبكة!!!</string>
+  <string mz="text_status" name="06ybtwdrwdfo7-n24_b72q">الحالة: مبدئي</string>
+  <string mz="n31" name="06ybtwdrwdfo7-n31_mdwa">عفوًا ، يبدو أنه شيء
+صار خطا!</string>
+  <string mz="text_code" name="06ybtwdrxeq4i-n58_rcj0">RRRRRR</string>
+  <string mz="title" name="9euvtldhlh5y3j-n1_lh5y">نعم</string>
+  <string mz="btn_exit" name="9euvtldhlh5y3i-n3_lh5y">رقم</string>
+  <string mz="text_title" name="9euvtldhlh5y3i-n5_lh5y">أدخل اللعبة؟</string>
+  <string mz="text_tips" name="9euvtldhlh5y3i-n6_lh5y">بعد الموافقة على &lt;Privacy Policy&gt;
+ و &lt;Terms of Use&gt; ، هل يمكننا توفيرها
+مع خدمات الألعاب. اكد ال
+ اتفاق؟</string>
+  <string mz="text_website" name="9euvtldhd4qv0-n14_c6nc">وافق على &lt;a href='xxx'&gt; سياسة الخصوصية &lt;/a&gt; و &lt;a href2='xxx2'&gt; الشروط أو الاستخدام &lt;/a&gt;</string>
+  <string mz="n5" name="5tzgfbiwm9c27-n5_m9c2">لا تظهر مرة أخرى</string>
+  <string mz="title" name="5tzgfbiwp5cs11-n2_p3x0">نعم</string>
+  <string mz="text_title" name="5tzgfbiws5oq1q-n1_s5oq">الدورة التعليمية</string>
+  <string mz="text_tips0" name="5tzgfbiws5oq1q-n2_s5oq">قم بتحريك طوبة رقم إلى علامة الجمع 1 ،
+تطابق 3 أرقام متشابهة لدمجها.</string>
+  <string mz="txt" name="sirjnrkkqj6mi-n54_ilew">إنجليزي</string>
+  <string mz="txt" name="sirjnrkkqj6mp-n61_ilew">إنجليزي</string>
+  <string mz="title" name="sirjnrkkqj6md-n2_waaa">الدورة التعليمية</string>
+  <string mz="title" name="sirjnrkkqj6m3-n2_waaa">إعادة بدء</string>
+  <string mz="title" name="sirjnrkkqj6m8-n2_waaa">الصوت مفعل</string>
+  <string mz="title" name="sirjnrkkqj6m8-n2_waaa-texts_0">الصوت مفعل</string>
+  <string mz="title" name="sirjnrkkqj6m8-n2_waaa-texts_1">الصوت مقفل</string>
+  <string mz="title" name="sirjnrkku4s6t-n2_waaa">الاهتزاز قيد التشغيل</string>
+  <string mz="title" name="sirjnrkku4s6t-n2_waaa-texts_0">الاهتزاز قيد التشغيل</string>
+  <string mz="title" name="sirjnrkku4s6t-n2_waaa-texts_1">الاهتزاز معطلة</string>
+  <string mz="text_title" name="sirjnrkkqj6m0-n14_e5ju">الإعدادات</string>
+  <string mz="title" name="rl7u9y2lmdwa0-n11_djob">&lt;img src=ui://9gpz896kdjob26&gt; حساب</string>
+  <string mz="title" name="rl7u9y2ldjob27-n3_djob">&lt;img src=ui://rl7u9y2ldjob28&gt; [U] تغيير اللعبة [/U]</string>
+  <string mz="title" name="rl7u9y2lntzg30-n4_ntzg">ببجي موبايل</string>
+  <string mz="title" name="rl7u9y2lmdwa8-n3_pxc1">تؤكد</string>
+  <string mz="title" name="rl7u9y2lmdwa9-n17_pxdq">يسترد</string>
+  <string mz="title" name="rl7u9y2lmdwac-n3_pxc1">قدم طبقة</string>
+  <string mz="text_target" name="rl7u9y2lmdwae-n66_djob">اجمع عملة [color=#FF9000] {target=10,000} [/color]</string>
+  <string mz="text_target" name="rl7u9y2lmdwae-n66_djob-texts_0">اجمع عملة [color=#FF9000] {target=10,000} [/color]</string>
+  <string mz="text_target" name="rl7u9y2lmdwae-n66_djob-texts_1">الوصول إلى المستوى [color=#FF9000] {target=10,000} [/color]</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg">يجب مشاهدة المزيد من مقاطع الفيديو [color=#00CC00] {ad=500} [/color] لتفعيل الطلب</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg-texts_0">شاهد [color=#FF8700] {ad=500} [/color] من مقاطع الفيديو للفوز بمكافأة</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg-texts_1">ستؤدي مشاهدة فيديو فيديل إلى تقليل وقت المراجعة بمقدار [color=#00CC00] {minute=5} [/color] دقيقة</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg-texts_def">يجب مشاهدة المزيد من مقاطع الفيديو [color=#00CC00] {ad=500} [/color] لتفعيل الطلب</string>
+  <string mz="text_queueText" name="rl7u9y2lmdwae-n69_ntzg">{queuePlayers=9999} لاعب أمامك</string>
+  <string mz="text_queueMove" name="rl7u9y2lmdwae-n44_m6sp">يجب مشاهدة المزيد من مقاطع الفيديو [color=#00CC00] {ad=500} [/color] لتفعيل الطلب</string>
+  <string mz="text_queueMove" name="rl7u9y2lmdwae-n44_m6sp-texts_0">ينقلك فيديو واحد لأعلى إلى [color=#FF8700] {movePlayers=50} [/color] من الأماكن!</string>
+  <string mz="text_queueMove" name="rl7u9y2lmdwae-n44_m6sp-texts_def">يجب مشاهدة المزيد من مقاطع الفيديو [color=#00CC00] {ad=500} [/color] لتفعيل الطلب</string>
+  <string mz="text_finish" name="rl7u9y2lmdwae-n70_ntzg">تم الاسترداد بنجاح!</string>
+  <string mz="text_finishWait" name="rl7u9y2lmdwae-n61_iqhi">ستحصل على هذه المكافأة في غضون [color=#06FF00] 7 [/color] أيام عمل.</string>
+  <string mz="text_successful" name="rl7u9y2lmdwae-n72_ntzg">ناجح</string>
+  <string mz="n1" name="rl7u9y2ll3r63l-n1_hm08">ببجي موبايل</string>
+  <string mz="text_title" name="rl7u9y2lu4s63c-n4_u4s6">جار التحميل</string>
+  <string mz="text_tips0" name="rl7u9y2lu4s63c-n5_u4s6">خادم مرتبط ...</string>
+  <string mz="text_tips1" name="rl7u9y2lu4s63c-n6_u4s6">إرسال الحساب ...</string>
+  <string mz="text_tips2" name="rl7u9y2lu4s63c-n7_u4s6">احدث تغيير...</string>
+  <string mz="text_tips0" name="rl7u9y2lmdwau-n12_djob">الرجاء إدخال حساب اللعبة الحقيقي الخاص بك!</string>
+  <string mz="text_accouont" name="rl7u9y2lmdwau-n3_pxc1-prompt">[color=#818181] أدخل حسابك [/color]</string>
+  <string mz="btn_guest" name="rl7u9y2lmdwau-n13_wb9d">مدخل للضيوف</string>
+  <string mz="btn_close" name="rl7u9y2lmdwau-n14_wb9d">لا تغيير</string>
+  <string mz="text_title" name="rl7u9y2ll3r63j-n3_ntzg">مكافأة مجانية</string>
+  <string mz="text_tips0" name="rl7u9y2ll3r63j-n4_ntzg">اختر اللعبة التي تريد أن تكافأ عليها!</string>
+  <string mz="text_tips1" name="rl7u9y2ll3r63j-n10_pjbr">لا يمكنك تغيير اللعبة إذا قمت بالتأكيد!</string>
+  <string mz="text_account" name="rl7u9y2lmdwaz-n53_wb9d">987654321@qq.com</string>
+  <string mz="text_guestAccount" name="rl7u9y2lmdwaz-n57_ntzg">حساب الضيف</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981">يمكنك تغيير اللعبة التي تريدها.</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_0">يمكنك تغيير اللعبة التي تريدها.</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_1">يمكنك تغيير الحساب قبل تقديم الطلب.</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_2">احصل على ما يكفي من الماس للفوز بالمكافآت ، كما يمكنك إنهاء التحديات للفوز بالمكافآت.</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_3">العب اللعبة واربح المكافآت الآن!</string>
+  <string mz="text_title" name="rl7u9y2lmciw3z-n1_mciw">ربط</string>
+  <string mz="text_gameName" name="rl7u9y2lmciw3z-n9_pjbr">ببجي</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw3z-n8_mciw">اربط حساب {gameName=PUBG} الخاص بك حتى يتم توزيع العملة التي تسحبها بدقة على حسابك</string>
+  <string mz="btn_bind" name="rl7u9y2lmciw3z-n5_mciw">ربط</string>
+  <string mz="btn_later" name="rl7u9y2lmciw3z-n6_mciw">في وقت لاحق</string>
+  <string mz="text_title" name="rl7u9y2lmciw40-n1_mciw">ينجح</string>
+  <string mz="text_title" name="rl7u9y2lmciw40-n1_mciw-texts_0">باءت بالفشل</string>
+  <string mz="text_title" name="rl7u9y2lmciw40-n1_mciw-texts_def">ينجح</string>
+  <string mz="text_gameName" name="rl7u9y2lmciw40-n10_pjbr">ببجي</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw40-n8_mciw">نجح الربط!
+الآن العب اللعبة وجمع العملات!</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw40-n8_mciw-texts_0">نجح الربط!
+الآن العب اللعبة وجمع العملات!</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw40-n8_mciw-texts_1">فشل الربط!
+لم يتم اكتشاف التطبيق {gameName=PUBG} ، يرجى ربطه لاحقًا</string>
+  <string mz="btn_confirm" name="rl7u9y2lmciw40-n5_mciw">تؤكد</string>
+  <string mz="text_account" name="rl7u9y2lmdwa18-n15_x8xq">111@outlook.com</string>
+  <string mz="text_title" name="rl7u9y2lmdwa18-n19_w8q4">الحساب</string>
+  <string mz="text_tips0" name="rl7u9y2lmdwa18-n7_wlb4">الارتباط بنجاح!
+اربح المكافآت الآن!</string>
+  <string mz="btn_continue" name="rl7u9y2lmdwa18-n3_pxc1">استمر</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw3y-n3_mciw">هل أنت متأكد من استرداد هذا الحساب؟</string>
+  <string mz="text_account" name="rl7u9y2lmciw3y-n5_mciw">helloworld@outlook.com</string>
+  <string mz="btn_confirm" name="rl7u9y2lmciw3y-n6_mciw">تؤكد</string>
+  <string mz="btn_change" name="rl7u9y2lmciw3y-n7_mciw">تغير الحساب</string>
+  <string mz="text_title" name="rl7u9y2lmdwa1f-n18_navc">ناجح</string>
+  <string mz="text_tips0" name="rl7u9y2lmdwa1f-n8_nzkm">أنهي جميع المهام واربح هذه المكافأة!</string>
+  <string mz="btn_next" name="rl7u9y2lmdwa1f-n1_pxc1">نعم</string>
+  <string mz="text_title" name="rl7u9y2lu4s63e-n4_u4s6">يسترد</string>
+  <string mz="text_tips0" name="rl7u9y2lu4s63e-n5_u4s6">خادم مرتبط ...</string>
+  <string mz="text_tips1" name="rl7u9y2lu4s63e-n6_u4s6">أكد الطلب...</string>
+  <string mz="text_tips2" name="rl7u9y2lu4s63e-n7_u4s6">مراجعة الطلب ...</string>
+  <string mz="title" name="3ajwo69pqj6mf4j-n4_lq0a">مطالبة</string>
+  <string mz="title" name="3ajwo69pqj6mf47-n4_10cvf">لا شكرا</string>
+  <string mz="title" name="3ajwo69pqj6mf3x-n5_e8og">تلقى</string>
+  <string mz="text_value" name="3ajwo69pqj6mf42-n2_eimb">× {count=4}</string>
+  <string mz="text_title" name="3ajwo69pqj6mf3u-n33_ntzg">كومبو كبيرة</string>
+  <string mz="text_rate" name="3ajwo69pqj6mf3u-n40_illt">{abc=RATE}</string>
+  <string mz="text_mutiple" name="3ajwo69pqj6mf3u-n36_ntzg">x5</string>
+  <string mz="btn_coliect" name="3ajwo69pqj6mf3u-n3_e8og">تلقى</string>
+  <string mz="text_pbTips" name="3ajwo69pqj6mf3u-n44_u4s6">اجمع ما يكفي لتخليص!</string>
+  <string mz="text_title" name="3ajwo69pmciwf4u-n18_ntzg">كومبو</string>
+  <string mz="btn_claim" name="3ajwo69pmciwf4u-n14_lq0a">مطالبة</string>
+  <string mz="text_pbTips" name="3ajwo69pmciwf4u-n26_u4s6">اجمع ما يكفي لتخليص!</string>
+  <string mz="text_title" name="3ajwo69pqj6mf48-n9_lq0a">المستوى الأعلى</string>
+  <string mz="text_pbTips" name="3ajwo69pqj6mf48-n19_u4s6">اجمع ما يكفي لتخليص!</string>
+  <string mz="text_pbTips" name="3ajwo69pmciwf4t-n15_mciw">اجمع ما يكفي لتخليص!</string>
+  <string mz="text_title" name="3ajwo69pqj6mf4k-n18_ntzg">تهنئة</string>
+  <string mz="btn_claim" name="3ajwo69pqj6mf4k-n14_lq0a">مطالبة</string>
+  <string mz="text_pbTips" name="3ajwo69pqj6mf4k-n26_u4s6">اجمع ما يكفي لتخليص!</string>
+  <string mz="title" name="ayq1m1qumciw0-n1_mciw">العب لعبة لجمعها</string>
+  <string mz="title" name="ayq1m1qumciw2-n3_mciw">يسترد</string>
+  <string mz="text_title" name="ayq1m1qumciw41-n1_mciw">مفاجأة لك</string>
+  <string mz="text_leftTips" name="ayq1m1qumciw41-n2_mciw">الوقت المتبقي:</string>
+  <string mz="text_timeShow" name="ayq1m1qumciw41-n6_mciw">يمكنك الحصول على هذه المكافآت بعد [color=#FFD600] {time=48} ساعة [/color]</string>
+  <string mz="text_maxWin" name="ayq1m1qumciw41-n13_mciw">أقصى فوز [color=#FFD600] {max=9999} [/color]</string>
+  <string mz="text_getTips" name="ayq1m1qumciw41-n15_mciw">احصل على ما تجمعه</string>
+  <string mz="text_title" name="ayq1m1qumciw42-n4_mciw">إنهاء</string>
+  <string mz="text_tips0" name="ayq1m1qumciw42-n14_mciw">احصل على مكافآتك الآن!
+وتجد المزيد من المفاجأة!</string>
+  <string mz="title" name="a1jbnm9hmciw2-n11_djob">&lt;img src=ui://9gpz896kdjob26&gt; حساب</string>
+  <string mz="title" name="a1jbnm9hr4ip49-n4_r4ip">تؤكد</string>
+  <string mz="title" name="a1jbnm9hmciw0-n17_pxdq">يسترد</string>
+  <string mz="title_value" name="a1jbnm9he31h3t-n4_e31h">{chip=999} &lt;img src=ui://9gpz896kpjbras width=32 height=32&gt; REDEEM</string>
+  <string mz="title" name="a1jbnm9hmciw1-n3_pxc1">قدم طبقة</string>
+  <string mz="text_tips0" name="a1jbnm9he31h3r-n5_lln7">ترسل إلى حسابك في غضون 14 يوم عمل</string>
+  <string mz="text_account" name="a1jbnm9he31h3u-n53_wb9d">987654321@qq.com</string>
+  <string mz="text_guestAccount" name="a1jbnm9he31h3u-n57_ntzg">حساب الضيف</string>
+  <string mz="text_account" name="a1jbnm9hmciw3w-n5_mciw">helloworld@outlook.com</string>
+  <string mz="text_tips0" name="a1jbnm9hmciw3w-n3_mciw">هل أنت متأكد من استرداد هذا الحساب؟</string>
+  <string mz="btn_confirm" name="a1jbnm9hmciw3w-n6_mciw">تؤكد</string>
+  <string mz="btn_change" name="a1jbnm9hmciw3w-n7_mciw">تغير الحساب</string>
+  <string mz="text_title" name="a1jbnm9hmciw3x-n10_lln7">ناجح</string>
+  <string mz="text_tips1" name="a1jbnm9hmciw3x-n3_mciw">سيتم إرسال المكافأة إلى حسابك في غضون 14 يوم عمل</string>
+  <string mz="text_title" name="a1jbnm9hmdwa1g-n9_w8q4">نصائح</string>
+  <string mz="text_tips0" name="a1jbnm9hmdwa1g-n8_wb9d">انت الان ضيف</string>
+  <string mz="text_tips1" name="a1jbnm9hmdwa1g-n6_nzkm">يجب عليك ربط حسابك لاسترداد المكافآت</string>
+  <string mz="btn_confirm" name="a1jbnm9hmdwa1g-n1_pxc1">حلقة الوصل</string>
+  <string mz="text_title" name="fmr5mo8pg5fl1k-n30_e5ju">الدعائم</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3">اضغط على لبنة رقم إلى سالب 1</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3-texts_0">اضغط على لبنة رقمية لإضافة 2</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3-texts_1">اضغط على لبنة رقم لتدميرها</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3-texts_def">اضغط على لبنة رقم إلى سالب 1</string>
+  <string mz="n4" name="tiosr750e9kl1-n4_e9kl">خروج</string>
+  <string mz="title" name="tiosr750p3x0k1l-n1_p3x0">إعادة النظر</string>
+  <string mz="text_title" name="tiosr750e9kl0-n34_e5ju">انتهت اللعبة</string>
+  <string mz="text_title" name="7xruccmafntl0-n36_mfgs">استجابة</string>
+  <string mz="text_tips0" name="7xruccmafntl0-n28_nop9">قيمنا واجعلنا افضل</string>
+  <string mz="title" name="94fbq9npw8q42q-n1_w8q4">تؤكد</string>
+  <string mz="title" name="94fbq9nppjbr2c-n1_pjbr">شاكوش</string>
+  <string mz="title" name="94fbq9nppjbr2c-n1_pjbr-texts_0">زيادة</string>
+  <string mz="title" name="94fbq9nppjbr2c-n1_pjbr-texts_1">شاكوش</string>
+  <string mz="title" name="94fbq9nppjbr2b-n1_pjbr">يسترد</string>
+  <string mz="title" name="94fbq9nppjbr27-n1_pjbr">جلد</string>
+  <string mz="text_level" name="94fbq9nppjbr27-n4_pjbr">المستوى {unlockSkinLevel=5}</string>
+  <string mz="info" name="94fbq9npw8q42p-n9_ht85">يمكنك الفوز بمظهر اللعبة مجانًا</string>
+  <string mz="text_title" name="zrdho07jotfn34-n17_sulh">نصائح</string>
+  <string mz="text_content" name="zrdho07jotfn34-n2_naor">هذه الوظيفة غير متوفرة بعد!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2">إنهاء المهمة للفوز بهذه المكافأة!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_0">إنهاء المهمة للفوز بهذه المكافأة!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_1">يمكنك أيضًا جمع العملات لاسترداد المكافآت الأخرى!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_2">اجمع شظايا كافية لاسترداد بشرتك المفضلة!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_3">العب اللعبة الآن لجمع القطع مجانًا!</string>
+  <string mz="txt" name="v5jd19r68d5zh-n54_ilew">إنجليزي</string>
+  <string mz="txt" name="v5jd19r68d5zo-n61_ilew">إنجليزي</string>
+  <string mz="title" name="v5jd19r6fi6if-n1_fi6i">adsf</string>
+  <string mz="on" name="v5jd19r6fi6i2-n8_wwb2">开启</string>
+  <string mz="off" name="v5jd19r6fi6i2-n9_wwb2">关闭</string>
+  <string mz="title" name="v5jd19r6fi6i2-n12_fi6i">广告 过滤</string>
+  <string mz="n14" name="v5jd19r6fi6i1-n14_l0se">أدوات</string>
+  <string mz="btn_adSetting" name="v5jd19r6fi6i1-n4_waaa">广告 过滤</string>
+  <string mz="btn_open_exchange" name="v5jd19r6fi6i1-n49_8d5z">兑换 开启</string>
+  <string mz="btn_addGold1" name="v5jd19r6fi6i1-n21_fi6i">+5000 、 + 500</string>
+  <string mz="btn_addGold2" name="v5jd19r6fi6i1-n27_fi6i">+50000</string>
+  <string mz="btn_addLevel" name="v5jd19r6fi6i1-n37_fi6i">+1</string>
+  <string mz="btn_addVideo" name="v5jd19r6fi6i1-n36_fi6i">+1</string>
+</resources>

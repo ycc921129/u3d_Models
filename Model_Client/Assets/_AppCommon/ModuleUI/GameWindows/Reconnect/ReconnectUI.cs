@@ -14,7 +14,7 @@ namespace ProjectApp
     public class ReconnectUI : BaseUI
     {
         ReconnectUICtrl ctrl;
-        WSNetState wSNetState = WSNetState.None;
+
         UI.CS603_gameWindows.com_retry ui;
 
         public ReconnectUI(ReconnectUICtrl baseUICtrl) : base(baseUICtrl)
@@ -61,8 +61,6 @@ namespace ProjectApp
 
         protected override void OnClose()
         {
-            TimerUtil.Simple.RemoveTimer(DelayCallback);
-            wSNetState = WSNetState.None;
         }
 
         protected override void OnHide()
@@ -98,7 +96,7 @@ namespace ProjectApp
         public override void OnUpdate()
         {
             base.OnUpdate();
-            SetReconnectStatus(WSNetMgr.Instance.State);
+
             if (time > 0)
             {
                 time -= Time.deltaTime;
@@ -108,24 +106,6 @@ namespace ProjectApp
             {
                 this.ui.text_time.text = "Please wait 0s...";
             }
-        }
-
-        public void SetReconnectStatus(WSNetState reconnect)
-        {
-            if (wSNetState == reconnect) return;
-
-            //// 如果打开了更新窗口, 不打开断网提示
-            //if (reconnect == WSNetState.NeedUpdate || reconnect == WSNetState.MustUpdate)
-            //{
-            //    ctrl.CloseUI();
-            //    time = 0;
-            //    return;
-            //}
-
-            wSNetState = reconnect;
-            TimerUtil.Simple.RemoveTimer(DelayCallback);
-            TimerUtil.Simple.AddTimer(5, DelayCallback);
-            ui.text_status.text = "Status: " + reconnect.ToString();
         }
 
         float time;
@@ -143,7 +123,6 @@ namespace ProjectApp
         public void DelayCallback()
         {
             this.ui.com_btnStatus.cont_status.SetSelectedIndex(com_btnStatus.Status_help);
-            ChannelMgr.Instance.SendStatisticEventWithParam(StatisticConst.network_error, WSNetMgr.Instance.State.ToString() + "," + !UIMgr.Instance.IsExistUI(UIConst.LoadingUI));
         }
 
         public void OnBtnClick(EventContext eventContext)

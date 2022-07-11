@@ -26,14 +26,5 @@ namespace ProjectApp.Data
         /// 插屏冷却时间戳
         /// </summary>
         public int interstitial_TimeStamp;
-
-        /// <summary>
-        /// 有效用户视频次数
-        /// </summary>
-        public int videoEffective_count;
-        /// <summary>
-        /// 是否已经打点了有效用户
-        /// </summary>
-        public bool isLogEffective = false;
     }
 }

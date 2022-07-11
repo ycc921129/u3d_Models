@@ -11,5 +11,10 @@ namespace ProjectApp.Data
     /// </summary>
     public static class LangueVOField
     {
+        /// <summary>
+        /// 马来西亚
+        /// 标识类型: L
+        /// </summary>
+        public static string ms = "ms";
     }
 }

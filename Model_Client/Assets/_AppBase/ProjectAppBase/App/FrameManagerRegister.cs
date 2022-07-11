@@ -32,8 +32,6 @@ namespace ProjectApp
             globalMgr.AddMgr(ResMgr.Instance);
             globalMgr.AddMgr(SceneMgr.Instance);
             globalMgr.AddMgr(VersionMgr.Instance);
-            globalMgr.AddMgr(WSNetMgr.Instance);
-            globalMgr.AddMgr(WSNetProxyMgr.Instance);
 
             // MonoMgr
             //globalMgr.AddMgr(AudioMgr.Instance);

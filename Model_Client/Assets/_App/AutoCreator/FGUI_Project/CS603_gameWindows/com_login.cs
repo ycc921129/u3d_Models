@@ -7,7 +7,7 @@ namespace UI.CS603_gameWindows
 {
     public partial class com_login : GComponent
     {
-        public GButton btn_close;
+        public GComponent btn_close;
         public GButton btn_facebookLogin;
         public GButton btn_googleLogin;
         public const string URL = "ui://06ybtwdrunhvf";
@@ -21,7 +21,7 @@ namespace UI.CS603_gameWindows
         {
             base.ConstructFromXML(xml);
 
-            btn_close = (GButton)GetChildAt(4);
+            btn_close = (GComponent)GetChildAt(4);
             btn_facebookLogin = (GButton)GetChildAt(5);
             btn_googleLogin = (GButton)GetChildAt(6);
         }

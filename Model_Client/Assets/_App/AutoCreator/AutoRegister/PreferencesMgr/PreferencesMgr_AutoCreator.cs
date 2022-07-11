@@ -28,8 +28,6 @@ namespace ProjectApp
             interstitial_TodayShowCount = preferences.interstitial_TodayShowCount;
             interstitial_TodayClickCount = preferences.interstitial_TodayClickCount;
             interstitial_TimeStamp = preferences.interstitial_TimeStamp;
-            videoEffective_count = preferences.videoEffective_count;
-            isLogEffective = preferences.isLogEffective;
         }
 
         #region ValueType
@@ -297,50 +295,6 @@ namespace ProjectApp
                 AddToAutoDelaySaveList(PreferencesField.interstitial_TimeStamp, preferences.interstitial_TimeStamp);
                 PreferencesDispatcher<int>.Instance.Dispatch(PreferencesMsg.interstitial_TimeStamp, changeValue);
                 dataDispatcher.Dispatch(PreferencesMsg.interstitial_TimeStamp);
-            }
-        }
-
-        private int videoEffective_count;
-        /// <summary>
-        /// 有效用户视频次数
-        /// </summary>
-        public int VideoEffective_count
-        {
-            get { return videoEffective_count; }
-            set
-            {
-                if (videoEffective_count == value) return;
-                ChangeValue<int> changeValue = PreferencesDispatcher<int>.Instance.changeValue;
-                changeValue.oldValue = videoEffective_count;
-                changeValue.newValue = value;
-
-                videoEffective_count = value;
-                preferences.videoEffective_count = videoEffective_count;
-                AddToAutoDelaySaveList(PreferencesField.videoEffective_count, preferences.videoEffective_count);
-                PreferencesDispatcher<int>.Instance.Dispatch(PreferencesMsg.videoEffective_count, changeValue);
-                dataDispatcher.Dispatch(PreferencesMsg.videoEffective_count);
-            }
-        }
-
-        private bool isLogEffective;
-        /// <summary>
-        /// 是否已经打点了有效用户
-        /// </summary>
-        public bool IsLogEffective
-        {
-            get { return isLogEffective; }
-            set
-            {
-                if (isLogEffective == value) return;
-                ChangeValue<bool> changeValue = PreferencesDispatcher<bool>.Instance.changeValue;
-                changeValue.oldValue = isLogEffective;
-                changeValue.newValue = value;
-
-                isLogEffective = value;
-                preferences.isLogEffective = isLogEffective;
-                AddToAutoDelaySaveList(PreferencesField.isLogEffective, preferences.isLogEffective);
-                PreferencesDispatcher<bool>.Instance.Dispatch(PreferencesMsg.isLogEffective, changeValue);
-                dataDispatcher.Dispatch(PreferencesMsg.isLogEffective);
             }
         }
         #endregion

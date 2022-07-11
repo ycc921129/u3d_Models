@@ -876,14 +876,6 @@ namespace FutureCore
             CallVoidApi("onFBEvent", key, valueToSum, parametersJson);
         }
         #endregion
-        
-        #region 调用: firebase事件投放使用
-        public override void onUpdateLtv24HJson(string configJson)
-        {
-            LogUtil.Log("[AndroidChannel]firebase事件投放使用 key:" + configJson);
-            CallVoidApi("onUpdateLtv24HJson", configJson);
-        }
-        #endregion
 
         #region 调用: 友盟打点统计
         /// <summary>
@@ -1075,6 +1067,14 @@ namespace FutureCore
 
         #endregion
 
+        #region 调用: firebase事件投放使用
+        public override void onUpdateLtv24HJson(string configJson)
+        {
+            LogUtil.Log("[AndroidChannel]firebase事件投放使用 key:" + configJson);
+            CallVoidApi("onUpdateLtv24HJson", configJson);
+        }
+        #endregion
+
         #region 调用: (旧)内购/订阅
         /// <summary>
         /// 点击内购按钮
@@ -1225,12 +1225,12 @@ namespace FutureCore
         }
 
         /// <summary>
-        /// 插屏广告配置事件 
+        /// 插屏广告配置事件   
         /// </summary>
         public override void setAdsInterstitialConfig(string configJson)
         {
             LogUtil.Log("[AndroidChannel] setAdsInterstitialConfig 插屏广告配置 :" + configJson);
-            CallVoidApi("setAdsInterstitialConfig", configJson);  
+            CallVoidApi("setAdsInterstitialConfig", configJson);
         }
         #endregion
     }

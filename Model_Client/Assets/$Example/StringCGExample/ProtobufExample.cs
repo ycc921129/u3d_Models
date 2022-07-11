@@ -7,18 +7,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using Newtonsoft.Json.Linq;
 using ProjectApp.Data;
+using Spine.Unity;
 
 public class ProtobufExample : MonoBehaviour
 {
+    public SkeletonAnimation spinGO; 
     void Start()
     {
-        AddListenEvents();        
+        //AddListenEvents();        
     }  
 
     private void AddListenEvents()
     {
-        WSNetDispatcher.Instance.AddListener(WSNetMsg.S2C_goodsList, OnS2C_goodsList);
-        WSNetDispatcher.Instance.AddListener(WSNetMsg.S2C_exchangeOrder, OnS2C_exchangeOrder);
+
     }
 
     private void OnS2C_exchangeOrder(BaseS2CJsonProto obj)
@@ -64,24 +65,22 @@ public class ProtobufExample : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            var dic = new Dictionary<string, object>();
-            dic.Add("t1", true);
-            dic.Add("t2", 1);
-            dic.Add("t3", 2.0f);
-            UserSessionCtrl.Instance.StatisticCommonEvent("test1", dic);  
+            ///SpineHelper.PlayAnim(spinGO, "broken");
             //SendGoods();
         }
-        if (Input.GetKeyDown(KeyCode.Alpha2))  
+        if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            CoinCtrl.Instance.SaveStaticCoin(-100);  
+            //SpineHelper.PlayAnim(spinGO, "recover");
+            //CoinCtrl.Instance.SaveStaticCoin(-100);  
         }  
         if (Input.GetKeyDown(KeyCode.Alpha3))
         {
-            CoinCtrl.Instance.SaveCommonCoin();
+            //SpineHelper.PlayAnim(spinGO, "idle");
+            //CoinCtrl.Instance.SaveCommonCoin();
         }
         if (Input.GetKeyDown(KeyCode.Alpha4))
         {
-            CoinCtrl.Instance.SaveCusCoin(-100, CoinCtrl.Instance.CurLevelConfData(), "rewardRange");         
+            //CoinCtrl.Instance.SaveCusCoin(-100, CoinCtrl.Instance.CurLevelConfData(), "rewardRange");         
         }
         if (Input.GetKeyDown(KeyCode.Z))
         {

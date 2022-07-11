@@ -7,6 +7,8 @@ namespace UI.CS603_gameWindows
 {
     public partial class com_gameUpdate : GComponent
     {
+        public GTextField text_title;
+        public GTextField text_tips0;
         public com_buttomStatus com_buttomStatus;
         public const string URL = "ui://06ybtwdrwdfo0";
 
@@ -19,7 +21,9 @@ namespace UI.CS603_gameWindows
         {
             base.ConstructFromXML(xml);
 
-            com_buttomStatus = (com_buttomStatus)GetChildAt(5);
+            text_title = (GTextField)GetChildAt(1);
+            text_tips0 = (GTextField)GetChildAt(2);
+            com_buttomStatus = (com_buttomStatus)GetChildAt(4);
         }
     }
 }

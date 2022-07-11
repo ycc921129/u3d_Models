@@ -1,0 +1,20 @@
+
+KP_fanspine.png
+size: 396,396
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 172
+  size: 194, 220
+  orig: 196, 222
+  offset: 1, 1
+  index: -1
+2
+  rotate: false
+  xy: 198, 172
+  size: 194, 220
+  orig: 196, 222
+  offset: 1, 1
+  index: -1

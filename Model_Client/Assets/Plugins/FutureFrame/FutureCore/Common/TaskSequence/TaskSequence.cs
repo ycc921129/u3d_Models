@@ -130,6 +130,8 @@ namespace FutureCore
             Clear();
             return this;
         }
+
+        public int TaskCount { get { return taskList.Count; } }
     }
 
     /// <summary>

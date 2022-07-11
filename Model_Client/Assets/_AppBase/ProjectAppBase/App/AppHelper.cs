@@ -27,17 +27,6 @@ namespace ProjectApp
         public static void ShowReconnectUI()
         {
             AppGlobal.IsShowDisconnectionTips = true;
-            if (AppGlobal.IsLoginSucceed) return;
-
-            UICtrlDispatcher.Instance.Dispatch(UICtrlMsg.ReconnectUI_Open);
-            if (!WSNetMgr.Instance.isConnected)
-            {
-                if (!LoginCtrl.Instance.isDelayLogining)
-                {
-                    LoginCtrl.Instance.ConnectLogin();
-                }
-                UICtrlDispatcher.Instance.Dispatch(UICtrlMsg.MumWaitUI_Open);
-            }
         }
     }
 }

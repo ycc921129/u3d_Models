@@ -10,8 +10,8 @@ public class WorldEventExample : MonoBehaviour
 
     private void Awake()
     {
-        //LogUtil.Log(1 >> 5);
-        //LogUtil.Log(1 << 5);
+        LogUtil.Log(1 >> 5);
+        LogUtil.Log(1 << 5);
 
         //EventUtil.Get2DRaycaster(camera);
         //foreach (GameObject item in targetObjs)

@@ -13,7 +13,6 @@ namespace ProjectApp
         {
             ModuleMgr moduleMgr = ModuleMgr.Instance;
             moduleMgr.AddModel(ModelConst.LoginModel, new LoginModel());
-            moduleMgr.AddModel(ModelConst.NetTimerModel, new NetTimerModel());
             moduleMgr.AddModel(ModelConst.NetworkErrorModel, new NetworkErrorModel());
         }
 
@@ -37,15 +36,12 @@ namespace ProjectApp
             moduleMgr.AddCtrl(CtrlConst.PreferencesDataReadyCtrl, new PreferencesDataReadyCtrl());
             moduleMgr.AddCtrl(CtrlConst.CoinCtrl, new CoinCtrl());
             moduleMgr.AddCtrl(CtrlConst.HeartBeatCtrl, new HeartBeatCtrl());
-            moduleMgr.AddCtrl(CtrlConst.IAPCtrl, new IAPCtrl());
             moduleMgr.AddCtrl(CtrlConst.InfoCtrl, new InfoCtrl());
-            moduleMgr.AddCtrl(CtrlConst.InviteCtrl, new InviteCtrl());
             moduleMgr.AddCtrl(CtrlConst.InterstitialCtrl, new InterstitialCtrl());
             moduleMgr.AddCtrl(CtrlConst.LangueConfigCtrl, new LangueConfigCtrl());
             moduleMgr.AddCtrl(CtrlConst.LangueCtrl, new LangueCtrl());
             moduleMgr.AddCtrl(CtrlConst.LangueGameCtrl, new LangueGameCtrl());
             moduleMgr.AddCtrl(CtrlConst.LoginCtrl, new LoginCtrl());
-            moduleMgr.AddCtrl(CtrlConst.NetTimerCtrl, new NetTimerCtrl());
             moduleMgr.AddCtrl(CtrlConst.NetworkErrorCtrl, new NetworkErrorCtrl());
             moduleMgr.AddCtrl(CtrlConst.OfflineTimeCtrl, new OfflineTimeCtrl());
             moduleMgr.AddCtrl(CtrlConst.ReconnectCtrl, new ReconnectCtrl());

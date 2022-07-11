@@ -18,7 +18,7 @@ namespace ProjectApp
 
         public EventCommonData()
         {
-            event_name = ""; 
+            event_name = "";
             properties = new Dictionary<string, object>();
         }
 
@@ -48,7 +48,7 @@ namespace ProjectApp
         private C2S_user_event c2S_user_Event = new C2S_user_event(); 
         private LoginModel loginModel = null;
 
-        private EventCommonData eventCommonData = new EventCommonData();  
+        private EventCommonData eventCommonData = new EventCommonData();
 
         #region 生命周期
         protected override void OnInit()
@@ -155,22 +155,22 @@ namespace ProjectApp
         }
 
         /// <summary>
+        /// 通用统计
+        /// </summary>
+        public void StatisticNormalDict(string key, Dictionary<string, object> dict)
+        {
+            Channel.Current.logNormalForJson(key, SerializeUtil.ToJson<Dictionary<string, object>>(dict));
+        } 
+
+        /// <summary>
         /// 通用统计：BI后台通用事件统计接口(通用事件只能用这个接口)
         /// </summary>
         /// <param name="_event_name">事件名</param>
         /// <param name="_properties">属性</param>
         public void StatisticCommonEvent(string _event_name, Dictionary<string, object> _properties)
         {
-            eventCommonData.Init(_event_name, _properties);  
-            Channel.Current.logNormalForJson("newbyear_common_event", SerializeUtil.ToJson(eventCommonData));  
-        }
-
-        /// <summary>
-        /// 通用统计
-        /// </summary>
-        public void StatisticNormalDict(string key, Dictionary<string, object> dict)
-        {
-            Channel.Current.logNormalForJson(key, SerializeUtil.ToJson<Dictionary<string, object>>(dict));
+            eventCommonData.Init(_event_name, _properties);
+            Channel.Current.logNormalForJson("newbyear_common_event", SerializeUtil.ToJson(eventCommonData));
         }
 
         /// <summary>
@@ -241,61 +241,12 @@ namespace ProjectApp
 
         private bool SendStatus()
         {
-            if (statusDict.Count == 0)
-            {
-                return true;
-            }
-
-            statusList.Clear();
-            foreach (string key in statusDict.Keys)
-            {
-                UserStatus userStatus = userStatusPool.Get();
-                userStatus.name = key;
-                userStatus.value = statusDict[key];
-                statusList.Add(userStatus);
-            }
-            c2s_user_Status.data.status = statusList;
-            bool res = WSNetMgr.Instance.Send(c2s_user_Status);
-
-            if (res)
-            {
-                statusDict.Clear();
-            }
-            foreach (UserStatus item in statusList)
-            {
-                userStatusPool.Release(item);
-            }
-            return res;
+            return true;
         }
 
         private bool SendEvents()
         {
-            if (eventsDict.Count == 0)
-            {
-                return true;
-            }
-
-            eventsList.Clear();
-            foreach (string key in eventsDict.Keys)
-            {
-                UserEvent userEvent = userEventPool.Get();
-                userEvent.e = key;
-                userEvent.times = eventsDict[key];
-                eventsList.Add(userEvent);
-            }
-            c2S_user_Event.data.session_time = loginModel.launchAppTime;
-            c2S_user_Event.data.events = eventsList;
-            bool res = WSNetMgr.Instance.Send(c2S_user_Event);
-
-            if (res)
-            {
-                eventsDict.Clear();
-            }
-            foreach (UserEvent item in eventsList)
-            {
-                userEventPool.Release(item);
-            }
-            return res;
+            return true;
         }
 
         private void ReadCacheUserSessionData()

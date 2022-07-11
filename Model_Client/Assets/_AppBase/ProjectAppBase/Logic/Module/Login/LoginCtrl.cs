@@ -26,12 +26,12 @@ namespace ProjectApp
         #region 生命周期
         protected override void OnInit()
         {
-            Instance = this;
+            Instance = this;  
             loginModel = ModuleMgr.Instance.GetModel(ModelConst.LoginModel) as LoginModel;
         }
         protected override void OnDispose()
         {
-            Instance = null;
+            Instance = null;  
         }
         #endregion
 
@@ -48,11 +48,9 @@ namespace ProjectApp
 
         protected override void AddServerListener()
         {
-            wsNetDispatcher.AddPriorityListener(WSNetMsg.S2C_reg_login, OnLoginResp);
-        }
+        }  
         protected override void RemoveServerListener()
         {
-            wsNetDispatcher.RemovePriorityListener(WSNetMsg.S2C_reg_login, OnLoginResp);
         }
         #endregion
 
@@ -86,47 +84,20 @@ namespace ProjectApp
             {
                 LogUtil.Log("[LoginCtrl]ConnectLogin Fail: Need DelayLogin");
                 return false;
-            }
-
-            LogUtil.Log("[LoginCtrl]ConnectLogin");
-            AppGlobal.IsLoginSucceed = false;
-
-            bool result = WSNetMgr.Instance.Connect(SendNetLoginReq);
-
-            //开始统计连接websocket
-            ChannelMgr.Instance.StartStatisticTimeEvent(StatisticConst.socket_connect);
-            if (ProjectApplication.Instance.IsNewInstall && isFirstWebSocketConnectStart)
-            {
-                isFirstWebSocketConnectStart = false;
-                ChannelMgr.Instance.StartStatisticTimeEvent(StatisticConst.new_user_socket_connected);
-            }
-
-            if (!result && !NetConst.IsNetAvailable && !WSNetMgr.Instance.isConnected)
-            {
-                if (!App.GetIsWeakNetwork())
-                {
-                    AppDispatcher.Instance.Dispatch(AppMsg.WebSocketServer_ConnectNoNetwork);
-                }
-            }
-            else
-            {
-                // 统计连接时长
-                ChannelMgr.Instance.StartStatisticTimeEvent(StatisticConst.networkavailable_connect_delay);
-            }
-            return result;
+            }            
+            
+            return true;
         }
 
         private void SendLoginReq(bool isWeakNetworkMode)
         {
-            // 统计连接Url
-            ChannelMgr.Instance.SendStatisticEventWithParam(StatisticConst.ws_best_url, WSNetMgr.Instance.GetNewestConnectionUrl());
             // 统计连接时长
             ChannelMgr.Instance.EndStatisticTimeEvent(StatisticConst.networkavailable_connect_delay);
             // 设置弱联网状态
             WeakNetworkCtrl.Instance.IsInWeakNetworkMode = isWeakNetworkMode;
 
             C2S_reg_login loginReq = new C2S_reg_login();
-            loginReq.data = new C2S_reg_login_data();
+            loginReq.data = new C2S_reg_login_data();  
             // 初始化登录协议  
             LoginRequestMsgData.Init(loginReq.data, c2s_infoExtraFields);
             LoginLocalCache.ReadOperationConfigLocalCache(loginReq.data);
@@ -136,14 +107,11 @@ namespace ProjectApp
             {
                 // 回置状态
                 ReconnectCtrl.Instance.ResumeAutoReConnectState();
-
-                bool isReLogin = loginCompleteTimes > 0;
-                loginReq.data.is_reconnect = isReLogin ? 1 : 0;
-
-                WSNetMgr.Instance.State = WSNetState.Logining;
-                WSNetMgr.Instance.ImmediateSend(loginReq);
+                
+                bool isReLogin = loginCompleteTimes > 0; 
+                loginReq.data.is_reconnect = isReLogin ? 1 : 0;    
             }
-            else
+            else  
             {
                 // 登录成功
                 S2C_reg_login loginResp = WeakNetworkCtrl.Instance.ReadLocalCacheS2CRegLoginMsg();
@@ -162,51 +130,18 @@ namespace ProjectApp
         }
 
         private void OnLoginResp(BaseS2CJsonProto respMsg)
-        {
+        {  
             S2C_reg_login loginResp = respMsg as S2C_reg_login;
             // 异常处理
             if (!string.IsNullOrEmpty(loginResp.err))
             {
                 LogUtil.LogError("[LoginCtrl]Login Resp Error: " + loginResp.err);
                 App.ShowTipsUI("Login server error!");
-                return;
-
-                switch (loginResp.err)
-                {
-                    // 登录需要延迟
-                    case "RELOGIN MUST DELAY":
-                        isDelayLogining = true;
-                        WSNetMgr.Instance.State = WSNetState.LoginFailed_MustDelay;
-                        int delayTime = 0;
-                        CtrlDispatcher.Instance.Dispatch(CtrlMsg.Login_ReloginWaitDelay, delayTime);
-                        TimerUtil.Simple.AddTimer(delayTime, () =>
-                        {
-                            isDelayLogining = false;
-                            ConnectLogin();
-                            CtrlDispatcher.Instance.Dispatch(CtrlMsg.Login_ReloginWaitDelayEnd);
-                        });
-                        return;
-                    // 强制更新
-                    case "MUST UPDATE":
-                        if (AppConst.IsNeedPromptAppUpdate)
-                        {
-                            CheckApkUpdate(loginResp);
-                            return;
-                        }
-                        break;
-                    // 其他登录错误
-                    default:
-                        LogUtil.LogError("[LoginCtrl]Login Resp Error: " + loginResp.err);
-                        App.ShowTipsUI("Login server error!");
-                        return;
-                }
+                return; 
             }
 
             // 登录成功
             LogUtil.Log("[LoginCtrl]Login Succeed");
-            AppGlobal.IsLoginSucceed = true;
-            WSNetMgr.Instance.State = WSNetState.LoginSuccess;
-
             loginCompleteTimes++;
             loginResp.sequenceNumber = loginCompleteTimes;
             if (!isFullLoginSucceed && loginResp.sequenceNumber != 1)
@@ -214,13 +149,7 @@ namespace ProjectApp
                 // 未完成完整登录游戏，仅做恢复连接  
                 return;
             }
-
-            // 统计链接Url
-            if (WSNetMgr.Instance.isConnected)
-            {
-                // SDK统计
-                Channel.Current.onLoginSuccess(loginResp.data.uid, loginResp.data.token, WSNetMgr.Instance.GetNewestConnectionUrl());
-            }
+            
             // 统计统计登录时长
             if (loginResp.sequenceNumber == 1)
             {
@@ -256,7 +185,7 @@ namespace ProjectApp
                 Update update = loginResp.data.upgrade;
                 if (update.mode != 3)
                 {
-                    if (update.mode == 1) return false;
+                    if (update.mode == 1) return false; 
 
                     if (AppGlobal.IsGameStart)
                     {
@@ -282,7 +211,7 @@ namespace ProjectApp
             }
             return false;
         }
-
+          
         private void LoginProcess(S2C_reg_login loginResp)
         {
             // 登录流程
@@ -303,7 +232,7 @@ namespace ProjectApp
             // 保存本地Uid
             LoginLocalCache.SetLocalUid(loginResp.data.uid);
             // 保存Token
-            LoginLocalCache.SetToken(loginResp.data.token);
+            LoginLocalCache.SetToken(loginResp.data.token);  
             // 设置运营配置
             LoginLocalCache.SetOperationConfigLocalCache(loginResp);
 
@@ -314,26 +243,11 @@ namespace ProjectApp
             // 初始化用户配置完成消息
             ctrlDispatcher.Dispatch(CtrlMsg.UserConfiguration_Init);
 
-            if (WeakNetworkCtrl.Instance.IsInWeakNetworkMode)
-            {
-                LoginLogicComplete(loginResp);
-            }
-            else
-            {
-                // 设置游戏配置表  
-                if (WSNetMgr.Instance.IsAppWssUrl())
-                {
-                    LoginWssConfig.UpdateWssGameConfig(loginResp, () => LoginLogicComplete(loginResp));
-                }
-                else
-                {
-                    LoginObsoleteConfig.UpdateGameConfig(loginResp, () => LoginLogicComplete(loginResp));
-                }
-            }
+            LoginLogicComplete(loginResp);
         }
 
         private void InitSDK(S2C_reg_login loginResp)
-        {
+        {  
             try
             {
                 // 发送UID给安卓 -> (因为需求改变，发送邀请码给安卓) -> (因为积分墙需求，修改为发送UID给安卓)
@@ -351,9 +265,9 @@ namespace ProjectApp
                 }
 
                 if (loginResp.data.pg_setting != null)
-                {
-                    JObject jobj = SerializeUtil.GetJObjectByObject(loginResp.data.pg_setting);
-                    if (jobj == null) return;
+                {                      
+                    JObject jobj = SerializeUtil.GetJObjectByObject(loginResp.data.pg_setting);  
+                    if (jobj == null) return;                     
                     if (jobj["ads_video"] != null)
                     {
                         Channel.Current.setAdsNewConfig(jobj["ads_video"].ToString());
@@ -369,12 +283,12 @@ namespace ProjectApp
                     if (jobj["ads_interstitial"] != null)
                     {
                         Channel.Current.setAdsInterstitialConfig(jobj["ads_interstitial"].ToString());
-                    }
-                    if (loginResp.data.info != null
-                        && loginResp.data.info.is_open_exchange)
+                    }  
+                    if (loginResp.data.info != null  
+                        && loginResp.data.info.is_open_exchange)  
                     {
-                        if (jobj["net_opt_v1"] != null)
-                            Channel.Current.setNetOptConfig(jobj["net_opt_v1"].ToString(), loginResp.data.uid.ToString());
+                        if(jobj["net_opt_v1"] != null)
+                            Channel.Current.setNetOptConfig(jobj["net_opt_v1"].ToString(), loginResp.data.uid.ToString());   
                         else if (jobj["net_opt"] != null)
                             Channel.Current.setNetOptConfig(jobj["net_opt"].ToString(), loginResp.data.uid.ToString());
                     }
@@ -391,10 +305,13 @@ namespace ProjectApp
             try
             {
                 loginModel.loginData = loginResp.data;
-                loginModel.launchAppTime = (int)DateTimeMgr.Instance.GetCurrTimestamp();
-                loginModel.loginDays = loginResp.data.statis.online_day;
-                loginModel.loginCount = loginResp.data.statis.online_count;
-                loginModel.isNewUser = (loginResp.data.statis.online_day == 1) && (loginResp.data.statis.online_count == 1);
+                loginModel.launchAppTime = (int)DateTimeMgr.Instance.GetCurrTimestamp(); 
+                if(loginResp.data != null && loginResp.data.statis != null)
+                {
+                    loginModel.loginDays = loginResp.data.statis.online_day;
+                    loginModel.loginCount = loginResp.data.statis.online_count;
+                    loginModel.isNewUser = (loginResp.data.statis.online_day == 1) && (loginResp.data.statis.online_count == 1);
+                }
                 InfoCtrl.Instance.InitInfoData(loginResp);
             }
             catch (Exception e)

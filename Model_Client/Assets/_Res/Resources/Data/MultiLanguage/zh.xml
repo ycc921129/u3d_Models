@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string mz="string" name="string">string</string>
+  <string mz="控件名字" name="组件索引">繁体中文(默认)</string>
+  <string mz="L" name="L">L</string>
+  <string mz="title" name="9gpz896kp4of6v-n6_fvxn">自由</string>
+  <string mz="title" name="9gpz896kqgal3b-n2_kft3">絕對地</string>
+  <string mz="title" name="06ybtwdrgki4a-n4_gki4">取消</string>
+  <string mz="n2" name="06ybtwdrunhvg-n2_u7at">用臉書登錄</string>
+  <string mz="n1" name="06ybtwdrunhvh-n1_g7u0">用谷歌登錄</string>
+  <string mz="n2" name="06ybtwdrgki4b-n2_pnsc">幫助</string>
+  <string mz="title" name="06ybtwdrwdfo9-n2_pnsc">再試一次</string>
+  <string mz="title" name="06ybtwdrwdfo5-n3_mccl">更新</string>
+  <string mz="btn_retry" name="06ybtwdrum1vd-n17_pnsc">再試一次</string>
+  <string mz="btn_cancel" name="06ybtwdrum1vd-n24_gki4">幫助</string>
+  <string mz="text_title" name="06ybtwdrwdfo0-n28_wb9d">更新</string>
+  <string mz="text_tips0" name="06ybtwdrwdfo0-n25_scox">新版本可用。
+現在更新！</string>
+  <string mz="n7" name="06ybtwdrunhvf-n7_kmcp">登錄</string>
+  <string mz="text_title" name="06ybtwdrwdfo7-n33_wb9d">沒有網絡！！！</string>
+  <string mz="text_reconnectStatus" name="06ybtwdrwdfo7-n22_b72q">沒有網絡！！！</string>
+  <string mz="text_status" name="06ybtwdrwdfo7-n24_b72q">狀態：初始化</string>
+  <string mz="n31" name="06ybtwdrwdfo7-n31_mdwa">哎呀，好像有什麼
+出錯！</string>
+  <string mz="text_code" name="06ybtwdrxeq4i-n58_rcj0">RRRRRR</string>
+  <string mz="title" name="9euvtldhlh5y3j-n1_lh5y">是的</string>
+  <string mz="btn_exit" name="9euvtldhlh5y3i-n3_lh5y">不</string>
+  <string mz="text_title" name="9euvtldhlh5y3i-n5_lh5y">進入遊戲？</string>
+  <string mz="text_tips" name="9euvtldhlh5y3i-n6_lh5y">同意&lt;Privacy Policy&gt;後
+ 和&lt;Terms of Use&gt;，我們可以提供
+您擁有遊戲服務。確認
+ 協議？</string>
+  <string mz="text_website" name="9euvtldhd4qv0-n14_c6nc">同意&lt;a href='xxx'&gt;隱私政策&lt;/a&gt;和&lt;a href2='xxx2'&gt;條款或使用&lt;/a&gt;</string>
+  <string mz="n5" name="5tzgfbiwm9c27-n5_m9c2">再也不會出現</string>
+  <string mz="title" name="5tzgfbiwp5cs11-n2_p3x0">好的</string>
+  <string mz="text_title" name="5tzgfbiws5oq1q-n1_s5oq">教程</string>
+  <string mz="text_tips0" name="5tzgfbiws5oq1q-n2_s5oq">將數字積木移至 PLUS 1，
+匹配 3 個相同的數字以合併。</string>
+  <string mz="txt" name="sirjnrkkqj6mi-n54_ilew">英語</string>
+  <string mz="txt" name="sirjnrkkqj6mp-n61_ilew">英語</string>
+  <string mz="title" name="sirjnrkkqj6md-n2_waaa">教程</string>
+  <string mz="title" name="sirjnrkkqj6m3-n2_waaa">重新開始</string>
+  <string mz="title" name="sirjnrkkqj6m8-n2_waaa">聲音開</string>
+  <string mz="title" name="sirjnrkkqj6m8-n2_waaa-texts_0">聲音開</string>
+  <string mz="title" name="sirjnrkkqj6m8-n2_waaa-texts_1">聲音關閉</string>
+  <string mz="title" name="sirjnrkku4s6t-n2_waaa">振動開啟</string>
+  <string mz="title" name="sirjnrkku4s6t-n2_waaa-texts_0">振動開啟</string>
+  <string mz="title" name="sirjnrkku4s6t-n2_waaa-texts_1">振動關</string>
+  <string mz="text_title" name="sirjnrkkqj6m0-n14_e5ju">設置</string>
+  <string mz="title" name="rl7u9y2lmdwa0-n11_djob">&lt;img src=ui://9gpz896kdjob26&gt;帳戶</string>
+  <string mz="title" name="rl7u9y2ldjob27-n3_djob">&lt;img src=ui://rl7u9y2ldjob28&gt; [U]改變遊戲[/U]</string>
+  <string mz="title" name="rl7u9y2lntzg30-n4_ntzg">絕地求生移動</string>
+  <string mz="title" name="rl7u9y2lmdwa8-n3_pxc1">確認</string>
+  <string mz="title" name="rl7u9y2lmdwa9-n17_pxdq">贖回</string>
+  <string mz="title" name="rl7u9y2lmdwac-n3_pxc1">提交圖層</string>
+  <string mz="text_target" name="rl7u9y2lmdwae-n66_djob">收集 [color=#FF9000]{target=10,000}[/color] 貨幣</string>
+  <string mz="text_target" name="rl7u9y2lmdwae-n66_djob-texts_0">收集 [color=#FF9000]{target=10,000}[/color] 貨幣</string>
+  <string mz="text_target" name="rl7u9y2lmdwae-n66_djob-texts_1">達到等級 [color=#FF9000]{target=10,000}[/color]</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg">您必須觀看更多 [color=#00CC00]{ad=500}[/color] 視頻才能激活訂單</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg-texts_0">觀看 [color=#FF8700]{ad=500}[/color] 視頻贏取獎勵</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg-texts_1">觀看視頻可將審核時間縮短 [color=#00CC00]{minute=5}[/color] 分鐘</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg-texts_def">您必須觀看更多 [color=#00CC00]{ad=500}[/color] 視頻才能激活訂單</string>
+  <string mz="text_queueText" name="rl7u9y2lmdwae-n69_ntzg">{queuePlayers=9999} 你前面的玩家</string>
+  <string mz="text_queueMove" name="rl7u9y2lmdwae-n44_m6sp">您必須觀看更多 [color=#00CC00]{ad=500}[/color] 視頻才能激活訂單</string>
+  <string mz="text_queueMove" name="rl7u9y2lmdwae-n44_m6sp-texts_0">一個視頻將您帶到 [color=#FF8700]{movePlayers=50} [/color] 地點！</string>
+  <string mz="text_queueMove" name="rl7u9y2lmdwae-n44_m6sp-texts_def">您必須觀看更多 [color=#00CC00]{ad=500}[/color] 視頻才能激活訂單</string>
+  <string mz="text_finish" name="rl7u9y2lmdwae-n70_ntzg">兌換成功！</string>
+  <string mz="text_finishWait" name="rl7u9y2lmdwae-n61_iqhi">您將在 [color=#06FF00]7[/color] 個工作日內收到此獎勵。</string>
+  <string mz="text_successful" name="rl7u9y2lmdwae-n72_ntzg">成功的</string>
+  <string mz="n1" name="rl7u9y2ll3r63l-n1_hm08">絕地求生移動</string>
+  <string mz="text_title" name="rl7u9y2lu4s63c-n4_u4s6">正在加載</string>
+  <string mz="text_tips0" name="rl7u9y2lu4s63c-n5_u4s6">連接服務器...</string>
+  <string mz="text_tips1" name="rl7u9y2lu4s63c-n6_u4s6">提交賬號...</string>
+  <string mz="text_tips2" name="rl7u9y2lu4s63c-n7_u4s6">做出改變...</string>
+  <string mz="text_tips0" name="rl7u9y2lmdwau-n12_djob">請輸入您的真實遊戲賬號！</string>
+  <string mz="text_accouont" name="rl7u9y2lmdwau-n3_pxc1-prompt">[color=#818181]輸入您的帳號[/color]</string>
+  <string mz="btn_guest" name="rl7u9y2lmdwau-n13_wb9d">訪客訪問</string>
+  <string mz="btn_close" name="rl7u9y2lmdwau-n14_wb9d">沒變</string>
+  <string mz="text_title" name="rl7u9y2ll3r63j-n3_ntzg">免費獎勵</string>
+  <string mz="text_tips0" name="rl7u9y2ll3r63j-n4_ntzg">選擇您想要獲得獎勵的遊戲！</string>
+  <string mz="text_tips1" name="rl7u9y2ll3r63j-n10_pjbr">確認後無法更改遊戲！</string>
+  <string mz="text_account" name="rl7u9y2lmdwaz-n53_wb9d">987654321@qq.com</string>
+  <string mz="text_guestAccount" name="rl7u9y2lmdwaz-n57_ntzg">訪客帳戶</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981">你可以改變你想要的遊戲。</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_0">你可以改變你想要的遊戲。</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_1">您可以在提交訂單前更改帳戶。</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_2">獲得足夠的鑽石來贏取獎勵，也可以完成挑戰贏取獎勵。</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_3">立即玩遊戲並贏取獎勵！</string>
+  <string mz="text_title" name="rl7u9y2lmciw3z-n1_mciw">綁定</string>
+  <string mz="text_gameName" name="rl7u9y2lmciw3z-n9_pjbr">絕地求生</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw3z-n8_mciw">綁定你的{gameName=PUBG}賬號，讓你提取的幣準確分配到你的賬號</string>
+  <string mz="btn_bind" name="rl7u9y2lmciw3z-n5_mciw">綁定</string>
+  <string mz="btn_later" name="rl7u9y2lmciw3z-n6_mciw">之後</string>
+  <string mz="text_title" name="rl7u9y2lmciw40-n1_mciw">成功</string>
+  <string mz="text_title" name="rl7u9y2lmciw40-n1_mciw-texts_0">失敗的</string>
+  <string mz="text_title" name="rl7u9y2lmciw40-n1_mciw-texts_def">成功</string>
+  <string mz="text_gameName" name="rl7u9y2lmciw40-n10_pjbr">絕地求生</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw40-n8_mciw">綁定成功！
+現在玩遊戲並收集貨幣！</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw40-n8_mciw-texts_0">綁定成功！
+現在玩遊戲並收集貨幣！</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw40-n8_mciw-texts_1">綁定失敗！
+未檢測到{gameName=PUBG} APP，請稍後綁定</string>
+  <string mz="btn_confirm" name="rl7u9y2lmciw40-n5_mciw">確認</string>
+  <string mz="text_account" name="rl7u9y2lmdwa18-n15_x8xq">111@outlook.com</string>
+  <string mz="text_title" name="rl7u9y2lmdwa18-n19_w8q4">帳戶</string>
+  <string mz="text_tips0" name="rl7u9y2lmdwa18-n7_wlb4">鏈接成功！
+立即贏取獎勵！</string>
+  <string mz="btn_continue" name="rl7u9y2lmdwa18-n3_pxc1">繼續</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw3y-n3_mciw">您確定要兌換到此帳戶嗎？</string>
+  <string mz="text_account" name="rl7u9y2lmciw3y-n5_mciw">helloworld@outlook.com</string>
+  <string mz="btn_confirm" name="rl7u9y2lmciw3y-n6_mciw">確認</string>
+  <string mz="btn_change" name="rl7u9y2lmciw3y-n7_mciw">更改帳戶</string>
+  <string mz="text_title" name="rl7u9y2lmdwa1f-n18_navc">成功的</string>
+  <string mz="text_tips0" name="rl7u9y2lmdwa1f-n8_nzkm">完成所有任務並贏得此獎勵！</string>
+  <string mz="btn_next" name="rl7u9y2lmdwa1f-n1_pxc1">好的</string>
+  <string mz="text_title" name="rl7u9y2lu4s63e-n4_u4s6">贖回</string>
+  <string mz="text_tips0" name="rl7u9y2lu4s63e-n5_u4s6">連接服務器...</string>
+  <string mz="text_tips1" name="rl7u9y2lu4s63e-n6_u4s6">提交訂單...</string>
+  <string mz="text_tips2" name="rl7u9y2lu4s63e-n7_u4s6">訂單審核...</string>
+  <string mz="title" name="3ajwo69pqj6mf4j-n4_lq0a">宣稱</string>
+  <string mz="title" name="3ajwo69pqj6mf47-n4_10cvf">不，謝謝</string>
+  <string mz="title" name="3ajwo69pqj6mf3x-n5_e8og">收到</string>
+  <string mz="text_value" name="3ajwo69pqj6mf42-n2_eimb">×{count=4}</string>
+  <string mz="text_title" name="3ajwo69pqj6mf3u-n33_ntzg">大組合</string>
+  <string mz="text_rate" name="3ajwo69pqj6mf3u-n40_illt">{abc=RATE}</string>
+  <string mz="text_mutiple" name="3ajwo69pqj6mf3u-n36_ntzg">x5</string>
+  <string mz="btn_coliect" name="3ajwo69pqj6mf3u-n3_e8og">收到</string>
+  <string mz="text_pbTips" name="3ajwo69pqj6mf3u-n44_u4s6">收集足夠兌換！</string>
+  <string mz="text_title" name="3ajwo69pmciwf4u-n18_ntzg">組合</string>
+  <string mz="btn_claim" name="3ajwo69pmciwf4u-n14_lq0a">宣稱</string>
+  <string mz="text_pbTips" name="3ajwo69pmciwf4u-n26_u4s6">收集足夠兌換！</string>
+  <string mz="text_title" name="3ajwo69pqj6mf48-n9_lq0a">升級</string>
+  <string mz="text_pbTips" name="3ajwo69pqj6mf48-n19_u4s6">收集足夠兌換！</string>
+  <string mz="text_pbTips" name="3ajwo69pmciwf4t-n15_mciw">收集足夠兌換！</string>
+  <string mz="text_title" name="3ajwo69pqj6mf4k-n18_ntzg">恭喜</string>
+  <string mz="btn_claim" name="3ajwo69pqj6mf4k-n14_lq0a">宣稱</string>
+  <string mz="text_pbTips" name="3ajwo69pqj6mf4k-n26_u4s6">收集足夠兌換！</string>
+  <string mz="title" name="ayq1m1qumciw0-n1_mciw">玩遊戲收集</string>
+  <string mz="title" name="ayq1m1qumciw2-n3_mciw">贖回</string>
+  <string mz="text_title" name="ayq1m1qumciw41-n1_mciw">給你驚喜</string>
+  <string mz="text_leftTips" name="ayq1m1qumciw41-n2_mciw">剩下的時間：</string>
+  <string mz="text_timeShow" name="ayq1m1qumciw41-n6_mciw">您可以在 [color=#FFD600]{time=48} 小時[/color] 後獲得這些獎勵</string>
+  <string mz="text_maxWin" name="ayq1m1qumciw41-n13_mciw">最大勝利 [color=#FFD600]{max=9999}[/color]</string>
+  <string mz="text_getTips" name="ayq1m1qumciw41-n15_mciw">盡可能多地收集</string>
+  <string mz="text_title" name="ayq1m1qumciw42-n4_mciw">結束</string>
+  <string mz="text_tips0" name="ayq1m1qumciw42-n14_mciw">立即領取您的獎勵！
+並發現更多驚喜！</string>
+  <string mz="title" name="a1jbnm9hmciw2-n11_djob">&lt;img src=ui://9gpz896kdjob26&gt;帳戶</string>
+  <string mz="title" name="a1jbnm9hr4ip49-n4_r4ip">確認</string>
+  <string mz="title" name="a1jbnm9hmciw0-n17_pxdq">贖回</string>
+  <string mz="title_value" name="a1jbnm9he31h3t-n4_e31h">{chip=999}&lt;img src=ui://9gpz896kpjbras width=32 height=32&gt;兌換</string>
+  <string mz="title" name="a1jbnm9hmciw1-n3_pxc1">提交圖層</string>
+  <string mz="text_tips0" name="a1jbnm9he31h3r-n5_lln7">在 14 個工作日內發送到您的帳戶</string>
+  <string mz="text_account" name="a1jbnm9he31h3u-n53_wb9d">987654321@qq.com</string>
+  <string mz="text_guestAccount" name="a1jbnm9he31h3u-n57_ntzg">客人賬戶</string>
+  <string mz="text_account" name="a1jbnm9hmciw3w-n5_mciw">helloworld@outlook.com</string>
+  <string mz="text_tips0" name="a1jbnm9hmciw3w-n3_mciw">您確定要兌換到此帳戶嗎？</string>
+  <string mz="btn_confirm" name="a1jbnm9hmciw3w-n6_mciw">確認</string>
+  <string mz="btn_change" name="a1jbnm9hmciw3w-n7_mciw">更改帳戶</string>
+  <string mz="text_title" name="a1jbnm9hmciw3x-n10_lln7">成功的</string>
+  <string mz="text_tips1" name="a1jbnm9hmciw3x-n3_mciw">獎勵將在 14 個工作日內發送到您的賬戶</string>
+  <string mz="text_title" name="a1jbnm9hmdwa1g-n9_w8q4">提示</string>
+  <string mz="text_tips0" name="a1jbnm9hmdwa1g-n8_wb9d">你現在是客人。</string>
+  <string mz="text_tips1" name="a1jbnm9hmdwa1g-n6_nzkm">您必須關聯您的帳戶才能兌換獎勵</string>
+  <string mz="btn_confirm" name="a1jbnm9hmdwa1g-n1_pxc1">關聯</string>
+  <string mz="text_title" name="fmr5mo8pg5fl1k-n30_e5ju">道具</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3">點擊數字積木到負 1</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3-texts_0">點擊數字積木加 2</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3-texts_1">點擊一個數字磚來摧毀</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3-texts_def">點擊數字積木到負 1</string>
+  <string mz="n4" name="tiosr750e9kl1-n4_e9kl">出口</string>
+  <string mz="title" name="tiosr750p3x0k1l-n1_p3x0">審查</string>
+  <string mz="text_title" name="tiosr750e9kl0-n34_e5ju">遊戲結束</string>
+  <string mz="text_title" name="7xruccmafntl0-n36_mfgs">反饋</string>
+  <string mz="text_tips0" name="7xruccmafntl0-n28_nop9">評價我們，讓我們變得更好</string>
+  <string mz="title" name="94fbq9npw8q42q-n1_w8q4">確認</string>
+  <string mz="title" name="94fbq9nppjbr2c-n1_pjbr">錘子</string>
+  <string mz="title" name="94fbq9nppjbr2c-n1_pjbr-texts_0">增加</string>
+  <string mz="title" name="94fbq9nppjbr2c-n1_pjbr-texts_1">錘子</string>
+  <string mz="title" name="94fbq9nppjbr2b-n1_pjbr">贖回</string>
+  <string mz="title" name="94fbq9nppjbr27-n1_pjbr">皮膚</string>
+  <string mz="text_level" name="94fbq9nppjbr27-n4_pjbr">等級{unlockSkinLevel=5}</string>
+  <string mz="info" name="94fbq9npw8q42p-n9_ht85">您可以免費贏得遊戲皮膚</string>
+  <string mz="text_title" name="zrdho07jotfn34-n17_sulh">提示</string>
+  <string mz="text_content" name="zrdho07jotfn34-n2_naor">此功能尚不可用！</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2">完成任務即可獲得此獎勵！</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_0">完成任務即可獲得此獎勵！</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_1">您還可以收集貨幣來兌換其他獎勵！</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_2">收集足夠的碎片來兌換你最喜歡的皮膚！</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_3">立即玩遊戲以免費收集碎片！</string>
+  <string mz="txt" name="v5jd19r68d5zh-n54_ilew">英語</string>
+  <string mz="txt" name="v5jd19r68d5zo-n61_ilew">英語</string>
+  <string mz="title" name="v5jd19r6fi6if-n1_fi6i">廣告</string>
+  <string mz="on" name="v5jd19r6fi6i2-n8_wwb2">開啟</string>
+  <string mz="off" name="v5jd19r6fi6i2-n9_wwb2">關閉</string>
+  <string mz="title" name="v5jd19r6fi6i2-n12_fi6i">廣告過濾</string>
+  <string mz="n14" name="v5jd19r6fi6i1-n14_l0se">工具</string>
+  <string mz="btn_adSetting" name="v5jd19r6fi6i1-n4_waaa">廣告過濾</string>
+  <string mz="btn_open_exchange" name="v5jd19r6fi6i1-n49_8d5z">兌換開啟</string>
+  <string mz="btn_addGold1" name="v5jd19r6fi6i1-n21_fi6i">+5000金幣、+500碎片</string>
+  <string mz="btn_addGold2" name="v5jd19r6fi6i1-n27_fi6i">+50000金幣</string>
+  <string mz="btn_addLevel" name="v5jd19r6fi6i1-n37_fi6i">+1等級</string>
+  <string mz="btn_addVideo" name="v5jd19r6fi6i1-n36_fi6i">+1視頻</string>
+</resources>

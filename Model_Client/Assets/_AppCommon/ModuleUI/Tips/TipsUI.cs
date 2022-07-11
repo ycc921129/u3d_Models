@@ -5,6 +5,7 @@
 
 using FutureCore;
 using FairyGUI;
+
 namespace ProjectApp
 {
     public class TipsUI : BaseUI

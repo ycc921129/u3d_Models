@@ -32,16 +32,16 @@ namespace ProjectApp.Data
         /// <summary>
         /// [id=3]
         /// 隐私政策
-        /// "https://blade.page.link/privacy"
+        /// "https://docs.google.com/document/d/1UUMhDtrkXqVRfKRKj-16qH0mUPIhJ7c_xAjFGByCmYU/edit?usp=sharing"
         /// </summary>
-        public static string PrivacyPolicyLink = "https://blade.page.link/privacy";
+        public static string PrivacyPolicyLink = "https://docs.google.com/document/d/1UUMhDtrkXqVRfKRKj-16qH0mUPIhJ7c_xAjFGByCmYU/edit?usp=sharing";
 
         /// <summary>
         /// [id=4]
         /// 服务条款
-        /// "https://blade.page.link/tos"
+        /// "https://docs.google.com/document/d/1M1SyHNDASMeMIr92eg7tHwj42IfrOnF9uo11PGzrraM/edit?usp=sharing"
         /// </summary>
-        public static string ServiceAgreement = "https://blade.page.link/tos";
+        public static string ServiceAgreement = "https://docs.google.com/document/d/1M1SyHNDASMeMIr92eg7tHwj42IfrOnF9uo11PGzrraM/edit?usp=sharing";
 
         /// <summary>
         /// [id=5]

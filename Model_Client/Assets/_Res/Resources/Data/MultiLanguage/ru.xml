@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string mz="string" name="string">string</string>
+  <string mz="控件名字" name="组件索引">俄罗斯</string>
+  <string mz="L" name="L">L</string>
+  <string mz="title" name="9gpz896kp4of6v-n6_fvxn">СВОБОДНО</string>
+  <string mz="title" name="9gpz896kqgal3b-n2_kft3">АБСОЛЮТНО</string>
+  <string mz="title" name="06ybtwdrgki4a-n4_gki4">ОТМЕНИТЬ</string>
+  <string mz="n2" name="06ybtwdrunhvg-n2_u7at">АВТОРИЗОВАТЬСЯ С ПОМОЩЬЮ ФЭЙСБУКА</string>
+  <string mz="n1" name="06ybtwdrunhvh-n1_g7u0">ВОЙТИ ЧЕРЕЗ GOOGLE</string>
+  <string mz="n2" name="06ybtwdrgki4b-n2_pnsc">Помощь</string>
+  <string mz="title" name="06ybtwdrwdfo9-n2_pnsc">ПОПРОБУЙТЕ ЕЩЕ РАЗ</string>
+  <string mz="title" name="06ybtwdrwdfo5-n3_mccl">ОБНОВИТЬ</string>
+  <string mz="btn_retry" name="06ybtwdrum1vd-n17_pnsc">ПОПРОБУЙТЕ ЕЩЕ РАЗ</string>
+  <string mz="btn_cancel" name="06ybtwdrum1vd-n24_gki4">ПОМОЩЬ</string>
+  <string mz="text_title" name="06ybtwdrwdfo0-n28_wb9d">ОБНОВИТЬ</string>
+  <string mz="text_tips0" name="06ybtwdrwdfo0-n25_scox">Доступна новая версия.
+Обновить сейчас!</string>
+  <string mz="n7" name="06ybtwdrunhvf-n7_kmcp">АВТОРИЗОВАТЬСЯ</string>
+  <string mz="text_title" name="06ybtwdrwdfo7-n33_wb9d">НЕТ СЕТИ!!!</string>
+  <string mz="text_reconnectStatus" name="06ybtwdrwdfo7-n22_b72q">Нет сети!!!</string>
+  <string mz="text_status" name="06ybtwdrwdfo7-n24_b72q">Статус: инициализация</string>
+  <string mz="n31" name="06ybtwdrwdfo7-n31_mdwa">Упс, похоже на что-то
+пошло не так!</string>
+  <string mz="text_code" name="06ybtwdrxeq4i-n58_rcj0">РРРРРР</string>
+  <string mz="title" name="9euvtldhlh5y3j-n1_lh5y">ДА</string>
+  <string mz="btn_exit" name="9euvtldhlh5y3i-n3_lh5y">НЕТ</string>
+  <string mz="text_title" name="9euvtldhlh5y3i-n5_lh5y">ЗАХОДИ В ИГРУ?</string>
+  <string mz="text_tips" name="9euvtldhlh5y3i-n6_lh5y">После согласия с &lt;Privacy Policy&gt;
+ и &lt;Terms of Use&gt;, можем ли мы предоставить
+вы с игровыми услугами. Подтвердите
+ соглашение?</string>
+  <string mz="text_website" name="9euvtldhd4qv0-n14_c6nc">Примите &lt;a href='xxx'&gt;Политику конфиденциальности&lt;/a&gt; и &lt;a href2='xxx2'&gt;Условия использования&lt;/a&gt;</string>
+  <string mz="n5" name="5tzgfbiwm9c27-n5_m9c2">Никогда больше не появляйся</string>
+  <string mz="title" name="5tzgfbiwp5cs11-n2_p3x0">ХОРОШО</string>
+  <string mz="text_title" name="5tzgfbiws5oq1q-n1_s5oq">РУКОВОДСТВО</string>
+  <string mz="text_tips0" name="5tzgfbiws5oq1q-n2_s5oq">ПЕРЕМЕСТИТЕ ЦИФРОВОЙ КИРПИЧ НА ПЛЮС 1,
+СОСТАВЬТЕ 3 ОДИНАКОВЫХ ЧИСЛА, ЧТОБЫ ОБЪЕДИНИТЬСЯ.</string>
+  <string mz="txt" name="sirjnrkkqj6mi-n54_ilew">Английский</string>
+  <string mz="txt" name="sirjnrkkqj6mp-n61_ilew">Английский</string>
+  <string mz="title" name="sirjnrkkqj6md-n2_waaa">Руководство</string>
+  <string mz="title" name="sirjnrkkqj6m3-n2_waaa">Запустить снова</string>
+  <string mz="title" name="sirjnrkkqj6m8-n2_waaa">Звучать на</string>
+  <string mz="title" name="sirjnrkkqj6m8-n2_waaa-texts_0">Звучать на</string>
+  <string mz="title" name="sirjnrkkqj6m8-n2_waaa-texts_1">Без звука</string>
+  <string mz="title" name="sirjnrkku4s6t-n2_waaa">Вибрация включена</string>
+  <string mz="title" name="sirjnrkku4s6t-n2_waaa-texts_0">Вибрация включена</string>
+  <string mz="title" name="sirjnrkku4s6t-n2_waaa-texts_1">Вибрация ВЫКЛ.</string>
+  <string mz="text_title" name="sirjnrkkqj6m0-n14_e5ju">НАСТРОЙКИ</string>
+  <string mz="title" name="rl7u9y2lmdwa0-n11_djob">&lt;img src=ui://9gpz896kdjob26&gt;АККАУНТ</string>
+  <string mz="title" name="rl7u9y2ldjob27-n3_djob">&lt;img src=ui://rl7u9y2ldjob28&gt; [U]Изменить игру[/U]</string>
+  <string mz="title" name="rl7u9y2lntzg30-n4_ntzg">ПУБГ Мобильный</string>
+  <string mz="title" name="rl7u9y2lmdwa8-n3_pxc1">ПОДТВЕРЖДАТЬ</string>
+  <string mz="title" name="rl7u9y2lmdwa9-n17_pxdq">ВЫКУПАТЬ</string>
+  <string mz="title" name="rl7u9y2lmdwac-n3_pxc1">ОТПРАВИТЬ СЛОЙ</string>
+  <string mz="text_target" name="rl7u9y2lmdwae-n66_djob">Соберите [color=#FF9000]{target=10,000}[/color] валюты</string>
+  <string mz="text_target" name="rl7u9y2lmdwae-n66_djob-texts_0">Соберите [color=#FF9000]{target=10,000}[/color] валюты</string>
+  <string mz="text_target" name="rl7u9y2lmdwae-n66_djob-texts_1">Достичь уровня[color=#FF9000]{target=10,000}[/color]</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg">Вы должны посмотреть больше [color=#00CC00]{ad=500}[/color] видео, чтобы активировать заказ</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg-texts_0">Посмотрите [color=#FF8700]{ad=500}[/color] видео, чтобы выиграть награду</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg-texts_1">Просмотр видеоролика сократит время проверки на [color=#00CC00]{minute=5}[/color] минут.</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg-texts_def">Вы должны посмотреть больше [color=#00CC00]{ad=500}[/color] видео, чтобы активировать заказ</string>
+  <string mz="text_queueText" name="rl7u9y2lmdwae-n69_ntzg">{queuePlayers=9999} игроков перед вами</string>
+  <string mz="text_queueMove" name="rl7u9y2lmdwae-n44_m6sp">Вы должны посмотреть больше [color=#00CC00]{ad=500}[/color] видео, чтобы активировать заказ</string>
+  <string mz="text_queueMove" name="rl7u9y2lmdwae-n44_m6sp-texts_0">Одно видео поднимет вас на [color=#FF8700]{movePlayers=50} [/color] места!</string>
+  <string mz="text_queueMove" name="rl7u9y2lmdwae-n44_m6sp-texts_def">Вы должны посмотреть больше [color=#00CC00]{ad=500}[/color] видео, чтобы активировать заказ</string>
+  <string mz="text_finish" name="rl7u9y2lmdwae-n70_ntzg">Искупление успешно!</string>
+  <string mz="text_finishWait" name="rl7u9y2lmdwae-n61_iqhi">Вы получите эту награду в течение [color=#06FF00]7[/color] рабочих дней.</string>
+  <string mz="text_successful" name="rl7u9y2lmdwae-n72_ntzg">Успешный</string>
+  <string mz="n1" name="rl7u9y2ll3r63l-n1_hm08">ПУБГ Мобильный</string>
+  <string mz="text_title" name="rl7u9y2lu4s63c-n4_u4s6">ЗАГРУЗКА</string>
+  <string mz="text_tips0" name="rl7u9y2lu4s63c-n5_u4s6">Связанный сервер...</string>
+  <string mz="text_tips1" name="rl7u9y2lu4s63c-n6_u4s6">Отправить аккаунт...</string>
+  <string mz="text_tips2" name="rl7u9y2lu4s63c-n7_u4s6">Вносить изменения...</string>
+  <string mz="text_tips0" name="rl7u9y2lmdwau-n12_djob">Пожалуйста, введите свой реальный игровой аккаунт!</string>
+  <string mz="text_accouont" name="rl7u9y2lmdwau-n3_pxc1-prompt">[color=#818181]Введите свой аккаунт[/color]</string>
+  <string mz="btn_guest" name="rl7u9y2lmdwau-n13_wb9d">ГОСТЕВОЙ ДОСТУП</string>
+  <string mz="btn_close" name="rl7u9y2lmdwau-n14_wb9d">Не изменить</string>
+  <string mz="text_title" name="rl7u9y2ll3r63j-n3_ntzg">БЕСПЛАТНАЯ НАГРАДА</string>
+  <string mz="text_tips0" name="rl7u9y2ll3r63j-n4_ntzg">Выберите игру, за которую хотите получить вознаграждение!</string>
+  <string mz="text_tips1" name="rl7u9y2ll3r63j-n10_pjbr">Вы не можете изменить игру, если вы подтвердите!</string>
+  <string mz="text_account" name="rl7u9y2lmdwaz-n53_wb9d">987654321@qq.com</string>
+  <string mz="text_guestAccount" name="rl7u9y2lmdwaz-n57_ntzg">Гостевая учетная запись</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981">Вы можете изменить игру, которую вы хотите.</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_0">Вы можете изменить игру, которую вы хотите.</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_1">Вы можете изменить учетную запись перед отправкой заказа.</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_2">Получите достаточно бриллиантов, чтобы выиграть награды, также вы можете выполнять задания, чтобы выиграть награды.</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_3">Играйте в игру и получайте награды прямо сейчас!</string>
+  <string mz="text_title" name="rl7u9y2lmciw3z-n1_mciw">СВЯЗЫВАТЬ</string>
+  <string mz="text_gameName" name="rl7u9y2lmciw3z-n9_pjbr">ПУБГ</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw3z-n8_mciw">Привяжите свою учетную запись {gameName=PUBG}, чтобы снимаемая вами валюта точно распределялась на вашу учетную запись.</string>
+  <string mz="btn_bind" name="rl7u9y2lmciw3z-n5_mciw">СВЯЗЫВАТЬ</string>
+  <string mz="btn_later" name="rl7u9y2lmciw3z-n6_mciw">ПОТОМ</string>
+  <string mz="text_title" name="rl7u9y2lmciw40-n1_mciw">ПРЕУСПЕТЬ</string>
+  <string mz="text_title" name="rl7u9y2lmciw40-n1_mciw-texts_0">НЕ УДАЛОСЬ</string>
+  <string mz="text_title" name="rl7u9y2lmciw40-n1_mciw-texts_def">ПРЕУСПЕТЬ</string>
+  <string mz="text_gameName" name="rl7u9y2lmciw40-n10_pjbr">ПУБГ</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw40-n8_mciw">Привязка удалась!
+Теперь играйте в игру и собирайте валюту!</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw40-n8_mciw-texts_0">Привязка удалась!
+Теперь играйте в игру и собирайте валюту!</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw40-n8_mciw-texts_1">Привязка не удалась!
+Приложение {gameName=PUBG} не обнаружено, привяжите его позже</string>
+  <string mz="btn_confirm" name="rl7u9y2lmciw40-n5_mciw">ПОДТВЕРЖДАТЬ</string>
+  <string mz="text_account" name="rl7u9y2lmdwa18-n15_x8xq">111@outlook.com</string>
+  <string mz="text_title" name="rl7u9y2lmdwa18-n19_w8q4">УЧЕТНАЯ ЗАПИСЬ</string>
+  <string mz="text_tips0" name="rl7u9y2lmdwa18-n7_wlb4">Ссылка успешно!
+Выигрывай награды прямо сейчас!</string>
+  <string mz="btn_continue" name="rl7u9y2lmdwa18-n3_pxc1">ПРОДОЛЖАТЬ</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw3y-n3_mciw">Вы уверены, что хотите использовать этот аккаунт?</string>
+  <string mz="text_account" name="rl7u9y2lmciw3y-n5_mciw">helloworld@outlook.com</string>
+  <string mz="btn_confirm" name="rl7u9y2lmciw3y-n6_mciw">ПОДТВЕРЖДАТЬ</string>
+  <string mz="btn_change" name="rl7u9y2lmciw3y-n7_mciw">СМЕНА УЧЕТНОЙ ЗАПИСИ</string>
+  <string mz="text_title" name="rl7u9y2lmdwa1f-n18_navc">УСПЕШНЫЙ</string>
+  <string mz="text_tips0" name="rl7u9y2lmdwa1f-n8_nzkm">Выполните все задания и выиграйте эту награду!</string>
+  <string mz="btn_next" name="rl7u9y2lmdwa1f-n1_pxc1">ХОРОШО</string>
+  <string mz="text_title" name="rl7u9y2lu4s63e-n4_u4s6">ВЫКУПАТЬ</string>
+  <string mz="text_tips0" name="rl7u9y2lu4s63e-n5_u4s6">Связанный сервер...</string>
+  <string mz="text_tips1" name="rl7u9y2lu4s63e-n6_u4s6">Подтвердить заказ...</string>
+  <string mz="text_tips2" name="rl7u9y2lu4s63e-n7_u4s6">Обзор заказа...</string>
+  <string mz="title" name="3ajwo69pqj6mf4j-n4_lq0a">ТРЕБОВАТЬ</string>
+  <string mz="title" name="3ajwo69pqj6mf47-n4_10cvf">СПАСИБО, НЕ НАДО</string>
+  <string mz="title" name="3ajwo69pqj6mf3x-n5_e8og">ПОЛУЧАТЬ</string>
+  <string mz="text_value" name="3ajwo69pqj6mf42-n2_eimb">×{count=4}</string>
+  <string mz="text_title" name="3ajwo69pqj6mf3u-n33_ntzg">БОЛЬШОЕ КОМБО</string>
+  <string mz="text_rate" name="3ajwo69pqj6mf3u-n40_illt">{abc=RATE}</string>
+  <string mz="text_mutiple" name="3ajwo69pqj6mf3u-n36_ntzg">х5</string>
+  <string mz="btn_coliect" name="3ajwo69pqj6mf3u-n3_e8og">ПОЛУЧАТЬ</string>
+  <string mz="text_pbTips" name="3ajwo69pqj6mf3u-n44_u4s6">Соберите достаточно, чтобы выкупить!</string>
+  <string mz="text_title" name="3ajwo69pmciwf4u-n18_ntzg">КОМБО</string>
+  <string mz="btn_claim" name="3ajwo69pmciwf4u-n14_lq0a">ТРЕБОВАТЬ</string>
+  <string mz="text_pbTips" name="3ajwo69pmciwf4u-n26_u4s6">Соберите достаточно, чтобы выкупить!</string>
+  <string mz="text_title" name="3ajwo69pqj6mf48-n9_lq0a">УРОВЕНЬ ПОВЫШЕН</string>
+  <string mz="text_pbTips" name="3ajwo69pqj6mf48-n19_u4s6">Соберите достаточно, чтобы выкупить!</string>
+  <string mz="text_pbTips" name="3ajwo69pmciwf4t-n15_mciw">Соберите достаточно, чтобы выкупить!</string>
+  <string mz="text_title" name="3ajwo69pqj6mf4k-n18_ntzg">ПОЗДРАВИТЬ</string>
+  <string mz="btn_claim" name="3ajwo69pqj6mf4k-n14_lq0a">ТРЕБОВАТЬ</string>
+  <string mz="text_pbTips" name="3ajwo69pqj6mf4k-n26_u4s6">Соберите достаточно, чтобы выкупить!</string>
+  <string mz="title" name="ayq1m1qumciw0-n1_mciw">ИГРАЙТЕ, ЧТОБЫ СОБИРАТЬ</string>
+  <string mz="title" name="ayq1m1qumciw2-n3_mciw">ВЫКУПАТЬ</string>
+  <string mz="text_title" name="ayq1m1qumciw41-n1_mciw">СЮРПРИЗ ДЛЯ ВАС</string>
+  <string mz="text_leftTips" name="ayq1m1qumciw41-n2_mciw">ОСТАЛОСЬ ВРЕМЕНИ:</string>
+  <string mz="text_timeShow" name="ayq1m1qumciw41-n6_mciw">Вы можете получить эти награды через [color=#FFD600]{time=48} часов[/color]</string>
+  <string mz="text_maxWin" name="ayq1m1qumciw41-n13_mciw">Максимальный выигрыш [color=#FFD600]{max=9999}[/color]</string>
+  <string mz="text_getTips" name="ayq1m1qumciw41-n15_mciw">Получите столько, сколько вы собираете</string>
+  <string mz="text_title" name="ayq1m1qumciw42-n4_mciw">ФИНИШ</string>
+  <string mz="text_tips0" name="ayq1m1qumciw42-n14_mciw">Получите свои награды прямо сейчас!
+И найти больше сюрпризов!</string>
+  <string mz="title" name="a1jbnm9hmciw2-n11_djob">&lt;img src=ui://9gpz896kdjob26&gt;АККАУНТ</string>
+  <string mz="title" name="a1jbnm9hr4ip49-n4_r4ip">ПОДТВЕРЖДАТЬ</string>
+  <string mz="title" name="a1jbnm9hmciw0-n17_pxdq">ВЫКУПАТЬ</string>
+  <string mz="title_value" name="a1jbnm9he31h3t-n4_e31h">{chip=999}&lt;img src=ui://9gpz896kpjbras width=32 height=32&gt;АКТИВИРОВАТЬ</string>
+  <string mz="title" name="a1jbnm9hmciw1-n3_pxc1">ОТПРАВИТЬ СЛОЙ</string>
+  <string mz="text_tips0" name="a1jbnm9he31h3r-n5_lln7">Отправлено на ваш счет в течение 14 рабочих дней</string>
+  <string mz="text_account" name="a1jbnm9he31h3u-n53_wb9d">987654321@qq.com</string>
+  <string mz="text_guestAccount" name="a1jbnm9he31h3u-n57_ntzg">ГОСТЕВОЙ АККАУНТ</string>
+  <string mz="text_account" name="a1jbnm9hmciw3w-n5_mciw">helloworld@outlook.com</string>
+  <string mz="text_tips0" name="a1jbnm9hmciw3w-n3_mciw">Вы уверены, что хотите использовать этот аккаунт?</string>
+  <string mz="btn_confirm" name="a1jbnm9hmciw3w-n6_mciw">ПОДТВЕРЖДАТЬ</string>
+  <string mz="btn_change" name="a1jbnm9hmciw3w-n7_mciw">СМЕНА УЧЕТНОЙ ЗАПИСИ</string>
+  <string mz="text_title" name="a1jbnm9hmciw3x-n10_lln7">УСПЕШНЫЙ</string>
+  <string mz="text_tips1" name="a1jbnm9hmciw3x-n3_mciw">Вознаграждение будет отправлено на ваш счет в течение 14 рабочих дней.</string>
+  <string mz="text_title" name="a1jbnm9hmdwa1g-n9_w8q4">ЧАЕВЫЕ</string>
+  <string mz="text_tips0" name="a1jbnm9hmdwa1g-n8_wb9d">Вы теперь гость.</string>
+  <string mz="text_tips1" name="a1jbnm9hmdwa1g-n6_nzkm">Вы должны связать свою учетную запись, чтобы получить вознаграждение</string>
+  <string mz="btn_confirm" name="a1jbnm9hmdwa1g-n1_pxc1">ССЫЛКА НА САЙТ</string>
+  <string mz="text_title" name="fmr5mo8pg5fl1k-n30_e5ju">РЕКВИЗИТ</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3">Коснитесь кубика с цифрой, чтобы минус 1</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3-texts_0">Коснитесь кубика с цифрой, чтобы добавить 2</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3-texts_1">Нажмите на числовой кирпич, чтобы уничтожить</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3-texts_def">Коснитесь кубика с цифрой, чтобы минус 1</string>
+  <string mz="n4" name="tiosr750e9kl1-n4_e9kl">ВЫХОД</string>
+  <string mz="title" name="tiosr750p3x0k1l-n1_p3x0">ОБЗОР</string>
+  <string mz="text_title" name="tiosr750e9kl0-n34_e5ju">ИГРА ЗАКОНЧЕНА</string>
+  <string mz="text_title" name="7xruccmafntl0-n36_mfgs">ОБРАТНАЯ СВЯЗЬ</string>
+  <string mz="text_tips0" name="7xruccmafntl0-n28_nop9">Оцените нас и сделайте нас лучше</string>
+  <string mz="title" name="94fbq9npw8q42q-n1_w8q4">ПОДТВЕРЖДАТЬ</string>
+  <string mz="title" name="94fbq9nppjbr2c-n1_pjbr">МОЛОТОК</string>
+  <string mz="title" name="94fbq9nppjbr2c-n1_pjbr-texts_0">УВЕЛИЧИВАТЬ</string>
+  <string mz="title" name="94fbq9nppjbr2c-n1_pjbr-texts_1">МОЛОТОК</string>
+  <string mz="title" name="94fbq9nppjbr2b-n1_pjbr">ВЫКУПАТЬ</string>
+  <string mz="title" name="94fbq9nppjbr27-n1_pjbr">КОЖА</string>
+  <string mz="text_level" name="94fbq9nppjbr27-n4_pjbr">УРОВЕНЬ{unlockSkinLevel=5}</string>
+  <string mz="info" name="94fbq9npw8q42p-n9_ht85">Вы можете выиграть игровой скин бесплатно</string>
+  <string mz="text_title" name="zrdho07jotfn34-n17_sulh">ЧАЕВЫЕ</string>
+  <string mz="text_content" name="zrdho07jotfn34-n2_naor">Эта функция пока недоступна!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2">Завершите задание, чтобы получить эту награду!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_0">Завершите задание, чтобы получить эту награду!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_1">Вы также можете собирать валюту, чтобы использовать другие награды!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_2">Соберите достаточно осколков, чтобы выкупить свой любимый скин!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_3">Сыграйте в игру сейчас, чтобы собирать осколки бесплатно!</string>
+  <string mz="txt" name="v5jd19r68d5zh-n54_ilew">Английский</string>
+  <string mz="txt" name="v5jd19r68d5zo-n61_ilew">Английский</string>
+  <string mz="title" name="v5jd19r6fi6if-n1_fi6i">реклама</string>
+  <string mz="on" name="v5jd19r6fi6i2-n8_wwb2">开启</string>
+  <string mz="off" name="v5jd19r6fi6i2-n9_wwb2">关闭</string>
+  <string mz="title" name="v5jd19r6fi6i2-n12_fi6i">广告过滤</string>
+  <string mz="n14" name="v5jd19r6fi6i1-n14_l0se">Инструменты</string>
+  <string mz="btn_adSetting" name="v5jd19r6fi6i1-n4_waaa">广告过滤</string>
+  <string mz="btn_open_exchange" name="v5jd19r6fi6i1-n49_8d5z">兑换开启</string>
+  <string mz="btn_addGold1" name="v5jd19r6fi6i1-n21_fi6i">+5000 碎片, +500 碎片</string>
+  <string mz="btn_addGold2" name="v5jd19r6fi6i1-n27_fi6i">+50000 центов</string>
+  <string mz="btn_addLevel" name="v5jd19r6fi6i1-n37_fi6i">+1 等 级</string>
+  <string mz="btn_addVideo" name="v5jd19r6fi6i1-n36_fi6i">+1 视频</string>
+</resources>

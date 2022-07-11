@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string mz="string" name="string">string</string>
+  <string mz="控件名字" name="组件索引">罗马尼亚</string>
+  <string mz="L" name="L">L</string>
+  <string mz="title" name="9gpz896kp4of6v-n6_fvxn">GRATUIT</string>
+  <string mz="title" name="9gpz896kqgal3b-n2_kft3">ABSOLUT</string>
+  <string mz="title" name="06ybtwdrgki4a-n4_gki4">ANULARE</string>
+  <string mz="n2" name="06ybtwdrunhvg-n2_u7at">LOGHEAZA-TE CU FACEBOOK</string>
+  <string mz="n1" name="06ybtwdrunhvh-n1_g7u0">CONECTAȚI-VĂ CU GOOGLE</string>
+  <string mz="n2" name="06ybtwdrgki4b-n2_pnsc">Ajutor</string>
+  <string mz="title" name="06ybtwdrwdfo9-n2_pnsc">ÎNCEARCĂ DIN NOU</string>
+  <string mz="title" name="06ybtwdrwdfo5-n3_mccl">ACTUALIZAȚI</string>
+  <string mz="btn_retry" name="06ybtwdrum1vd-n17_pnsc">ÎNCEARCĂ DIN NOU</string>
+  <string mz="btn_cancel" name="06ybtwdrum1vd-n24_gki4">AJUTOR</string>
+  <string mz="text_title" name="06ybtwdrwdfo0-n28_wb9d">ACTUALIZAȚI</string>
+  <string mz="text_tips0" name="06ybtwdrwdfo0-n25_scox">Este disponibilă o nouă versiune.
+Actualizează acum!</string>
+  <string mz="n7" name="06ybtwdrunhvf-n7_kmcp">AUTENTIFICARE</string>
+  <string mz="text_title" name="06ybtwdrwdfo7-n33_wb9d">FĂRĂ REȚEA!!!</string>
+  <string mz="text_reconnectStatus" name="06ybtwdrwdfo7-n22_b72q">Fără rețea!!!</string>
+  <string mz="text_status" name="06ybtwdrwdfo7-n24_b72q">Stare: Init</string>
+  <string mz="n31" name="06ybtwdrwdfo7-n31_mdwa">Hopa, pare ceva
+a mers prost!</string>
+  <string mz="text_code" name="06ybtwdrxeq4i-n58_rcj0">RRRRRR</string>
+  <string mz="title" name="9euvtldhlh5y3j-n1_lh5y">DA</string>
+  <string mz="btn_exit" name="9euvtldhlh5y3i-n3_lh5y">NU</string>
+  <string mz="text_title" name="9euvtldhlh5y3i-n5_lh5y">INTRAȚI ÎN JOC?</string>
+  <string mz="text_tips" name="9euvtldhlh5y3i-n6_lh5y">După ce sunteți de acord cu &lt;Privacy Policy&gt;
+ și &lt;Terms of Use&gt;, putem oferi
+tu cu servicii de joc. Confirmă
+ acord?</string>
+  <string mz="text_website" name="9euvtldhd4qv0-n14_c6nc">Acceptați &lt;a href='xxx'&gt;Politica de confidențialitate&lt;/a&gt; și &lt;a href2='xxx2'&gt;Termenii sau utilizarea&lt;/a&gt;</string>
+  <string mz="n5" name="5tzgfbiwm9c27-n5_m9c2">Nu mai apărea niciodată</string>
+  <string mz="title" name="5tzgfbiwp5cs11-n2_p3x0">O.K</string>
+  <string mz="text_title" name="5tzgfbiws5oq1q-n1_s5oq">TUTORIAL</string>
+  <string mz="text_tips0" name="5tzgfbiws5oq1q-n2_s5oq">MUTAȚI O cărămidă cu NUMĂR LA PLUS 1,
+POTEREȚI 3 ACEȘI NUMERE PENTRU A FUSIONA.</string>
+  <string mz="txt" name="sirjnrkkqj6mi-n54_ilew">Engleză</string>
+  <string mz="txt" name="sirjnrkkqj6mp-n61_ilew">Engleză</string>
+  <string mz="title" name="sirjnrkkqj6md-n2_waaa">Tutorial</string>
+  <string mz="title" name="sirjnrkkqj6m3-n2_waaa">Repornire</string>
+  <string mz="title" name="sirjnrkkqj6m8-n2_waaa">Sunet pornit</string>
+  <string mz="title" name="sirjnrkkqj6m8-n2_waaa-texts_0">Sunet pornit</string>
+  <string mz="title" name="sirjnrkkqj6m8-n2_waaa-texts_1">Fara sunet</string>
+  <string mz="title" name="sirjnrkku4s6t-n2_waaa">Vibrația activată</string>
+  <string mz="title" name="sirjnrkku4s6t-n2_waaa-texts_0">Vibrația activată</string>
+  <string mz="title" name="sirjnrkku4s6t-n2_waaa-texts_1">Vibrația OFF</string>
+  <string mz="text_title" name="sirjnrkkqj6m0-n14_e5ju">SETĂRI</string>
+  <string mz="title" name="rl7u9y2lmdwa0-n11_djob">&lt;img src=ui://9gpz896kdjob26&gt;CONT</string>
+  <string mz="title" name="rl7u9y2ldjob27-n3_djob">&lt;img src=ui://rl7u9y2ldjob28&gt; [U]Schimbați jocul[/U]</string>
+  <string mz="title" name="rl7u9y2lntzg30-n4_ntzg">PUBG Mobile</string>
+  <string mz="title" name="rl7u9y2lmdwa8-n3_pxc1">A CONFIRMA</string>
+  <string mz="title" name="rl7u9y2lmdwa9-n17_pxdq">RĂSCUMPĂRA</string>
+  <string mz="title" name="rl7u9y2lmdwac-n3_pxc1">TRIMITE STRATUL</string>
+  <string mz="text_target" name="rl7u9y2lmdwae-n66_djob">Colectați [color=#FF9000]{target=10,000}[/color] monedă</string>
+  <string mz="text_target" name="rl7u9y2lmdwae-n66_djob-texts_0">Colectați [color=#FF9000]{target=10,000}[/color] monedă</string>
+  <string mz="text_target" name="rl7u9y2lmdwae-n66_djob-texts_1">Atingeți nivelul [color=#FF9000]{target=10,000}[/color]</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg">Trebuie să vizionați mai multe videoclipuri [color=#00CC00]{ad=500}[/color] pentru a activa comanda</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg-texts_0">Vizionați videoclipuri [color=#FF8700]{ad=500}[/color] pentru a câștiga recompense</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg-texts_1">Urmăriți un videl va reduce timpul de examinare cu [color=#00CC00]{minute=5}[/color] minute</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg-texts_def">Trebuie să vizionați mai multe videoclipuri [color=#00CC00]{ad=500}[/color] pentru a activa comanda</string>
+  <string mz="text_queueText" name="rl7u9y2lmdwae-n69_ntzg">{queuePlayers=9999} jucători în fața dvs</string>
+  <string mz="text_queueMove" name="rl7u9y2lmdwae-n44_m6sp">Trebuie să vizionați mai multe videoclipuri [color=#00CC00]{ad=500}[/color] pentru a activa comanda</string>
+  <string mz="text_queueMove" name="rl7u9y2lmdwae-n44_m6sp-texts_0">Un videoclip te mută în [color=#FF8700]{movePlayers=50} [/color]locuri!</string>
+  <string mz="text_queueMove" name="rl7u9y2lmdwae-n44_m6sp-texts_def">Trebuie să vizionați mai multe videoclipuri [color=#00CC00]{ad=500}[/color] pentru a activa comanda</string>
+  <string mz="text_finish" name="rl7u9y2lmdwae-n70_ntzg">Răscumpărarea reușită!</string>
+  <string mz="text_finishWait" name="rl7u9y2lmdwae-n61_iqhi">Veți primi această recompensă în [color=#06FF00]7[/color] zile lucrătoare.</string>
+  <string mz="text_successful" name="rl7u9y2lmdwae-n72_ntzg">De succes</string>
+  <string mz="n1" name="rl7u9y2ll3r63l-n1_hm08">PUBG Mobile</string>
+  <string mz="text_title" name="rl7u9y2lu4s63c-n4_u4s6">SE ÎNCARCĂ</string>
+  <string mz="text_tips0" name="rl7u9y2lu4s63c-n5_u4s6">Server conectat...</string>
+  <string mz="text_tips1" name="rl7u9y2lu4s63c-n6_u4s6">Trimiteți contul...</string>
+  <string mz="text_tips2" name="rl7u9y2lu4s63c-n7_u4s6">Fa schimbari...</string>
+  <string mz="text_tips0" name="rl7u9y2lmdwau-n12_djob">Vă rugăm să introduceți contul de joc real!</string>
+  <string mz="text_accouont" name="rl7u9y2lmdwau-n3_pxc1-prompt">[color=#818181]Introduceți contul dvs.[/color]</string>
+  <string mz="btn_guest" name="rl7u9y2lmdwau-n13_wb9d">ACCES OASPAȚI</string>
+  <string mz="btn_close" name="rl7u9y2lmdwau-n14_wb9d">Nu se schimba</string>
+  <string mz="text_title" name="rl7u9y2ll3r63j-n3_ntzg">RECOMPENSA GRATUITĂ</string>
+  <string mz="text_tips0" name="rl7u9y2ll3r63j-n4_ntzg">Alege jocul pentru care vrei să fii recompensat!</string>
+  <string mz="text_tips1" name="rl7u9y2ll3r63j-n10_pjbr">Nu poți schimba jocul dacă confirmi!</string>
+  <string mz="text_account" name="rl7u9y2lmdwaz-n53_wb9d">987654321@qq.com</string>
+  <string mz="text_guestAccount" name="rl7u9y2lmdwaz-n57_ntzg">Cont de invitat</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981">Puteți schimba jocul dorit.</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_0">Puteți schimba jocul dorit.</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_1">Puteți schimba contul înainte de a trimite comanda.</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_2">Primiți suficiente diamante pentru a câștiga recompense, de asemenea, puteți finaliza provocările pentru a câștiga recompense.</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_3">Joacă jocul și câștigă recompense acum!</string>
+  <string mz="text_title" name="rl7u9y2lmciw3z-n1_mciw">LEGA</string>
+  <string mz="text_gameName" name="rl7u9y2lmciw3z-n9_pjbr">PUBG</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw3z-n8_mciw">Legați-vă contul {gameName=PUBG}, astfel încât moneda pe care o retrageți să fie distribuită corect în contul dvs.</string>
+  <string mz="btn_bind" name="rl7u9y2lmciw3z-n5_mciw">LEGA</string>
+  <string mz="btn_later" name="rl7u9y2lmciw3z-n6_mciw">MAI TARZIU</string>
+  <string mz="text_title" name="rl7u9y2lmciw40-n1_mciw">A REUSI</string>
+  <string mz="text_title" name="rl7u9y2lmciw40-n1_mciw-texts_0">A EȘUAT</string>
+  <string mz="text_title" name="rl7u9y2lmciw40-n1_mciw-texts_def">A REUSI</string>
+  <string mz="text_gameName" name="rl7u9y2lmciw40-n10_pjbr">PUBG</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw40-n8_mciw">Legarea a reușit!
+Acum joacă joc și colectează monedă!</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw40-n8_mciw-texts_0">Legarea a reușit!
+Acum joacă joc și colectează monedă!</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw40-n8_mciw-texts_1">Legarea a eșuat!
+Aplicația {gameName=PUBG} nu a fost detectată, vă rugăm să legați mai târziu</string>
+  <string mz="btn_confirm" name="rl7u9y2lmciw40-n5_mciw">A CONFIRMA</string>
+  <string mz="text_account" name="rl7u9y2lmdwa18-n15_x8xq">111@outlook.com</string>
+  <string mz="text_title" name="rl7u9y2lmdwa18-n19_w8q4">CONT</string>
+  <string mz="text_tips0" name="rl7u9y2lmdwa18-n7_wlb4">Link cu succes!
+Câștigă recompense acum!</string>
+  <string mz="btn_continue" name="rl7u9y2lmdwa18-n3_pxc1">CONTINUA</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw3y-n3_mciw">Sigur vei valorifica acest cont?</string>
+  <string mz="text_account" name="rl7u9y2lmciw3y-n5_mciw">helloworld@outlook.com</string>
+  <string mz="btn_confirm" name="rl7u9y2lmciw3y-n6_mciw">A CONFIRMA</string>
+  <string mz="btn_change" name="rl7u9y2lmciw3y-n7_mciw">SCHIMBA CONTUL</string>
+  <string mz="text_title" name="rl7u9y2lmdwa1f-n18_navc">DE SUCCES</string>
+  <string mz="text_tips0" name="rl7u9y2lmdwa1f-n8_nzkm">Termină toate sarcinile și câștigă această recompensă!</string>
+  <string mz="btn_next" name="rl7u9y2lmdwa1f-n1_pxc1">O.K</string>
+  <string mz="text_title" name="rl7u9y2lu4s63e-n4_u4s6">RĂSCUMPĂRA</string>
+  <string mz="text_tips0" name="rl7u9y2lu4s63e-n5_u4s6">Server conectat...</string>
+  <string mz="text_tips1" name="rl7u9y2lu4s63e-n6_u4s6">Depune comanda...</string>
+  <string mz="text_tips2" name="rl7u9y2lu4s63e-n7_u4s6">Revizuirea comenzii...</string>
+  <string mz="title" name="3ajwo69pqj6mf4j-n4_lq0a">REVENDICARE</string>
+  <string mz="title" name="3ajwo69pqj6mf47-n4_10cvf">NU MULTUMESC</string>
+  <string mz="title" name="3ajwo69pqj6mf3x-n5_e8og">A PRIMI</string>
+  <string mz="text_value" name="3ajwo69pqj6mf42-n2_eimb">×{count=4}</string>
+  <string mz="text_title" name="3ajwo69pqj6mf3u-n33_ntzg">COMBO MARE</string>
+  <string mz="text_rate" name="3ajwo69pqj6mf3u-n40_illt">{abc=RATE}</string>
+  <string mz="text_mutiple" name="3ajwo69pqj6mf3u-n36_ntzg">x5</string>
+  <string mz="btn_coliect" name="3ajwo69pqj6mf3u-n3_e8og">A PRIMI</string>
+  <string mz="text_pbTips" name="3ajwo69pqj6mf3u-n44_u4s6">Strânge suficient pentru a răscumpăra!</string>
+  <string mz="text_title" name="3ajwo69pmciwf4u-n18_ntzg">COMBO</string>
+  <string mz="btn_claim" name="3ajwo69pmciwf4u-n14_lq0a">REVENDICARE</string>
+  <string mz="text_pbTips" name="3ajwo69pmciwf4u-n26_u4s6">Strânge suficient pentru a răscumpăra!</string>
+  <string mz="text_title" name="3ajwo69pqj6mf48-n9_lq0a">NIVELUL SUS</string>
+  <string mz="text_pbTips" name="3ajwo69pqj6mf48-n19_u4s6">Strânge suficient pentru a răscumpăra!</string>
+  <string mz="text_pbTips" name="3ajwo69pmciwf4t-n15_mciw">Strânge suficient pentru a răscumpăra!</string>
+  <string mz="text_title" name="3ajwo69pqj6mf4k-n18_ntzg">FELICITĂȚI</string>
+  <string mz="btn_claim" name="3ajwo69pqj6mf4k-n14_lq0a">REVENDICARE</string>
+  <string mz="text_pbTips" name="3ajwo69pqj6mf4k-n26_u4s6">Strânge suficient pentru a răscumpăra!</string>
+  <string mz="title" name="ayq1m1qumciw0-n1_mciw">JOACĂ PENTRU A COLECTA</string>
+  <string mz="title" name="ayq1m1qumciw2-n3_mciw">RĂSCUMPĂRA</string>
+  <string mz="text_title" name="ayq1m1qumciw41-n1_mciw">SURPRIZĂ PENTRU TINE</string>
+  <string mz="text_leftTips" name="ayq1m1qumciw41-n2_mciw">TIMP RĂMAS:</string>
+  <string mz="text_timeShow" name="ayq1m1qumciw41-n6_mciw">Puteți obține aceste recompense după [color=#FFD600]{time=48} ore[/color]</string>
+  <string mz="text_maxWin" name="ayq1m1qumciw41-n13_mciw">Câștig maxim [color=#FFD600]{max=9999}[/color]</string>
+  <string mz="text_getTips" name="ayq1m1qumciw41-n15_mciw">Obțineți cât adunați</string>
+  <string mz="text_title" name="ayq1m1qumciw42-n4_mciw">FINALIZAREA</string>
+  <string mz="text_tips0" name="ayq1m1qumciw42-n14_mciw">Obțineți recompensele dvs. acum!
+Și găsiți mai multe surprize!</string>
+  <string mz="title" name="a1jbnm9hmciw2-n11_djob">&lt;img src=ui://9gpz896kdjob26&gt;CONT</string>
+  <string mz="title" name="a1jbnm9hr4ip49-n4_r4ip">A CONFIRMA</string>
+  <string mz="title" name="a1jbnm9hmciw0-n17_pxdq">RĂSCUMPĂRA</string>
+  <string mz="title_value" name="a1jbnm9he31h3t-n4_e31h">{chip=999}&lt;img src=ui://9gpz896kpjbras width=32 height=32&gt;RESCUPERĂ</string>
+  <string mz="title" name="a1jbnm9hmciw1-n3_pxc1">TRIMITE STRATUL</string>
+  <string mz="text_tips0" name="a1jbnm9he31h3r-n5_lln7">Trimis în contul dvs. în 14 zile lucrătoare</string>
+  <string mz="text_account" name="a1jbnm9he31h3u-n53_wb9d">987654321@qq.com</string>
+  <string mz="text_guestAccount" name="a1jbnm9he31h3u-n57_ntzg">CONT DE VISITATE</string>
+  <string mz="text_account" name="a1jbnm9hmciw3w-n5_mciw">helloworld@outlook.com</string>
+  <string mz="text_tips0" name="a1jbnm9hmciw3w-n3_mciw">Sigur vei valorifica acest cont?</string>
+  <string mz="btn_confirm" name="a1jbnm9hmciw3w-n6_mciw">A CONFIRMA</string>
+  <string mz="btn_change" name="a1jbnm9hmciw3w-n7_mciw">SCHIMBA CONTUL</string>
+  <string mz="text_title" name="a1jbnm9hmciw3x-n10_lln7">DE SUCCES</string>
+  <string mz="text_tips1" name="a1jbnm9hmciw3x-n3_mciw">Recompensa va fi trimisă în contul dvs. în termen de 14 zile lucrătoare</string>
+  <string mz="text_title" name="a1jbnm9hmdwa1g-n9_w8q4">SFATURI</string>
+  <string mz="text_tips0" name="a1jbnm9hmdwa1g-n8_wb9d">Acum ești oaspete.</string>
+  <string mz="text_tips1" name="a1jbnm9hmdwa1g-n6_nzkm">Trebuie să vă conectați contul pentru a valorifica recompense</string>
+  <string mz="btn_confirm" name="a1jbnm9hmdwa1g-n1_pxc1">LEGĂTURĂ</string>
+  <string mz="text_title" name="fmr5mo8pg5fl1k-n30_e5ju">RECUZITĂ</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3">Atingeți o cărămidă numerică la minus 1</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3-texts_0">Atingeți o cărămidă numerică la plus 2</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3-texts_1">Atingeți o cărămidă numerică pentru a o distruge</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3-texts_def">Atingeți o cărămidă numerică la minus 1</string>
+  <string mz="n4" name="tiosr750e9kl1-n4_e9kl">IEȘIRE</string>
+  <string mz="title" name="tiosr750p3x0k1l-n1_p3x0">REVIZUIRE</string>
+  <string mz="text_title" name="tiosr750e9kl0-n34_e5ju">JOC ÎNCHEIAT</string>
+  <string mz="text_title" name="7xruccmafntl0-n36_mfgs">PĂRERE</string>
+  <string mz="text_tips0" name="7xruccmafntl0-n28_nop9">Evaluează-ne și fă-ne mai buni</string>
+  <string mz="title" name="94fbq9npw8q42q-n1_w8q4">A CONFIRMA</string>
+  <string mz="title" name="94fbq9nppjbr2c-n1_pjbr">CIOCAN</string>
+  <string mz="title" name="94fbq9nppjbr2c-n1_pjbr-texts_0">CREȘTE</string>
+  <string mz="title" name="94fbq9nppjbr2c-n1_pjbr-texts_1">CIOCAN</string>
+  <string mz="title" name="94fbq9nppjbr2b-n1_pjbr">RĂSCUMPĂRA</string>
+  <string mz="title" name="94fbq9nppjbr27-n1_pjbr">PIELE</string>
+  <string mz="text_level" name="94fbq9nppjbr27-n4_pjbr">LEVEL{unlockSkinLevel=5}</string>
+  <string mz="info" name="94fbq9npw8q42p-n9_ht85">Puteți câștiga skinul jocului gratuit</string>
+  <string mz="text_title" name="zrdho07jotfn34-n17_sulh">SFATURI</string>
+  <string mz="text_content" name="zrdho07jotfn34-n2_naor">Această funcție nu este încă disponibilă!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2">Termină sarcina pentru a câștiga această recompensă!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_0">Termină sarcina pentru a câștiga această recompensă!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_1">De asemenea, puteți colecta valută pentru a răscumpăra alte recompense!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_2">Strânge suficiente cioburi pentru a-ți răscumpăra pielea preferată!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_3">Joacă acum jocul pentru a colecta cioburi gratuit!</string>
+  <string mz="txt" name="v5jd19r68d5zh-n54_ilew">Engleză</string>
+  <string mz="txt" name="v5jd19r68d5zo-n61_ilew">Engleză</string>
+  <string mz="title" name="v5jd19r6fi6if-n1_fi6i">adsf</string>
+  <string mz="on" name="v5jd19r6fi6i2-n8_wwb2">开启</string>
+  <string mz="off" name="v5jd19r6fi6i2-n9_wwb2">关闭</string>
+  <string mz="title" name="v5jd19r6fi6i2-n12_fi6i">广告过滤</string>
+  <string mz="n14" name="v5jd19r6fi6i1-n14_l0se">Instrumente</string>
+  <string mz="btn_adSetting" name="v5jd19r6fi6i1-n4_waaa">广告过滤</string>
+  <string mz="btn_open_exchange" name="v5jd19r6fi6i1-n49_8d5z">兑换开启</string>
+  <string mz="btn_addGold1" name="v5jd19r6fi6i1-n21_fi6i">+5000金币、+500碎片</string>
+  <string mz="btn_addGold2" name="v5jd19r6fi6i1-n27_fi6i">+50000金币</string>
+  <string mz="btn_addLevel" name="v5jd19r6fi6i1-n37_fi6i">+1等级</string>
+  <string mz="btn_addVideo" name="v5jd19r6fi6i1-n36_fi6i">+1视频</string>
+</resources>

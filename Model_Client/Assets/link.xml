@@ -1,4 +1,22 @@
 <linker>
   <assembly fullname="System" preserve="all"/>
-  <!-- <assembly fullname="System" preserve="all"/> -->
+  <assembly fullname="Assembly-CSharp" preserve="all"/>
+ 
+  <assembly fullname="Assembly-CSharp-firstpass">
+	<namespace fullname="FutureCore" preserve="all"/>
+	<namespace fullname="FuturePlugin" preserve="all"/>
+  </assembly>
+  
+  <assembly fullname="spine-unity">
+	<namespace fullname="Spine" preserve="all"/>
+  </assembly>
+  
+  <assembly fullname="BestHTTP">
+	<namespace fullname="BestHTTP.JSON.LitJson" preserve="all"/>
+	<namespace fullname="BestHTTP.SecureProtocol" preserve="all"/>
+  </assembly>
+  
+  <assembly fullname="UniTask">
+	<namespace fullname="Cysharp.Threading.Tasks" preserve="all"/>
+  </assembly>
 </linker>

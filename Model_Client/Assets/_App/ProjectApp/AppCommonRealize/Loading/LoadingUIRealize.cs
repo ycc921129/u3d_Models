@@ -18,7 +18,7 @@ namespace ProjectApp
         protected override void OnBind()
         {
             base.OnBind();
-            text_severStatus = this.ui.text_severStatus;
+            //text_severStatus = this.ui.text_severStatus;
             pb_loading = this.ui.pb_loading;
         }
 

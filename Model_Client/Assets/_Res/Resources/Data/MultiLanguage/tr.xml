@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string mz="string" name="string">string</string>
+  <string mz="控件名字" name="组件索引">土耳其</string>
+  <string mz="L" name="L">L</string>
+  <string mz="title" name="9gpz896kp4of6v-n6_fvxn">BEDAVA</string>
+  <string mz="title" name="9gpz896kqgal3b-n2_kft3">KESİNLİKLE</string>
+  <string mz="title" name="06ybtwdrgki4a-n4_gki4">İPTAL ETMEK</string>
+  <string mz="n2" name="06ybtwdrunhvg-n2_u7at">FACEBOOK İLE GİRİŞ</string>
+  <string mz="n1" name="06ybtwdrunhvh-n1_g7u0">GOOGLE İLE GİRİŞ YAP</string>
+  <string mz="n2" name="06ybtwdrgki4b-n2_pnsc">Yardım</string>
+  <string mz="title" name="06ybtwdrwdfo9-n2_pnsc">TEKRAR DENEYİN</string>
+  <string mz="title" name="06ybtwdrwdfo5-n3_mccl">GÜNCELLEME</string>
+  <string mz="btn_retry" name="06ybtwdrum1vd-n17_pnsc">TEKRAR DENEYİN</string>
+  <string mz="btn_cancel" name="06ybtwdrum1vd-n24_gki4">YARDIM EDİN</string>
+  <string mz="text_title" name="06ybtwdrwdfo0-n28_wb9d">GÜNCELLEME</string>
+  <string mz="text_tips0" name="06ybtwdrwdfo0-n25_scox">Yeni sürüm mevcuttur.
+Şimdi güncelle!</string>
+  <string mz="n7" name="06ybtwdrunhvf-n7_kmcp">GİRİŞ YAPMAK</string>
+  <string mz="text_title" name="06ybtwdrwdfo7-n33_wb9d">AĞ YOK!!!</string>
+  <string mz="text_reconnectStatus" name="06ybtwdrwdfo7-n22_b72q">Ağ yok!!!</string>
+  <string mz="text_status" name="06ybtwdrwdfo7-n24_b72q">Durum : Başlat</string>
+  <string mz="n31" name="06ybtwdrwdfo7-n31_mdwa">Oops, bir şeye benziyor
+yanlış gitti!</string>
+  <string mz="text_code" name="06ybtwdrxeq4i-n58_rcj0">RRRRRR</string>
+  <string mz="title" name="9euvtldhlh5y3j-n1_lh5y">EVET</string>
+  <string mz="btn_exit" name="9euvtldhlh5y3i-n3_lh5y">NUMARA</string>
+  <string mz="text_title" name="9euvtldhlh5y3i-n5_lh5y">OYUNA GİRMEK?</string>
+  <string mz="text_tips" name="9euvtldhlh5y3i-n6_lh5y">&lt;Privacy Policy&gt;'nı kabul ettikten sonra
+ ve &lt;Terms of Use&gt;, sağlayabilir miyiz
+oyun hizmetleriyle yanınızdayız. onaylayın
+ anlaşma?</string>
+  <string mz="text_website" name="9euvtldhd4qv0-n14_c6nc">&lt;a href='xxx'&gt;Gizlilik Politikası&lt;/a&gt; ve &lt;a href2='xxx2'&gt;Şartlar veya Kullanım&lt;/a&gt;'ı kabul edin</string>
+  <string mz="n5" name="5tzgfbiwm9c27-n5_m9c2">Bir daha asla görünme</string>
+  <string mz="title" name="5tzgfbiwp5cs11-n2_p3x0">TAMAM</string>
+  <string mz="text_title" name="5tzgfbiws5oq1q-n1_s5oq">EĞİTİCİ</string>
+  <string mz="text_tips0" name="5tzgfbiws5oq1q-n2_s5oq">BİR NUMARALI TUĞLA ARTı 1'E TAŞIN,
+BİRLEŞTİRMEK İÇİN 3 AYNI NUMARALARI EŞLEŞTİRİN.</string>
+  <string mz="txt" name="sirjnrkkqj6mi-n54_ilew">ingilizce</string>
+  <string mz="txt" name="sirjnrkkqj6mp-n61_ilew">ingilizce</string>
+  <string mz="title" name="sirjnrkkqj6md-n2_waaa">öğretici</string>
+  <string mz="title" name="sirjnrkkqj6m3-n2_waaa">Tekrar başlat</string>
+  <string mz="title" name="sirjnrkkqj6m8-n2_waaa">Ses açık</string>
+  <string mz="title" name="sirjnrkkqj6m8-n2_waaa-texts_0">Ses açık</string>
+  <string mz="title" name="sirjnrkkqj6m8-n2_waaa-texts_1">Sesi kapamak</string>
+  <string mz="title" name="sirjnrkku4s6t-n2_waaa">Titreşim AÇIK</string>
+  <string mz="title" name="sirjnrkku4s6t-n2_waaa-texts_0">Titreşim AÇIK</string>
+  <string mz="title" name="sirjnrkku4s6t-n2_waaa-texts_1">Titreşim KAPALI</string>
+  <string mz="text_title" name="sirjnrkkqj6m0-n14_e5ju">AYARLAR</string>
+  <string mz="title" name="rl7u9y2lmdwa0-n11_djob">&lt;img src=ui://9gpz896kdjob26&gt;HESAP</string>
+  <string mz="title" name="rl7u9y2ldjob27-n3_djob">&lt;img src=ui://rl7u9y2ldjob28&gt; [U]Oyunu değiştir[/U]</string>
+  <string mz="title" name="rl7u9y2lntzg30-n4_ntzg">Pubg mobil</string>
+  <string mz="title" name="rl7u9y2lmdwa8-n3_pxc1">ONAYLAMAK</string>
+  <string mz="title" name="rl7u9y2lmdwa9-n17_pxdq">TAZMİN ETMEK</string>
+  <string mz="title" name="rl7u9y2lmdwac-n3_pxc1">KATMAN GÖNDER</string>
+  <string mz="text_target" name="rl7u9y2lmdwae-n66_djob">[color=#FF9000]{target=10,000}[/color] para birimini toplayın</string>
+  <string mz="text_target" name="rl7u9y2lmdwae-n66_djob-texts_0">[color=#FF9000]{target=10,000}[/color] para birimini toplayın</string>
+  <string mz="text_target" name="rl7u9y2lmdwae-n66_djob-texts_1">Seviye [color=#FF9000]{target=10,000}[/color] seviyesine ulaşın</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg">Siparişi etkinleştirmek için daha fazla [color=#00CC00]{ad=500}[/color] video izlemelisiniz</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg-texts_0">Ödül kazanmak için [color=#FF8700]{ad=500}[/color] videoları izleyin</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg-texts_1">Video izlemek, inceleme süresini [color=#00CC00]{minute=5}[/color] dakika azaltır</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg-texts_def">Siparişi etkinleştirmek için daha fazla [color=#00CC00]{ad=500}[/color] video izlemelisiniz</string>
+  <string mz="text_queueText" name="rl7u9y2lmdwae-n69_ntzg">{queuePlayers=9999} oyuncu önünüzde</string>
+  <string mz="text_queueMove" name="rl7u9y2lmdwae-n44_m6sp">Siparişi etkinleştirmek için daha fazla [color=#00CC00]{ad=500}[/color] video izlemelisiniz</string>
+  <string mz="text_queueMove" name="rl7u9y2lmdwae-n44_m6sp-texts_0">Bir video sizi [color=#FF8700]{movePlayers=50} [/color]yerlere taşır!</string>
+  <string mz="text_queueMove" name="rl7u9y2lmdwae-n44_m6sp-texts_def">Siparişi etkinleştirmek için daha fazla [color=#00CC00]{ad=500}[/color] video izlemelisiniz</string>
+  <string mz="text_finish" name="rl7u9y2lmdwae-n70_ntzg">Kurtuluş başarılı!</string>
+  <string mz="text_finishWait" name="rl7u9y2lmdwae-n61_iqhi">Bu ödülü [color=#06FF00]7[/color] iş günü içinde alacaksınız.</string>
+  <string mz="text_successful" name="rl7u9y2lmdwae-n72_ntzg">Başarılı</string>
+  <string mz="n1" name="rl7u9y2ll3r63l-n1_hm08">Pubg mobil</string>
+  <string mz="text_title" name="rl7u9y2lu4s63c-n4_u4s6">YÜKLENİYOR</string>
+  <string mz="text_tips0" name="rl7u9y2lu4s63c-n5_u4s6">Bağlantılı sunucu...</string>
+  <string mz="text_tips1" name="rl7u9y2lu4s63c-n6_u4s6">Hesabı gönder...</string>
+  <string mz="text_tips2" name="rl7u9y2lu4s63c-n7_u4s6">Değişiklik yapmak...</string>
+  <string mz="text_tips0" name="rl7u9y2lmdwau-n12_djob">Lütfen gerçek oyun hesabınızı girin!</string>
+  <string mz="text_accouont" name="rl7u9y2lmdwau-n3_pxc1-prompt">[color=#818181]Hesabınızı girin[/color]</string>
+  <string mz="btn_guest" name="rl7u9y2lmdwau-n13_wb9d">MİSAFİR ERİŞİMİ</string>
+  <string mz="btn_close" name="rl7u9y2lmdwau-n14_wb9d">Değişmez</string>
+  <string mz="text_title" name="rl7u9y2ll3r63j-n3_ntzg">ÜCRETSİZ ÖDÜL</string>
+  <string mz="text_tips0" name="rl7u9y2ll3r63j-n4_ntzg">Ödül almak istediğiniz oyunu seçin!</string>
+  <string mz="text_tips1" name="rl7u9y2ll3r63j-n10_pjbr">Onaylarsanız oyunu değiştiremezsiniz!</string>
+  <string mz="text_account" name="rl7u9y2lmdwaz-n53_wb9d">987654321@qq.com</string>
+  <string mz="text_guestAccount" name="rl7u9y2lmdwaz-n57_ntzg">Ziyaretçi hesabı</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981">İstediğiniz oyunu değiştirebilirsiniz.</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_0">İstediğiniz oyunu değiştirebilirsiniz.</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_1">Siparişi göndermeden önce hesabı değiştirebilirsiniz.</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_2">Ödül kazanmak için yeterli elmas alın, ayrıca ödülleri kazanmak için zorlukları tamamlayabilirsiniz.</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_3">Şimdi oyun oynayın ve ödülleri kazanın!</string>
+  <string mz="text_title" name="rl7u9y2lmciw3z-n1_mciw">BAĞLAMA</string>
+  <string mz="text_gameName" name="rl7u9y2lmciw3z-n9_pjbr">PUBG</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw3z-n8_mciw">{gameName=PUBG} hesabınızı bağlayın, böylece çektiğiniz para birimi hesabınıza doğru bir şekilde dağıtılacaktır.</string>
+  <string mz="btn_bind" name="rl7u9y2lmciw3z-n5_mciw">BAĞLAMA</string>
+  <string mz="btn_later" name="rl7u9y2lmciw3z-n6_mciw">SONRA</string>
+  <string mz="text_title" name="rl7u9y2lmciw40-n1_mciw">BAŞARMAK</string>
+  <string mz="text_title" name="rl7u9y2lmciw40-n1_mciw-texts_0">ARIZALI</string>
+  <string mz="text_title" name="rl7u9y2lmciw40-n1_mciw-texts_def">BAŞARMAK</string>
+  <string mz="text_gameName" name="rl7u9y2lmciw40-n10_pjbr">PUBG</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw40-n8_mciw">Bağlama başarılı oldu!
+Şimdi oyun oynayın ve para toplayın!</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw40-n8_mciw-texts_0">Bağlama başarılı oldu!
+Şimdi oyun oynayın ve para toplayın!</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw40-n8_mciw-texts_1">Bağlanamadı!
+{gameName=PUBG} APP algılanmadı, lütfen daha sonra bağlayın</string>
+  <string mz="btn_confirm" name="rl7u9y2lmciw40-n5_mciw">ONAYLAMAK</string>
+  <string mz="text_account" name="rl7u9y2lmdwa18-n15_x8xq">111@outlook.com</string>
+  <string mz="text_title" name="rl7u9y2lmdwa18-n19_w8q4">HESAP</string>
+  <string mz="text_tips0" name="rl7u9y2lmdwa18-n7_wlb4">Bağlantı başarılı!
+Şimdi ödüller kazanın!</string>
+  <string mz="btn_continue" name="rl7u9y2lmdwa18-n3_pxc1">DEVAM ET</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw3y-n3_mciw">Bu hesapta kullanmak istediğinizden emin misiniz?</string>
+  <string mz="text_account" name="rl7u9y2lmciw3y-n5_mciw">merhabaworld@outlook.com</string>
+  <string mz="btn_confirm" name="rl7u9y2lmciw3y-n6_mciw">ONAYLAMAK</string>
+  <string mz="btn_change" name="rl7u9y2lmciw3y-n7_mciw">HESABI DEĞİŞTİR</string>
+  <string mz="text_title" name="rl7u9y2lmdwa1f-n18_navc">BAŞARILI</string>
+  <string mz="text_tips0" name="rl7u9y2lmdwa1f-n8_nzkm">Tüm görevleri tamamlayın ve bu ödülü kazanın!</string>
+  <string mz="btn_next" name="rl7u9y2lmdwa1f-n1_pxc1">TAMAM</string>
+  <string mz="text_title" name="rl7u9y2lu4s63e-n4_u4s6">TAZMİN ETMEK</string>
+  <string mz="text_tips0" name="rl7u9y2lu4s63e-n5_u4s6">Bağlantılı sunucu...</string>
+  <string mz="text_tips1" name="rl7u9y2lu4s63e-n6_u4s6">Siparişi Gönder...</string>
+  <string mz="text_tips2" name="rl7u9y2lu4s63e-n7_u4s6">Sipariş İnceleme...</string>
+  <string mz="title" name="3ajwo69pqj6mf4j-n4_lq0a">İDDİA</string>
+  <string mz="title" name="3ajwo69pqj6mf47-n4_10cvf">HAYIR TEŞEKKÜRLER</string>
+  <string mz="title" name="3ajwo69pqj6mf3x-n5_e8og">ALMAK</string>
+  <string mz="text_value" name="3ajwo69pqj6mf42-n2_eimb">×{count=4}</string>
+  <string mz="text_title" name="3ajwo69pqj6mf3u-n33_ntzg">BÜYÜK KOMBO</string>
+  <string mz="text_rate" name="3ajwo69pqj6mf3u-n40_illt">{abc=RATE}</string>
+  <string mz="text_mutiple" name="3ajwo69pqj6mf3u-n36_ntzg">x5</string>
+  <string mz="btn_coliect" name="3ajwo69pqj6mf3u-n3_e8og">ALMAK</string>
+  <string mz="text_pbTips" name="3ajwo69pqj6mf3u-n44_u4s6">Kullanmak için yeterince toplayın!</string>
+  <string mz="text_title" name="3ajwo69pmciwf4u-n18_ntzg">KOMBO</string>
+  <string mz="btn_claim" name="3ajwo69pmciwf4u-n14_lq0a">İDDİA</string>
+  <string mz="text_pbTips" name="3ajwo69pmciwf4u-n26_u4s6">Kullanmak için yeterince toplayın!</string>
+  <string mz="text_title" name="3ajwo69pqj6mf48-n9_lq0a">SEVİYE ATLAMAK</string>
+  <string mz="text_pbTips" name="3ajwo69pqj6mf48-n19_u4s6">Kullanmak için yeterince toplayın!</string>
+  <string mz="text_pbTips" name="3ajwo69pmciwf4t-n15_mciw">Kullanmak için yeterince toplayın!</string>
+  <string mz="text_title" name="3ajwo69pqj6mf4k-n18_ntzg">tebrikler</string>
+  <string mz="btn_claim" name="3ajwo69pqj6mf4k-n14_lq0a">İDDİA</string>
+  <string mz="text_pbTips" name="3ajwo69pqj6mf4k-n26_u4s6">Kullanmak için yeterince toplayın!</string>
+  <string mz="title" name="ayq1m1qumciw0-n1_mciw">TOPLAMAK İÇİN OYUN OYNA</string>
+  <string mz="title" name="ayq1m1qumciw2-n3_mciw">TAZMİN ETMEK</string>
+  <string mz="text_title" name="ayq1m1qumciw41-n1_mciw">SENİN İÇİN SÜRPRİZ</string>
+  <string mz="text_leftTips" name="ayq1m1qumciw41-n2_mciw">KALAN ZAMAN:</string>
+  <string mz="text_timeShow" name="ayq1m1qumciw41-n6_mciw">Bu ödülleri [color=#FFD600]{time=48} saat[/color] sonra alabilirsiniz</string>
+  <string mz="text_maxWin" name="ayq1m1qumciw41-n13_mciw">Maksimum kazanç [color=#FFD600]{max=9999}[/color]</string>
+  <string mz="text_getTips" name="ayq1m1qumciw41-n15_mciw">topladığınız kadar alın</string>
+  <string mz="text_title" name="ayq1m1qumciw42-n4_mciw">BİTİŞ</string>
+  <string mz="text_tips0" name="ayq1m1qumciw42-n14_mciw">Ödüllerinizi şimdi alın!
+Ve daha fazla sürpriz bul!</string>
+  <string mz="title" name="a1jbnm9hmciw2-n11_djob">&lt;img src=ui://9gpz896kdjob26&gt;HESAP</string>
+  <string mz="title" name="a1jbnm9hr4ip49-n4_r4ip">ONAYLAMAK</string>
+  <string mz="title" name="a1jbnm9hmciw0-n17_pxdq">TAZMİN ETMEK</string>
+  <string mz="title_value" name="a1jbnm9he31h3t-n4_e31h">{chip=999}&lt;img src=ui://9gpz896kpjbras width=32 height=32&gt;ÜRÜN</string>
+  <string mz="title" name="a1jbnm9hmciw1-n3_pxc1">KATMAN GÖNDER</string>
+  <string mz="text_tips0" name="a1jbnm9he31h3r-n5_lln7">14 iş günü içinde hesabınıza gönderilir</string>
+  <string mz="text_account" name="a1jbnm9he31h3u-n53_wb9d">987654321@qq.com</string>
+  <string mz="text_guestAccount" name="a1jbnm9he31h3u-n57_ntzg">MİSAFİR HESAP</string>
+  <string mz="text_account" name="a1jbnm9hmciw3w-n5_mciw">merhabaworld@outlook.com</string>
+  <string mz="text_tips0" name="a1jbnm9hmciw3w-n3_mciw">Bu hesapta kullanmak istediğinizden emin misiniz?</string>
+  <string mz="btn_confirm" name="a1jbnm9hmciw3w-n6_mciw">ONAYLAMAK</string>
+  <string mz="btn_change" name="a1jbnm9hmciw3w-n7_mciw">HESABI DEĞİŞTİR</string>
+  <string mz="text_title" name="a1jbnm9hmciw3x-n10_lln7">BAŞARILI</string>
+  <string mz="text_tips1" name="a1jbnm9hmciw3x-n3_mciw">Ödül hesabınıza 14 iş günü içerisinde gönderilecektir.</string>
+  <string mz="text_title" name="a1jbnm9hmdwa1g-n9_w8q4">İPUÇLARI</string>
+  <string mz="text_tips0" name="a1jbnm9hmdwa1g-n8_wb9d">Artık misafirsiniz.</string>
+  <string mz="text_tips1" name="a1jbnm9hmdwa1g-n6_nzkm">Ödülleri kullanmak için hesabınızı bağlamanız gerekir</string>
+  <string mz="btn_confirm" name="a1jbnm9hmdwa1g-n1_pxc1">BAĞLANTI</string>
+  <string mz="text_title" name="fmr5mo8pg5fl1k-n30_e5ju">PROPS</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3">Eksi 1'e kadar bir sayı tuğlasına dokunun</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3-texts_0">Artı 2 için bir sayı tuğlasına dokunun</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3-texts_1">Yok etmek için bir sayı tuğlasına dokunun</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3-texts_def">Eksi 1'e kadar bir sayı tuğlasına dokunun</string>
+  <string mz="n4" name="tiosr750e9kl1-n4_e9kl">ÇIKIŞ</string>
+  <string mz="title" name="tiosr750p3x0k1l-n1_p3x0">GÖZDEN GEÇİRMEK</string>
+  <string mz="text_title" name="tiosr750e9kl0-n34_e5ju">OYUN BİTTİ</string>
+  <string mz="text_title" name="7xruccmafntl0-n36_mfgs">GERİ BİLDİRİM</string>
+  <string mz="text_tips0" name="7xruccmafntl0-n28_nop9">Bize oy verin ve bizi daha iyi hale getirin</string>
+  <string mz="title" name="94fbq9npw8q42q-n1_w8q4">ONAYLAMAK</string>
+  <string mz="title" name="94fbq9nppjbr2c-n1_pjbr">ÇEKİÇ</string>
+  <string mz="title" name="94fbq9nppjbr2c-n1_pjbr-texts_0">ARTTIRMAK</string>
+  <string mz="title" name="94fbq9nppjbr2c-n1_pjbr-texts_1">ÇEKİÇ</string>
+  <string mz="title" name="94fbq9nppjbr2b-n1_pjbr">TAZMİN ETMEK</string>
+  <string mz="title" name="94fbq9nppjbr27-n1_pjbr">DERİ</string>
+  <string mz="text_level" name="94fbq9nppjbr27-n4_pjbr">LEVEL{unlockSkinLevel=5}</string>
+  <string mz="info" name="94fbq9npw8q42p-n9_ht85">Oyun görünümünü ücretsiz kazanabilirsiniz</string>
+  <string mz="text_title" name="zrdho07jotfn34-n17_sulh">İPUÇLARI</string>
+  <string mz="text_content" name="zrdho07jotfn34-n2_naor">Bu fonksiyon henüz mevcut değil!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2">Bu ödülü kazanmak için görevi bitirin!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_0">Bu ödülü kazanmak için görevi bitirin!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_1">Diğer ödülleri kullanmak için para da toplayabilirsiniz!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_2">En sevdiğiniz görünümü kullanmak için yeterince parça toplayın!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_3">Parçaları ücretsiz toplamak için şimdi oyunu oyna!</string>
+  <string mz="txt" name="v5jd19r68d5zh-n54_ilew">ingilizce</string>
+  <string mz="txt" name="v5jd19r68d5zo-n61_ilew">ingilizce</string>
+  <string mz="title" name="v5jd19r6fi6if-n1_fi6i">reklam</string>
+  <string mz="on" name="v5jd19r6fi6i2-n8_wwb2">开启</string>
+  <string mz="off" name="v5jd19r6fi6i2-n9_wwb2">关闭</string>
+  <string mz="title" name="v5jd19r6fi6i2-n12_fi6i">广告过滤</string>
+  <string mz="n14" name="v5jd19r6fi6i1-n14_l0se">Aletler</string>
+  <string mz="btn_adSetting" name="v5jd19r6fi6i1-n4_waaa">广告过滤</string>
+  <string mz="btn_open_exchange" name="v5jd19r6fi6i1-n49_8d5z">兑换开启</string>
+  <string mz="btn_addGold1" name="v5jd19r6fi6i1-n21_fi6i">+5000金币、+500碎片</string>
+  <string mz="btn_addGold2" name="v5jd19r6fi6i1-n27_fi6i">+50000金币</string>
+  <string mz="btn_addLevel" name="v5jd19r6fi6i1-n37_fi6i">+1等级</string>
+  <string mz="btn_addVideo" name="v5jd19r6fi6i1-n36_fi6i">+1视频</string>
+</resources>

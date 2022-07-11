@@ -18,6 +18,12 @@ namespace ProjectApp.Data
     public partial class LangueVO : BaseLangueVO
     {
         /// <summary>
+        /// 马来西亚
+        /// 标识类型: L
+        /// </summary>
+        public string ms;
+
+        /// <summary>
         /// 自定义构造
         /// </summary>
         public LangueVO() : base() { }

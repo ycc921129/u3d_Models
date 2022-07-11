@@ -121,7 +121,7 @@ namespace ProjectApp
         public static void SetLocalUid(long uid)
         {
             if (!PrefsUtil.HasKey(PrefsKeyConst.LoginCtrl_localUid))
-            {                
+            {
                 byte[] uidBytes = AESEncryptUtil.Encrypt(uid.ToString());
                 string uidText = Base64EncodeUtil.Base64EncodeString(uidBytes);
                 PrefsUtil.WriteString(PrefsKeyConst.LoginCtrl_localUid, uidText);
@@ -328,10 +328,10 @@ namespace ProjectApp
             cacheMsg.data = new Cache_S2C_reg_login_data();
             cacheMsg.data.uid = resp.data.uid;
             cacheMsg.data.token = resp.data.token;
-            cacheMsg.data.info = resp.data.info;  
+            cacheMsg.data.info = resp.data.info;
             cacheMsg.data.pg_setting = resp.data.pg_setting;
             cacheMsg.data.pg_settingex = resp.data.pg_settingex;
-            cacheMsg.data.ltv_24h = resp.data.ltv_24h;  
+            cacheMsg.data.ltv_24h = resp.data.ltv_24h;
             cacheMsg.data.upgrade = resp.data.upgrade;
             cacheMsg.data.pref = resp.data.pref;  
             return cacheMsg;

@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string mz="string" name="string">string</string>
+  <string mz="控件名字" name="组件索引">印度尼西亚（in是关键字，需要加@）</string>
+  <string mz="L" name="L">L</string>
+  <string mz="title" name="9gpz896kp4of6v-n6_fvxn">GRATIS</string>
+  <string mz="title" name="9gpz896kqgal3b-n2_kft3">SANGAT</string>
+  <string mz="title" name="06ybtwdrgki4a-n4_gki4">MEMBATALKAN</string>
+  <string mz="n2" name="06ybtwdrunhvg-n2_u7at">MASUK DENGAN FACEBOOK</string>
+  <string mz="n1" name="06ybtwdrunhvh-n1_g7u0">MASUK DENGAN GOOGLE</string>
+  <string mz="n2" name="06ybtwdrgki4b-n2_pnsc">Membantu</string>
+  <string mz="title" name="06ybtwdrwdfo9-n2_pnsc">COBA LAGI</string>
+  <string mz="title" name="06ybtwdrwdfo5-n3_mccl">MEMPERBARUI</string>
+  <string mz="btn_retry" name="06ybtwdrum1vd-n17_pnsc">COBA LAGI</string>
+  <string mz="btn_cancel" name="06ybtwdrum1vd-n24_gki4">TOLONG</string>
+  <string mz="text_title" name="06ybtwdrwdfo0-n28_wb9d">MEMPERBARUI</string>
+  <string mz="text_tips0" name="06ybtwdrwdfo0-n25_scox">Versi baru tersedia.
+Memperbarui sekarang!</string>
+  <string mz="n7" name="06ybtwdrunhvf-n7_kmcp">GABUNG</string>
+  <string mz="text_title" name="06ybtwdrwdfo7-n33_wb9d">TIDAK ADA JARINGAN!!!</string>
+  <string mz="text_reconnectStatus" name="06ybtwdrwdfo7-n22_b72q">Tidak ada jaringan!!!</string>
+  <string mz="text_status" name="06ybtwdrwdfo7-n24_b72q">Status: Init</string>
+  <string mz="n31" name="06ybtwdrwdfo7-n31_mdwa">Ups, sepertinya ada sesuatu
+salah!</string>
+  <string mz="text_code" name="06ybtwdrxeq4i-n58_rcj0">RRRRRR</string>
+  <string mz="title" name="9euvtldhlh5y3j-n1_lh5y">YA</string>
+  <string mz="btn_exit" name="9euvtldhlh5y3i-n3_lh5y">TIDAK</string>
+  <string mz="text_title" name="9euvtldhlh5y3i-n5_lh5y">MASUKKAN GAME?</string>
+  <string mz="text_tips" name="9euvtldhlh5y3i-n6_lh5y">Setelah menyetujui &lt;Privacy Policy&gt;
+ dan &lt;Terms of Use&gt;, dapatkah kami menyediakan
+Anda dengan layanan permainan. Konfirmasikan
+ persetujuan?</string>
+  <string mz="text_website" name="9euvtldhd4qv0-n14_c6nc">Setujui &lt;a href='xxx'&gt;Kebijakan Privasi&lt;/a&gt; &amp; &lt;a href2='xxx2'&gt;Persyaratan atau Penggunaan&lt;/a&gt;</string>
+  <string mz="n5" name="5tzgfbiwm9c27-n5_m9c2">Jangan pernah muncul lagi</string>
+  <string mz="title" name="5tzgfbiwp5cs11-n2_p3x0">Oke</string>
+  <string mz="text_title" name="5tzgfbiws5oq1q-n1_s5oq">TUTORIAL</string>
+  <string mz="text_tips0" name="5tzgfbiws5oq1q-n2_s5oq">PINDAHKAN BATA NOMOR KE PLUS 1,
+COCOKKAN 3 ANGKA YANG SAMA UNTUK DIGABUNG.</string>
+  <string mz="txt" name="sirjnrkkqj6mi-n54_ilew">Bahasa inggris</string>
+  <string mz="txt" name="sirjnrkkqj6mp-n61_ilew">Bahasa inggris</string>
+  <string mz="title" name="sirjnrkkqj6md-n2_waaa">tutorial</string>
+  <string mz="title" name="sirjnrkkqj6m3-n2_waaa">Mengulang kembali</string>
+  <string mz="title" name="sirjnrkkqj6m8-n2_waaa">Suara AKTIF</string>
+  <string mz="title" name="sirjnrkkqj6m8-n2_waaa-texts_0">Suara AKTIF</string>
+  <string mz="title" name="sirjnrkkqj6m8-n2_waaa-texts_1">Matikan suara</string>
+  <string mz="title" name="sirjnrkku4s6t-n2_waaa">Getaran AKTIF</string>
+  <string mz="title" name="sirjnrkku4s6t-n2_waaa-texts_0">Getaran AKTIF</string>
+  <string mz="title" name="sirjnrkku4s6t-n2_waaa-texts_1">Getaran MATI</string>
+  <string mz="text_title" name="sirjnrkkqj6m0-n14_e5ju">PENGATURAN</string>
+  <string mz="title" name="rl7u9y2lmdwa0-n11_djob">&lt;img src=ui://9gpz896kdjob26&gt;AKUN</string>
+  <string mz="title" name="rl7u9y2ldjob27-n3_djob">&lt;img src=ui://rl7u9y2ldjob28&gt; [U]Ubah permainan[/U]</string>
+  <string mz="title" name="rl7u9y2lntzg30-n4_ntzg">PUBG Seluler</string>
+  <string mz="title" name="rl7u9y2lmdwa8-n3_pxc1">KONFIRMASI</string>
+  <string mz="title" name="rl7u9y2lmdwa9-n17_pxdq">MENUKARKAN</string>
+  <string mz="title" name="rl7u9y2lmdwac-n3_pxc1">KIRIM LAPISAN</string>
+  <string mz="text_target" name="rl7u9y2lmdwae-n66_djob">Kumpulkan mata uang [color=#FF9000]{target=10,000}[/color]</string>
+  <string mz="text_target" name="rl7u9y2lmdwae-n66_djob-texts_0">Kumpulkan mata uang [color=#FF9000]{target=10,000}[/color]</string>
+  <string mz="text_target" name="rl7u9y2lmdwae-n66_djob-texts_1">Capai level [color=#FF9000]{target=10,000}[/color]</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg">Anda harus menonton lebih banyak video [color=#00CC00]{ad=500}[/color] untuk mengaktifkan pesanan</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg-texts_0">Tonton video [color=#FF8700]{ad=500}[/color] untuk memenangkan hadiah</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg-texts_1">Menonton video akan mengurangi waktu peninjauan sebesar [color=#00CC00]{minute=5}[/color] menit</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg-texts_def">Anda harus menonton lebih banyak video [color=#00CC00]{ad=500}[/color] untuk mengaktifkan pesanan</string>
+  <string mz="text_queueText" name="rl7u9y2lmdwae-n69_ntzg">{queuePlayers=9999} pemain di depan Anda</string>
+  <string mz="text_queueMove" name="rl7u9y2lmdwae-n44_m6sp">Anda harus menonton lebih banyak video [color=#00CC00]{ad=500}[/color] untuk mengaktifkan pesanan</string>
+  <string mz="text_queueMove" name="rl7u9y2lmdwae-n44_m6sp-texts_0">Satu video memindahkan Anda ke [color=#FF8700]{movePlayers=50} [/color]tempat!</string>
+  <string mz="text_queueMove" name="rl7u9y2lmdwae-n44_m6sp-texts_def">Anda harus menonton lebih banyak video [color=#00CC00]{ad=500}[/color] untuk mengaktifkan pesanan</string>
+  <string mz="text_finish" name="rl7u9y2lmdwae-n70_ntzg">Penukaran berhasil!</string>
+  <string mz="text_finishWait" name="rl7u9y2lmdwae-n61_iqhi">Anda akan menerima hadiah ini dalam [color=#06FF00]7[/color] hari kerja.</string>
+  <string mz="text_successful" name="rl7u9y2lmdwae-n72_ntzg">Berhasil</string>
+  <string mz="n1" name="rl7u9y2ll3r63l-n1_hm08">PUBG Seluler</string>
+  <string mz="text_title" name="rl7u9y2lu4s63c-n4_u4s6">MEMUAT</string>
+  <string mz="text_tips0" name="rl7u9y2lu4s63c-n5_u4s6">Server tertaut...</string>
+  <string mz="text_tips1" name="rl7u9y2lu4s63c-n6_u4s6">Kirim akun...</string>
+  <string mz="text_tips2" name="rl7u9y2lu4s63c-n7_u4s6">Membuat perubahan...</string>
+  <string mz="text_tips0" name="rl7u9y2lmdwau-n12_djob">Silakan masukkan akun game asli Anda!</string>
+  <string mz="text_accouont" name="rl7u9y2lmdwau-n3_pxc1-prompt">[color=#818181]Masukkan akun Anda[/color]</string>
+  <string mz="btn_guest" name="rl7u9y2lmdwau-n13_wb9d">AKSES TAMU</string>
+  <string mz="btn_close" name="rl7u9y2lmdwau-n14_wb9d">Tidak berubah</string>
+  <string mz="text_title" name="rl7u9y2ll3r63j-n3_ntzg">HADIAH GRATIS</string>
+  <string mz="text_tips0" name="rl7u9y2ll3r63j-n4_ntzg">Pilih game yang ingin Anda hadiahi!</string>
+  <string mz="text_tips1" name="rl7u9y2ll3r63j-n10_pjbr">Anda tidak dapat mengubah permainan jika Anda mengonfirmasi!</string>
+  <string mz="text_account" name="rl7u9y2lmdwaz-n53_wb9d">987654321@qq.com</string>
+  <string mz="text_guestAccount" name="rl7u9y2lmdwaz-n57_ntzg">Akun tamu</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981">Anda dapat mengubah permainan yang Anda inginkan.</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_0">Anda dapat mengubah permainan yang Anda inginkan.</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_1">Anda dapat mengubah akun sebelum mengirimkan pesanan.</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_2">Terima berlian yang cukup untuk memenangkan hadiah, Anda juga dapat menyelesaikan tantangan untuk memenangkan hadiah.</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_3">Mainkan game dan menangkan hadiah sekarang!</string>
+  <string mz="text_title" name="rl7u9y2lmciw3z-n1_mciw">MENGIKAT</string>
+  <string mz="text_gameName" name="rl7u9y2lmciw3z-n9_pjbr">PUBG</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw3z-n8_mciw">Ikat akun {gameName=PUBG} Anda sehingga mata uang yang Anda tarik akan didistribusikan secara akurat ke akun Anda</string>
+  <string mz="btn_bind" name="rl7u9y2lmciw3z-n5_mciw">MENGIKAT</string>
+  <string mz="btn_later" name="rl7u9y2lmciw3z-n6_mciw">NANTI</string>
+  <string mz="text_title" name="rl7u9y2lmciw40-n1_mciw">BERHASIL</string>
+  <string mz="text_title" name="rl7u9y2lmciw40-n1_mciw-texts_0">GAGAL</string>
+  <string mz="text_title" name="rl7u9y2lmciw40-n1_mciw-texts_def">BERHASIL</string>
+  <string mz="text_gameName" name="rl7u9y2lmciw40-n10_pjbr">PUBG</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw40-n8_mciw">Pengikatan berhasil!
+Sekarang mainkan game dan kumpulkan mata uang!</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw40-n8_mciw-texts_0">Pengikatan berhasil!
+Sekarang mainkan game dan kumpulkan mata uang!</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw40-n8_mciw-texts_1">Pengikatan gagal!
+Aplikasi {gameName=PUBG} tidak terdeteksi, harap ikat nanti</string>
+  <string mz="btn_confirm" name="rl7u9y2lmciw40-n5_mciw">KONFIRMASI</string>
+  <string mz="text_account" name="rl7u9y2lmdwa18-n15_x8xq">111@outlook.com</string>
+  <string mz="text_title" name="rl7u9y2lmdwa18-n19_w8q4">AKUN</string>
+  <string mz="text_tips0" name="rl7u9y2lmdwa18-n7_wlb4">Tautan berhasil!
+Menangkan hadiah sekarang!</string>
+  <string mz="btn_continue" name="rl7u9y2lmdwa18-n3_pxc1">MELANJUTKAN</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw3y-n3_mciw">Apakah Anda yakin akan menukarkan ke akun ini?</string>
+  <string mz="text_account" name="rl7u9y2lmciw3y-n5_mciw">helloworld@outlook.com</string>
+  <string mz="btn_confirm" name="rl7u9y2lmciw3y-n6_mciw">KONFIRMASI</string>
+  <string mz="btn_change" name="rl7u9y2lmciw3y-n7_mciw">GANTI AKUN</string>
+  <string mz="text_title" name="rl7u9y2lmdwa1f-n18_navc">SUKSES</string>
+  <string mz="text_tips0" name="rl7u9y2lmdwa1f-n8_nzkm">Selesaikan semua tugas dan menangkan hadiah ini!</string>
+  <string mz="btn_next" name="rl7u9y2lmdwa1f-n1_pxc1">Oke</string>
+  <string mz="text_title" name="rl7u9y2lu4s63e-n4_u4s6">MENUKARKAN</string>
+  <string mz="text_tips0" name="rl7u9y2lu4s63e-n5_u4s6">Server tertaut...</string>
+  <string mz="text_tips1" name="rl7u9y2lu4s63e-n6_u4s6">Masukan pesanan...</string>
+  <string mz="text_tips2" name="rl7u9y2lu4s63e-n7_u4s6">Tinjauan pesanan...</string>
+  <string mz="title" name="3ajwo69pqj6mf4j-n4_lq0a">MENGEKLAIM</string>
+  <string mz="title" name="3ajwo69pqj6mf47-n4_10cvf">TIDAK, TERIMA KASIH</string>
+  <string mz="title" name="3ajwo69pqj6mf3x-n5_e8og">MENERIMA</string>
+  <string mz="text_value" name="3ajwo69pqj6mf42-n2_eimb">×{count=4}</string>
+  <string mz="text_title" name="3ajwo69pqj6mf3u-n33_ntzg">KOMBO BESAR</string>
+  <string mz="text_rate" name="3ajwo69pqj6mf3u-n40_illt">{abc=RATE}</string>
+  <string mz="text_mutiple" name="3ajwo69pqj6mf3u-n36_ntzg">x5</string>
+  <string mz="btn_coliect" name="3ajwo69pqj6mf3u-n3_e8og">MENERIMA</string>
+  <string mz="text_pbTips" name="3ajwo69pqj6mf3u-n44_u4s6">Kumpulkan cukup untuk menebus!</string>
+  <string mz="text_title" name="3ajwo69pmciwf4u-n18_ntzg">KOMBO</string>
+  <string mz="btn_claim" name="3ajwo69pmciwf4u-n14_lq0a">MENGEKLAIM</string>
+  <string mz="text_pbTips" name="3ajwo69pmciwf4u-n26_u4s6">Kumpulkan cukup untuk menebus!</string>
+  <string mz="text_title" name="3ajwo69pqj6mf48-n9_lq0a">NAIK TINGKAT</string>
+  <string mz="text_pbTips" name="3ajwo69pqj6mf48-n19_u4s6">Kumpulkan cukup untuk menebus!</string>
+  <string mz="text_pbTips" name="3ajwo69pmciwf4t-n15_mciw">Kumpulkan cukup untuk menebus!</string>
+  <string mz="text_title" name="3ajwo69pqj6mf4k-n18_ntzg">SELAMAT</string>
+  <string mz="btn_claim" name="3ajwo69pqj6mf4k-n14_lq0a">MENGEKLAIM</string>
+  <string mz="text_pbTips" name="3ajwo69pqj6mf4k-n26_u4s6">Kumpulkan cukup untuk menebus!</string>
+  <string mz="title" name="ayq1m1qumciw0-n1_mciw">MAINKAN GAME UNTUK MENGUMPULKAN</string>
+  <string mz="title" name="ayq1m1qumciw2-n3_mciw">MENUKARKAN</string>
+  <string mz="text_title" name="ayq1m1qumciw41-n1_mciw">KEJUTAN UNTUK ANDA</string>
+  <string mz="text_leftTips" name="ayq1m1qumciw41-n2_mciw">WAKTU TERSISA:</string>
+  <string mz="text_timeShow" name="ayq1m1qumciw41-n6_mciw">Anda bisa mendapatkan hadiah ini setelah [color=#FFD600]{time=48} jam[/color]</string>
+  <string mz="text_maxWin" name="ayq1m1qumciw41-n13_mciw">Kemenangan maksimal [color=#FFD600]{max=9999}[/color]</string>
+  <string mz="text_getTips" name="ayq1m1qumciw41-n15_mciw">Dapatkan sebanyak yang Anda kumpulkan</string>
+  <string mz="text_title" name="ayq1m1qumciw42-n4_mciw">MENYELESAIKAN</string>
+  <string mz="text_tips0" name="ayq1m1qumciw42-n14_mciw">Dapatkan hadiah Anda sekarang!
+Dan temukan lebih banyak kejutan!</string>
+  <string mz="title" name="a1jbnm9hmciw2-n11_djob">&lt;img src=ui://9gpz896kdjob26&gt;AKUN</string>
+  <string mz="title" name="a1jbnm9hr4ip49-n4_r4ip">KONFIRMASI</string>
+  <string mz="title" name="a1jbnm9hmciw0-n17_pxdq">MENUKARKAN</string>
+  <string mz="title_value" name="a1jbnm9he31h3t-n4_e31h">{chip=999}&lt;img src=ui://9gpz896kpjbras width=32 height=32&gt;TUKARKAN</string>
+  <string mz="title" name="a1jbnm9hmciw1-n3_pxc1">KIRIM LAPISAN</string>
+  <string mz="text_tips0" name="a1jbnm9he31h3r-n5_lln7">Dikirim ke akun Anda dalam 14 hari kerja</string>
+  <string mz="text_account" name="a1jbnm9he31h3u-n53_wb9d">987654321@qq.com</string>
+  <string mz="text_guestAccount" name="a1jbnm9he31h3u-n57_ntzg">AKUN TAMU</string>
+  <string mz="text_account" name="a1jbnm9hmciw3w-n5_mciw">helloworld@outlook.com</string>
+  <string mz="text_tips0" name="a1jbnm9hmciw3w-n3_mciw">Apakah Anda yakin akan menukarkan ke akun ini?</string>
+  <string mz="btn_confirm" name="a1jbnm9hmciw3w-n6_mciw">KONFIRMASI</string>
+  <string mz="btn_change" name="a1jbnm9hmciw3w-n7_mciw">GANTI AKUN</string>
+  <string mz="text_title" name="a1jbnm9hmciw3x-n10_lln7">SUKSES</string>
+  <string mz="text_tips1" name="a1jbnm9hmciw3x-n3_mciw">Hadiah akan dikirim ke akun Anda dalam 14 hari kerja</string>
+  <string mz="text_title" name="a1jbnm9hmdwa1g-n9_w8q4">TIPS</string>
+  <string mz="text_tips0" name="a1jbnm9hmdwa1g-n8_wb9d">Anda sekarang adalah tamu.</string>
+  <string mz="text_tips1" name="a1jbnm9hmdwa1g-n6_nzkm">Anda harus menautkan akun Anda untuk menebus hadiah</string>
+  <string mz="btn_confirm" name="a1jbnm9hmdwa1g-n1_pxc1">TAUTAN</string>
+  <string mz="text_title" name="fmr5mo8pg5fl1k-n30_e5ju">ATRIBUT</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3">Ketuk batu bata angka ke minus 1</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3-texts_0">Ketuk batu bata angka untuk ditambah 2</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3-texts_1">Ketuk batu bata nomor untuk dihancurkan</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3-texts_def">Ketuk batu bata angka ke minus 1</string>
+  <string mz="n4" name="tiosr750e9kl1-n4_e9kl">KELUAR</string>
+  <string mz="title" name="tiosr750p3x0k1l-n1_p3x0">TINJAUAN</string>
+  <string mz="text_title" name="tiosr750e9kl0-n34_e5ju">PERMAINAN TELAH BERAKHIR</string>
+  <string mz="text_title" name="7xruccmafntl0-n36_mfgs">MASUKAN</string>
+  <string mz="text_tips0" name="7xruccmafntl0-n28_nop9">Nilai kami dan jadikan kami lebih baik</string>
+  <string mz="title" name="94fbq9npw8q42q-n1_w8q4">KONFIRMASI</string>
+  <string mz="title" name="94fbq9nppjbr2c-n1_pjbr">PALU</string>
+  <string mz="title" name="94fbq9nppjbr2c-n1_pjbr-texts_0">MENINGKAT</string>
+  <string mz="title" name="94fbq9nppjbr2c-n1_pjbr-texts_1">PALU</string>
+  <string mz="title" name="94fbq9nppjbr2b-n1_pjbr">MENUKARKAN</string>
+  <string mz="title" name="94fbq9nppjbr27-n1_pjbr">KULIT</string>
+  <string mz="text_level" name="94fbq9nppjbr27-n4_pjbr">TINGKAT{unlockSkinLevel=5}</string>
+  <string mz="info" name="94fbq9npw8q42p-n9_ht85">Anda dapat memenangkan skin game secara gratis</string>
+  <string mz="text_title" name="zrdho07jotfn34-n17_sulh">TIPS</string>
+  <string mz="text_content" name="zrdho07jotfn34-n2_naor">Fungsi ini belum tersedia!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2">Selesaikan tugas untuk memenangkan hadiah ini!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_0">Selesaikan tugas untuk memenangkan hadiah ini!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_1">Anda juga dapat mengumpulkan mata uang untuk menebus hadiah lainnya!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_2">Kumpulkan pecahan yang cukup untuk menebus kulit favorit Anda!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_3">Mainkan game sekarang untuk mengumpulkan pecahan gratis!</string>
+  <string mz="txt" name="v5jd19r68d5zh-n54_ilew">Bahasa inggris</string>
+  <string mz="txt" name="v5jd19r68d5zo-n61_ilew">Bahasa inggris</string>
+  <string mz="title" name="v5jd19r6fi6if-n1_fi6i">iklan</string>
+  <string mz="on" name="v5jd19r6fi6i2-n8_wwb2">
+  </string>
+  <string mz="off" name="v5jd19r6fi6i2-n9_wwb2">
+  </string>
+  <string mz="title" name="v5jd19r6fi6i2-n12_fi6i">广告 过滤</string>
+  <string mz="n14" name="v5jd19r6fi6i1-n14_l0se">Peralatan</string>
+  <string mz="btn_adSetting" name="v5jd19r6fi6i1-n4_waaa">广告 过滤</string>
+  <string mz="btn_open_exchange" name="v5jd19r6fi6i1-n49_8d5z">兑换 开启</string>
+  <string mz="btn_addGold1" name="v5jd19r6fi6i1-n21_fi6i">+5000金币、+500</string>
+  <string mz="btn_addGold2" name="v5jd19r6fi6i1-n27_fi6i">+50000金币</string>
+  <string mz="btn_addLevel" name="v5jd19r6fi6i1-n37_fi6i">+1等级</string>
+  <string mz="btn_addVideo" name="v5jd19r6fi6i1-n36_fi6i">+1视频</string>
+</resources>

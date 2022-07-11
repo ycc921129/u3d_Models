@@ -7,6 +7,6 @@ namespace ProjectApp.Data
 {
     public static class ConfigVOVersion
     {
-        public const string InternalVersion = "a038f3a3ac99f33b2ea8c34339f6550f";
+        public const string InternalVersion = "39ee23dce184d6f27dba532765e529fe";
     }
 }

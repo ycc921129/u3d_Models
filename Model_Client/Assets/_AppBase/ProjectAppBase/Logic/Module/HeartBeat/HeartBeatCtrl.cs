@@ -40,10 +40,7 @@ namespace ProjectApp
             AppDispatcher.Instance.AddFinallyListener(AppMsg.WebSocketServer_ConnectSucceed, OnNetConnectSucceed);
             AppDispatcher.Instance.AddFinallyListener(AppMsg.WebSocketServer_Disconnect, OnNetDisconnect);
             ctrlDispatcher.AddFinallyListener(CtrlMsg.Login_Succeed, OnLoginSucceed);
-            ctrlDispatcher.AddFinallyListener(CtrlMsg.Login_ReloginSucceed, OnLoginSucceed);
-
-            pomeloMsgOnDispatcher.AddListener(RouteConst.Route_heartbeat, OnS2C_heartbeat);
-            pomeloMsgOnDispatcher.AddListener(RouteConst.HeartBeat_Success, OnHeartSuccess);
+            ctrlDispatcher.AddFinallyListener(CtrlMsg.Login_ReloginSucceed, OnLoginSucceed);            
         }
 
         protected override void RemoveListener()
@@ -52,9 +49,6 @@ namespace ProjectApp
             AppDispatcher.Instance.RemoveFinallyListener(AppMsg.WebSocketServer_Disconnect, OnNetDisconnect);
             ctrlDispatcher.RemoveFinallyListener(CtrlMsg.Login_Succeed, OnLoginSucceed);
             ctrlDispatcher.RemoveFinallyListener(CtrlMsg.Login_ReloginSucceed, OnLoginSucceed);
-
-            pomeloMsgOnDispatcher.RemoveListener(RouteConst.Route_heartbeat, OnS2C_heartbeat);
-            pomeloMsgOnDispatcher.RemoveListener(RouteConst.HeartBeat_Success, OnHeartSuccess);
         }
 
         protected override void AddServerListener()
@@ -65,12 +59,7 @@ namespace ProjectApp
         protected override void RemoveServerListener()
         {
 
-        }
-
-        public void SyncTime()
-        {
-            WSNetMgr.Instance.ImmediateSendHeartBeat(heartBeatMsg);
-        }
+        }        
 
         private void OnNetConnectSucceed(object param)
         {
@@ -87,21 +76,7 @@ namespace ProjectApp
                 heartBeatTimer.Dispose();
             }
 
-            hasServerHeartBeat = true;
-
-            WSNetMgr.Instance.ImmediateSendHeartBeat(heartBeatMsg);
-            heartBeatTimer = TimerUtil.UnscaleGeneral.AddLoopTimer(DateTimeMgr.Instance.GetHeartBeatTime(), (timer) =>
-            {
-                if (hasServerHeartBeat)
-                {
-                    hasServerHeartBeat = false;
-                    if (WSNetMgr.Instance.ImmediateSendHeartBeat(heartBeatMsg))
-                    {
-                        // 统计
-                        ChannelMgr.Instance.StartStatisticTimeEvent(StatisticConst.networkavailable_delay);
-                    }
-                }
-            });
+            hasServerHeartBeat = true;            
         }
 
         private void OnLoginSucceed(object param)
@@ -129,12 +104,7 @@ namespace ProjectApp
             {
                 LogUtil.LogError(StringUtil.Concat(TAG, "heartbeat data is null"));
                 return;
-            }
-
-            if (WSNetMgr.Instance != null && WSNetMgr.Instance.IsDisplayLog())
-            {
-                LogUtil.Log(StringUtil.Concat(TAG, "S2C_heartbeat ts: ", (data.ts).ToString()));
-            }
+            }            
 
             UpdateServerCurrTime(data.ts);
         }

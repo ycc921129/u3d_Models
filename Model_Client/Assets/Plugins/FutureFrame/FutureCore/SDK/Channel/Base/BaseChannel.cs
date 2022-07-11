@@ -791,13 +791,6 @@ namespace FutureCore
         }
         #endregion
 
-        #region 调用: firebase事件投放使用
-        public virtual void onUpdateLtv24HJson(string configJson)
-        {
-            LogUtil.Log("[BaseChannel]firebase事件投放使用 configJson:" + configJson);
-        }
-        #endregion
-
         #region 调用: 硬件
         /// <summary>
         /// 开启震动
@@ -907,6 +900,13 @@ namespace FutureCore
         public virtual void logNormalForJson(string name, string mapJsonStr)
         {
             LogUtil.LogFormat("[BaseChannel]logNormalForJson name:{0} mapJsonStr:{1}", name, mapJsonStr);
+        }
+        #endregion
+
+        #region 调用: firebase事件投放使用
+        public virtual void onUpdateLtv24HJson(string configJson)
+        {
+            LogUtil.Log("[BaseChannel]firebase事件投放使用 configJson:" + configJson);
         }
         #endregion
 
@@ -1062,9 +1062,8 @@ namespace FutureCore
         /// </summary>
         public virtual void setAdsInterstitialConfig(string configJson)
         {
-            LogUtil.Log("[BaseChannel] setAdsInterstitialConfig 插屏广告配置 :" + configJson );
+            LogUtil.Log("[BaseChannel] setAdsInterstitialConfig 插屏广告配置 :" + configJson);
         }
-        
         #endregion
     }
 }

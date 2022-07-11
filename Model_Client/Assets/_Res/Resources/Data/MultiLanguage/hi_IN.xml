@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string mz="string" name="string">string</string>
+  <string mz="控件名字" name="组件索引">印地语</string>
+  <string mz="L" name="L">L</string>
+  <string mz="title" name="9gpz896kp4of6v-n6_fvxn">नि: शुल्क</string>
+  <string mz="title" name="9gpz896kqgal3b-n2_kft3">बिल्कुल</string>
+  <string mz="title" name="06ybtwdrgki4a-n4_gki4">रद्द करना</string>
+  <string mz="n2" name="06ybtwdrunhvg-n2_u7at">फ़ेसबुक से साइन इन करें</string>
+  <string mz="n1" name="06ybtwdrunhvh-n1_g7u0">Google के साथ साइन इन करें</string>
+  <string mz="n2" name="06ybtwdrgki4b-n2_pnsc">मदद करना</string>
+  <string mz="title" name="06ybtwdrwdfo9-n2_pnsc">पुनः प्रयास करें</string>
+  <string mz="title" name="06ybtwdrwdfo5-n3_mccl">अपडेट करें</string>
+  <string mz="btn_retry" name="06ybtwdrum1vd-n17_pnsc">पुनः प्रयास करें</string>
+  <string mz="btn_cancel" name="06ybtwdrum1vd-n24_gki4">मदद करना</string>
+  <string mz="text_title" name="06ybtwdrwdfo0-n28_wb9d">अपडेट करें</string>
+  <string mz="text_tips0" name="06ybtwdrwdfo0-n25_scox">नया संस्करण उपलब्ध है।
+अभी अद्यतन करें!</string>
+  <string mz="n7" name="06ybtwdrunhvf-n7_kmcp">लॉग इन करें</string>
+  <string mz="text_title" name="06ybtwdrwdfo7-n33_wb9d">कोई नेटवर्क नहीं!!!</string>
+  <string mz="text_reconnectStatus" name="06ybtwdrwdfo7-n22_b72q">कोई नेटवर्क नहीं!!!</string>
+  <string mz="text_status" name="06ybtwdrwdfo7-n24_b72q">स्थिति : Init</string>
+  <string mz="n31" name="06ybtwdrwdfo7-n31_mdwa">उफ़, ऐसा कुछ लगता है
+गड़बड़ हो गया!</string>
+  <string mz="text_code" name="06ybtwdrxeq4i-n58_rcj0">आरआरआरआरआरआर</string>
+  <string mz="title" name="9euvtldhlh5y3j-n1_lh5y">हां</string>
+  <string mz="btn_exit" name="9euvtldhlh5y3i-n3_lh5y">ना</string>
+  <string mz="text_title" name="9euvtldhlh5y3i-n5_lh5y">खेल दर्ज करें?</string>
+  <string mz="text_tips" name="9euvtldhlh5y3i-n6_lh5y">&lt;Privacy Policy&gt; से सहमत होने के बाद
+ और &lt;Terms of Use&gt;, क्या हम प्रदान कर सकते हैं
+आप खेल सेवाओं के साथ। पुष्टि
+ समझौता?</string>
+  <string mz="text_website" name="9euvtldhd4qv0-n14_c6nc">&lt;a href='xxx'&gt;गोपनीयता नीति&lt;/a&gt; और &lt;a href2='xxx2'&gt;शर्तें या उपयोग&lt;/a&gt; से सहमत हों</string>
+  <string mz="n5" name="5tzgfbiwm9c27-n5_m9c2">फिर कभी मत दिखाना</string>
+  <string mz="title" name="5tzgfbiwp5cs11-n2_p3x0">ठीक है</string>
+  <string mz="text_title" name="5tzgfbiws5oq1q-n1_s5oq">ट्यूटोरियल</string>
+  <string mz="text_tips0" name="5tzgfbiws5oq1q-n2_s5oq">एक संख्या ईंट को प्लस 1 पर ले जाएं,
+मर्ज करने के लिए 3 समान संख्याओं का मिलान करें।</string>
+  <string mz="txt" name="sirjnrkkqj6mi-n54_ilew">अंग्रेज़ी</string>
+  <string mz="txt" name="sirjnrkkqj6mp-n61_ilew">अंग्रेज़ी</string>
+  <string mz="title" name="sirjnrkkqj6md-n2_waaa">ट्यूटोरियल</string>
+  <string mz="title" name="sirjnrkkqj6m3-n2_waaa">पुनर्प्रारंभ करें</string>
+  <string mz="title" name="sirjnrkkqj6m8-n2_waaa">पर ध्वनि</string>
+  <string mz="title" name="sirjnrkkqj6m8-n2_waaa-texts_0">पर ध्वनि</string>
+  <string mz="title" name="sirjnrkkqj6m8-n2_waaa-texts_1">बकना</string>
+  <string mz="title" name="sirjnrkku4s6t-n2_waaa">कंपन चालू</string>
+  <string mz="title" name="sirjnrkku4s6t-n2_waaa-texts_0">कंपन चालू</string>
+  <string mz="title" name="sirjnrkku4s6t-n2_waaa-texts_1">कंपन बंद</string>
+  <string mz="text_title" name="sirjnrkkqj6m0-n14_e5ju">समायोजन</string>
+  <string mz="title" name="rl7u9y2lmdwa0-n11_djob">&lt;img src=ui://9gpz896kdjob26&gt;खाता</string>
+  <string mz="title" name="rl7u9y2ldjob27-n3_djob">&lt;img src=ui://rl7u9y2ldjob28&gt; [U]गेम बदलें[/U]</string>
+  <string mz="title" name="rl7u9y2lntzg30-n4_ntzg">पबजी मोबाइल</string>
+  <string mz="title" name="rl7u9y2lmdwa8-n3_pxc1">पुष्टि करें</string>
+  <string mz="title" name="rl7u9y2lmdwa9-n17_pxdq">के एवज</string>
+  <string mz="title" name="rl7u9y2lmdwac-n3_pxc1">परत जमा करें</string>
+  <string mz="text_target" name="rl7u9y2lmdwae-n66_djob">[color=#FF9000]{target=10,000}[/color] मुद्रा इकट्ठा करें</string>
+  <string mz="text_target" name="rl7u9y2lmdwae-n66_djob-texts_0">[color=#FF9000]{target=10,000}[/color] मुद्रा इकट्ठा करें</string>
+  <string mz="text_target" name="rl7u9y2lmdwae-n66_djob-texts_1">पहुंच स्तर [color=#FF9000]{target=10,000}[/color]</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg">आदेश सक्रिय करने के लिए आपको और [color=#00CC00]{ad=500}[/color] वीडियो देखने होंगे</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg-texts_0">इनाम जीतने के लिए [color=#FF8700]{ad=500}[/color] वीडियो देखें</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg-texts_1">वीडियो देखने से समीक्षा का समय [color=#00CC00]{minute=5}[/color] मिनट कम हो जाएगा</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg-texts_def">आदेश सक्रिय करने के लिए आपको और [color=#00CC00]{ad=500}[/color] वीडियो देखने होंगे</string>
+  <string mz="text_queueText" name="rl7u9y2lmdwae-n69_ntzg">{queuePlayers=9999} खिलाड़ी आपके सामने</string>
+  <string mz="text_queueMove" name="rl7u9y2lmdwae-n44_m6sp">आदेश सक्रिय करने के लिए आपको और [color=#00CC00]{ad=500}[/color] वीडियो देखने होंगे</string>
+  <string mz="text_queueMove" name="rl7u9y2lmdwae-n44_m6sp-texts_0">एक वीडियो आपको [color=#FF8700]{movePlayers=50} [/color]स्थानों तक ले जाता है!</string>
+  <string mz="text_queueMove" name="rl7u9y2lmdwae-n44_m6sp-texts_def">आदेश सक्रिय करने के लिए आपको और [color=#00CC00]{ad=500}[/color] वीडियो देखने होंगे</string>
+  <string mz="text_finish" name="rl7u9y2lmdwae-n70_ntzg">मोचन सफल!</string>
+  <string mz="text_finishWait" name="rl7u9y2lmdwae-n61_iqhi">आपको यह इनाम [color=#06FF00]7[/color] कामकाजी दिनों में मिल जाएगा।</string>
+  <string mz="text_successful" name="rl7u9y2lmdwae-n72_ntzg">सफल</string>
+  <string mz="n1" name="rl7u9y2ll3r63l-n1_hm08">पबजी मोबाइल</string>
+  <string mz="text_title" name="rl7u9y2lu4s63c-n4_u4s6">लोड हो रहा है</string>
+  <string mz="text_tips0" name="rl7u9y2lu4s63c-n5_u4s6">लिंक किया गया सर्वर...</string>
+  <string mz="text_tips1" name="rl7u9y2lu4s63c-n6_u4s6">खाता जमा करें...</string>
+  <string mz="text_tips2" name="rl7u9y2lu4s63c-n7_u4s6">परिवर्तन करें...</string>
+  <string mz="text_tips0" name="rl7u9y2lmdwau-n12_djob">कृपया अपना वास्तविक गेम खाता दर्ज करें!</string>
+  <string mz="text_accouont" name="rl7u9y2lmdwau-n3_pxc1-prompt">[color=#818181]अपना खाता दर्ज करें[/color]</string>
+  <string mz="btn_guest" name="rl7u9y2lmdwau-n13_wb9d">अतिथि पहुँच</string>
+  <string mz="btn_close" name="rl7u9y2lmdwau-n14_wb9d">परिवर्तन नहीं</string>
+  <string mz="text_title" name="rl7u9y2ll3r63j-n3_ntzg">मुफ़्त इनाम</string>
+  <string mz="text_tips0" name="rl7u9y2ll3r63j-n4_ntzg">वह खेल चुनें जिसके लिए आप पुरस्कृत होना चाहते हैं!</string>
+  <string mz="text_tips1" name="rl7u9y2ll3r63j-n10_pjbr">यदि आप पुष्टि करते हैं तो आप खेल को नहीं बदल सकते!</string>
+  <string mz="text_account" name="rl7u9y2lmdwaz-n53_wb9d">987654321@qq.com</string>
+  <string mz="text_guestAccount" name="rl7u9y2lmdwaz-n57_ntzg">अतिथि खाता</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981">आप जो खेल चाहते हैं उसे बदल सकते हैं।</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_0">आप जो खेल चाहते हैं उसे बदल सकते हैं।</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_1">आदेश जमा करने से पहले आप खाता बदल सकते हैं।</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_2">पुरस्कार जीतने के लिए पर्याप्त हीरे प्राप्त करें, साथ ही आप पुरस्कार जीतने की चुनौतियों को भी पूरा कर सकते हैं।</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_3">खेल खेलें और अभी पुरस्कार जीतें!</string>
+  <string mz="text_title" name="rl7u9y2lmciw3z-n1_mciw">बाँधना</string>
+  <string mz="text_gameName" name="rl7u9y2lmciw3z-n9_pjbr">पबजी</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw3z-n8_mciw">अपने {gameName=PUBG} खाते को आबद्ध करें ताकि आपके द्वारा निकाली गई मुद्रा आपके खाते में सटीक रूप से वितरित हो जाए</string>
+  <string mz="btn_bind" name="rl7u9y2lmciw3z-n5_mciw">बाँधना</string>
+  <string mz="btn_later" name="rl7u9y2lmciw3z-n6_mciw">बाद में</string>
+  <string mz="text_title" name="rl7u9y2lmciw40-n1_mciw">सफल होना</string>
+  <string mz="text_title" name="rl7u9y2lmciw40-n1_mciw-texts_0">असफल</string>
+  <string mz="text_title" name="rl7u9y2lmciw40-n1_mciw-texts_def">सफल होना</string>
+  <string mz="text_gameName" name="rl7u9y2lmciw40-n10_pjbr">पबजी</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw40-n8_mciw">बाइंडिंग सफल रही!
+अब गेम खेलें और करेंसी जमा करें!</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw40-n8_mciw-texts_0">बाइंडिंग सफल रही!
+अब गेम खेलें और करेंसी जमा करें!</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw40-n8_mciw-texts_1">बाइंडिंग विफल!
+{gameName=PUBG} एपीपी का पता नहीं चला, कृपया बाद में आबद्ध करें</string>
+  <string mz="btn_confirm" name="rl7u9y2lmciw40-n5_mciw">पुष्टि करें</string>
+  <string mz="text_account" name="rl7u9y2lmdwa18-n15_x8xq">111@outlook.com</string>
+  <string mz="text_title" name="rl7u9y2lmdwa18-n19_w8q4">खाता</string>
+  <string mz="text_tips0" name="rl7u9y2lmdwa18-n7_wlb4">सफलतापूर्वक लिंक करें!
+अब पुरस्कार जीतो!</string>
+  <string mz="btn_continue" name="rl7u9y2lmdwa18-n3_pxc1">जारी रखें</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw3y-n3_mciw">क्या आप वाकई इस खाते में रिडीम करना चाहते हैं?</string>
+  <string mz="text_account" name="rl7u9y2lmciw3y-n5_mciw">helloworld@outlook.com</string>
+  <string mz="btn_confirm" name="rl7u9y2lmciw3y-n6_mciw">पुष्टि करें</string>
+  <string mz="btn_change" name="rl7u9y2lmciw3y-n7_mciw">खाता परिवर्तन करें</string>
+  <string mz="text_title" name="rl7u9y2lmdwa1f-n18_navc">सफल</string>
+  <string mz="text_tips0" name="rl7u9y2lmdwa1f-n8_nzkm">सभी कार्यों को पूरा करें और यह इनाम जीतें!</string>
+  <string mz="btn_next" name="rl7u9y2lmdwa1f-n1_pxc1">ठीक है</string>
+  <string mz="text_title" name="rl7u9y2lu4s63e-n4_u4s6">के एवज</string>
+  <string mz="text_tips0" name="rl7u9y2lu4s63e-n5_u4s6">लिंक किया गया सर्वर...</string>
+  <string mz="text_tips1" name="rl7u9y2lu4s63e-n6_u4s6">आदेश प्रस्तुत...</string>
+  <string mz="text_tips2" name="rl7u9y2lu4s63e-n7_u4s6">ऑर्डर की समीक्षा...</string>
+  <string mz="title" name="3ajwo69pqj6mf4j-n4_lq0a">दावा</string>
+  <string mz="title" name="3ajwo69pqj6mf47-n4_10cvf">जी नहीं, धन्यवाद</string>
+  <string mz="title" name="3ajwo69pqj6mf3x-n5_e8og">प्राप्त करना</string>
+  <string mz="text_value" name="3ajwo69pqj6mf42-n2_eimb">×{count=4}</string>
+  <string mz="text_title" name="3ajwo69pqj6mf3u-n33_ntzg">बड़ा कॉम्बो</string>
+  <string mz="text_rate" name="3ajwo69pqj6mf3u-n40_illt">{abc=RATE}</string>
+  <string mz="text_mutiple" name="3ajwo69pqj6mf3u-n36_ntzg">x5</string>
+  <string mz="btn_coliect" name="3ajwo69pqj6mf3u-n3_e8og">प्राप्त करना</string>
+  <string mz="text_pbTips" name="3ajwo69pqj6mf3u-n44_u4s6">भुनाने के लिए पर्याप्त लीजिए!</string>
+  <string mz="text_title" name="3ajwo69pmciwf4u-n18_ntzg">कॉम्बो</string>
+  <string mz="btn_claim" name="3ajwo69pmciwf4u-n14_lq0a">दावा</string>
+  <string mz="text_pbTips" name="3ajwo69pmciwf4u-n26_u4s6">भुनाने के लिए पर्याप्त लीजिए!</string>
+  <string mz="text_title" name="3ajwo69pqj6mf48-n9_lq0a">ऊपर का स्तर</string>
+  <string mz="text_pbTips" name="3ajwo69pqj6mf48-n19_u4s6">भुनाने के लिए पर्याप्त लीजिए!</string>
+  <string mz="text_pbTips" name="3ajwo69pmciwf4t-n15_mciw">भुनाने के लिए पर्याप्त लीजिए!</string>
+  <string mz="text_title" name="3ajwo69pqj6mf4k-n18_ntzg">बधाई</string>
+  <string mz="btn_claim" name="3ajwo69pqj6mf4k-n14_lq0a">दावा</string>
+  <string mz="text_pbTips" name="3ajwo69pqj6mf4k-n26_u4s6">भुनाने के लिए पर्याप्त लीजिए!</string>
+  <string mz="title" name="ayq1m1qumciw0-n1_mciw">इकट्ठा करने के लिए खेल खेलें</string>
+  <string mz="title" name="ayq1m1qumciw2-n3_mciw">के एवज</string>
+  <string mz="text_title" name="ayq1m1qumciw41-n1_mciw">आपके लिए सरप्राइज</string>
+  <string mz="text_leftTips" name="ayq1m1qumciw41-n2_mciw">शेष समय:</string>
+  <string mz="text_timeShow" name="ayq1m1qumciw41-n6_mciw">आपको ये पुरस्कार [color=#FFD600]{time=48} घंटे[/color] के बाद मिल सकते हैं</string>
+  <string mz="text_maxWin" name="ayq1m1qumciw41-n13_mciw">अधिकतम जीत [color=#FFD600] {max=9999} [/color]</string>
+  <string mz="text_getTips" name="ayq1m1qumciw41-n15_mciw">जितना जमा करो उतना पाओ</string>
+  <string mz="text_title" name="ayq1m1qumciw42-n4_mciw">समाप्त</string>
+  <string mz="text_tips0" name="ayq1m1qumciw42-n14_mciw">अब अपने पुरस्कार प्राप्त करें!
+और अधिक आश्चर्य खोजें!</string>
+  <string mz="title" name="a1jbnm9hmciw2-n11_djob">&lt;img src=ui://9gpz896kdjob26&gt;खाता</string>
+  <string mz="title" name="a1jbnm9hr4ip49-n4_r4ip">पुष्टि करें</string>
+  <string mz="title" name="a1jbnm9hmciw0-n17_pxdq">के एवज</string>
+  <string mz="title_value" name="a1jbnm9he31h3t-n4_e31h">{chip=999}&lt;img src=ui://9gpz896kpjbras width=32 height=32&gt;रिडीम</string>
+  <string mz="title" name="a1jbnm9hmciw1-n3_pxc1">परत जमा करें</string>
+  <string mz="text_tips0" name="a1jbnm9he31h3r-n5_lln7">14 कार्य दिवसों के भीतर आपके खाते में भेज दिया गया</string>
+  <string mz="text_account" name="a1jbnm9he31h3u-n53_wb9d">987654321@qq.com</string>
+  <string mz="text_guestAccount" name="a1jbnm9he31h3u-n57_ntzg">अतिथि खाता</string>
+  <string mz="text_account" name="a1jbnm9hmciw3w-n5_mciw">helloworld@outlook.com</string>
+  <string mz="text_tips0" name="a1jbnm9hmciw3w-n3_mciw">क्या आप वाकई इस खाते में रिडीम करना चाहते हैं?</string>
+  <string mz="btn_confirm" name="a1jbnm9hmciw3w-n6_mciw">पुष्टि करें</string>
+  <string mz="btn_change" name="a1jbnm9hmciw3w-n7_mciw">खाता परिवर्तन करें</string>
+  <string mz="text_title" name="a1jbnm9hmciw3x-n10_lln7">सफल</string>
+  <string mz="text_tips1" name="a1jbnm9hmciw3x-n3_mciw">इनाम आपके खाते में 14 कामकाजी दिनों के अंदर भेज दिया जाएगा</string>
+  <string mz="text_title" name="a1jbnm9hmdwa1g-n9_w8q4">सलाह</string>
+  <string mz="text_tips0" name="a1jbnm9hmdwa1g-n8_wb9d">अब आप अतिथि हैं।</string>
+  <string mz="text_tips1" name="a1jbnm9hmdwa1g-n6_nzkm">पुरस्कारों को भुनाने के लिए आपको अपना खाता लिंक करना होगा</string>
+  <string mz="btn_confirm" name="a1jbnm9hmdwa1g-n1_pxc1">संपर्क</string>
+  <string mz="text_title" name="fmr5mo8pg5fl1k-n30_e5ju">सहारा</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3">एक संख्या ईंट को शून्य से 1 . तक टैप करें</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3-texts_0">संख्या ईंट को प्लस 2 पर टैप करें</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3-texts_1">नष्ट करने के लिए एक नंबर ईंट पर टैप करें</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3-texts_def">एक संख्या ईंट को शून्य से 1 . तक टैप करें</string>
+  <string mz="n4" name="tiosr750e9kl1-n4_e9kl">बाहर निकलना</string>
+  <string mz="title" name="tiosr750p3x0k1l-n1_p3x0">समीक्षा</string>
+  <string mz="text_title" name="tiosr750e9kl0-n34_e5ju">खेल खत्म</string>
+  <string mz="text_title" name="7xruccmafntl0-n36_mfgs">प्रतिक्रिया</string>
+  <string mz="text_tips0" name="7xruccmafntl0-n28_nop9">हमें रेट करें और हमें बेहतर बनाएं</string>
+  <string mz="title" name="94fbq9npw8q42q-n1_w8q4">पुष्टि करें</string>
+  <string mz="title" name="94fbq9nppjbr2c-n1_pjbr">हथौड़ा</string>
+  <string mz="title" name="94fbq9nppjbr2c-n1_pjbr-texts_0">बढ़ोतरी</string>
+  <string mz="title" name="94fbq9nppjbr2c-n1_pjbr-texts_1">हथौड़ा</string>
+  <string mz="title" name="94fbq9nppjbr2b-n1_pjbr">के एवज</string>
+  <string mz="title" name="94fbq9nppjbr27-n1_pjbr">त्वचा</string>
+  <string mz="text_level" name="94fbq9nppjbr27-n4_pjbr">स्तर {unlockSkinLevel=5}</string>
+  <string mz="info" name="94fbq9npw8q42p-n9_ht85">आप मुफ्त में गेम स्किन जीत सकते हैं</string>
+  <string mz="text_title" name="zrdho07jotfn34-n17_sulh">सलाह</string>
+  <string mz="text_content" name="zrdho07jotfn34-n2_naor">यह सुविधा अभी उपलब्ध नहीं है!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2">यह इनाम जीतने के लिए काम पूरा करें!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_0">यह इनाम जीतने के लिए काम पूरा करें!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_1">आप अन्य पुरस्कारों को भुनाने के लिए मुद्रा भी एकत्र कर सकते हैं!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_2">अपनी पसंदीदा त्वचा को भुनाने के लिए पर्याप्त शार्क इकट्ठा करें!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_3">मुक्त करने के लिए शार्क इकट्ठा करने के लिए अब खेल खेलें!</string>
+  <string mz="txt" name="v5jd19r68d5zh-n54_ilew">अंग्रेज़ी</string>
+  <string mz="txt" name="v5jd19r68d5zo-n61_ilew">अंग्रेज़ी</string>
+  <string mz="title" name="v5jd19r6fi6if-n1_fi6i">विज्ञापन</string>
+  <string mz="on" name="v5jd19r6fi6i2-n8_wwb2">मैं</string>
+  <string mz="off" name="v5jd19r6fi6i2-n9_wwb2">मैं</string>
+  <string mz="title" name="v5jd19r6fi6i2-n12_fi6i">मैं</string>
+  <string mz="n14" name="v5jd19r6fi6i1-n14_l0se">औजार</string>
+  <string mz="btn_adSetting" name="v5jd19r6fi6i1-n4_waaa">मैं</string>
+  <string mz="btn_open_exchange" name="v5jd19r6fi6i1-n49_8d5z">मैं</string>
+  <string mz="btn_addGold1" name="v5jd19r6fi6i1-n21_fi6i">+5000金币、+500碎片</string>
+  <string mz="btn_addGold2" name="v5jd19r6fi6i1-n27_fi6i">+50000金币</string>
+  <string mz="btn_addLevel" name="v5jd19r6fi6i1-n37_fi6i">+1等级</string>
+  <string mz="btn_addVideo" name="v5jd19r6fi6i1-n36_fi6i">+1视频</string>
+</resources>

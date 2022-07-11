@@ -37,7 +37,7 @@ namespace ProjectApp.Protocol
         /// <summary>
         /// 登录天数和在线时长
         /// </summary>
-        public Statis statis;
+        public Statis statis;  
         /// <summary>  
         /// 运营配置
         /// </summary>
@@ -139,8 +139,8 @@ namespace ProjectApp.Protocol
         public object net_opt;
         public object net_opt_v1;
         public string version;
-    }
-
+    }    
+    
     public class Update
     {
         /// <summary>
@@ -163,6 +163,6 @@ namespace ProjectApp.Protocol
 
     public class AcctGame
     {
-        public int coin;
+        public int coin; 
     }
 }

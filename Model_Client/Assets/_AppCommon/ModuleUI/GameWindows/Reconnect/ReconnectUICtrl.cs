@@ -171,11 +171,6 @@ namespace ProjectApp
 
         public void SetReconnectFuncOpen(object param = null)
         {
-            if (WSNetMgr.Instance.State != WSNetState.LoginSuccess)
-            {
-                this.openStatus = true;
-                OpenUI();
-            }
         }
 
         public void SetReconnectFuncClose(object param)
@@ -185,13 +180,6 @@ namespace ProjectApp
 
         public void OnRetry()
         {
-            if (WSNetMgr.Instance.State == WSNetState.LoginFailed_MustDelay
-                || WSNetMgr.Instance.State == WSNetState.PreferencesParseError
-                || WSNetMgr.Instance.State == WSNetState.ConfigParseError
-                || WSNetMgr.Instance.State == WSNetState.ConfigSerializeError) return;
-
-            LoginCtrl.Instance.ConnectLogin();
-            uiCtrlDispatcher.Dispatch(UICtrlMsg.GameLoadingUI_Open);
         }
 
         public void OnHelp()
@@ -204,10 +192,7 @@ namespace ProjectApp
 
         private void EnableReconnect(object param)
         {
-            if (!NetConst.IsNetAvailable && !WSNetMgr.Instance.isConnected)
-            {
-                OpenUI();
-            }
+
         }
         #endregion
     }

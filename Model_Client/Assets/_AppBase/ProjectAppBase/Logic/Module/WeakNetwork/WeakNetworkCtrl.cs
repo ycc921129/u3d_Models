@@ -188,14 +188,15 @@ namespace ProjectApp
                     c2s_preferencesMsg.data.set.Add(newKey, newValue);
                 }
             }
-            if (c2s_preferencesMsg.data.set.Count != 0)
-            {
-                return WSNetMgr.Instance.Send(c2s_preferencesMsg);  
-            }
-            else
-            {
-                return true;
-            }
+            return true;
+            //if (c2s_preferencesMsg.data.set.Count != 0)
+            //{
+            //    return WSNetMgr.Instance.Send(c2s_preferencesMsg);  
+            //}
+            //else
+            //{
+            //    return true;
+            //}
         }
 
         public S2C_reg_login ReadLocalCacheS2CRegLoginMsg()
@@ -230,25 +231,11 @@ namespace ProjectApp
                 return isCanOfflineLogin;
             }
 
-            // 检查配置表
-            if (WSNetMgr.Instance.IsAppWssUrl())
+            if (LoginObsoleteConfig.IsExistObsoleteConfig())
             {
-                if (LoginWssConfig.IsExistWssConfig())
+                if (!LoginObsoleteConfig.IsCanReadObsoleteConfig())
                 {
-                    if (!LoginWssConfig.IsCanReadWssConfig())
-                    {
-                        return isCanOfflineLogin;
-                    }
-                }
-            }
-            else
-            {
-                if (LoginObsoleteConfig.IsExistObsoleteConfig())
-                {
-                    if (!LoginObsoleteConfig.IsCanReadObsoleteConfig())
-                    {
-                        return isCanOfflineLogin;
-                    }
+                    return isCanOfflineLogin;
                 }
             }
 
@@ -277,25 +264,11 @@ namespace ProjectApp
                 return isCanOfflineMode;
             }
 
-            // 检查配置表
-            if (WSNetMgr.Instance.IsAppWssUrl())
+            if (LoginObsoleteConfig.IsExistObsoleteConfig())
             {
-                if (LoginWssConfig.IsExistWssConfig())
+                if (!LoginObsoleteConfig.IsCanReadObsoleteConfig())
                 {
-                    if (!LoginWssConfig.IsCanReadWssConfig())
-                    {
-                        return isCanOfflineMode;
-                    }
-                }
-            }
-            else
-            {
-                if (LoginObsoleteConfig.IsExistObsoleteConfig())
-                {
-                    if (!LoginObsoleteConfig.IsCanReadObsoleteConfig())
-                    {
-                        return isCanOfflineMode;
-                    }
+                    return isCanOfflineMode;
                 }
             }
 
@@ -371,13 +344,7 @@ namespace ProjectApp
             holdNetOnlineRefCount++;
             if (holdNetOnlineRefCount > 0)
             {
-                isNeedNetLogin = true;
-                if (AppGlobal.IsLoginSucceed)
-                {
-                    return;
-                }
-                // 离线时强联网区域需要强行开启网络
-                UICtrlDispatcher.Instance.Dispatch(UICtrlMsg.ReconnectUI_Open);
+                isNeedNetLogin = true;               
                 NetConnectLogin();
             }
         }
@@ -411,10 +378,7 @@ namespace ProjectApp
             bool netWorkOnline = (bool)param;
             if (netWorkOnline)
             {
-                if (!AppGlobal.IsLoginSucceed)
-                {
-                    NetConnectLogin();
-                }
+
             }
         }
     }

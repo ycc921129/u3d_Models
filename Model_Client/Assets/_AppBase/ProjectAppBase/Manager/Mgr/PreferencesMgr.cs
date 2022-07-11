@@ -118,6 +118,7 @@ namespace ProjectApp
             AutoSaveList(autoSaveList);
             PreferencesSendSave();    
         }
+
         #region 远程存储
 
         #region 保存方法        
@@ -153,19 +154,8 @@ namespace ProjectApp
             if (c2s_preferencesMsg == null || c2s_preferencesMsg.data.set.Count == 0) return;
 
             AddDataVer();
-            if (WSNetMgr.Instance != null && !WSNetMgr.Instance.isConnected)
-            {  
-                WeakNetworkCtrl.Instance.UpdatePreferences();
-                ClearPreferencesDic();
-            }
-            else
-            {
-                bool isSendSucceed = WSNetMgr.Instance.Send(c2s_preferencesMsg);
-                if (isSendSucceed)
-                {
-                    ClearPreferencesDic();
-                }
-            }
+            WeakNetworkCtrl.Instance.UpdatePreferences();
+            ClearPreferencesDic();
         }
 
         #endregion 远程存储        

@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string mz="string" name="string">string</string>
+  <string mz="控件名字" name="组件索引">韩国</string>
+  <string mz="L" name="L">L</string>
+  <string mz="title" name="9gpz896kp4of6v-n6_fvxn">무료</string>
+  <string mz="title" name="9gpz896kqgal3b-n2_kft3">물론</string>
+  <string mz="title" name="06ybtwdrgki4a-n4_gki4">취소</string>
+  <string mz="n2" name="06ybtwdrunhvg-n2_u7at">페이스북으로 로그인</string>
+  <string mz="n1" name="06ybtwdrunhvh-n1_g7u0">구글 로그인</string>
+  <string mz="n2" name="06ybtwdrgki4b-n2_pnsc">돕다</string>
+  <string mz="title" name="06ybtwdrwdfo9-n2_pnsc">다시 시도하십시오</string>
+  <string mz="title" name="06ybtwdrwdfo5-n3_mccl">업데이트</string>
+  <string mz="btn_retry" name="06ybtwdrum1vd-n17_pnsc">다시 시도하십시오</string>
+  <string mz="btn_cancel" name="06ybtwdrum1vd-n24_gki4">돕다</string>
+  <string mz="text_title" name="06ybtwdrwdfo0-n28_wb9d">업데이트</string>
+  <string mz="text_tips0" name="06ybtwdrwdfo0-n25_scox">새 버전을 사용할 수 있습니다.
+지금 업데이트하세요!</string>
+  <string mz="n7" name="06ybtwdrunhvf-n7_kmcp">로그인</string>
+  <string mz="text_title" name="06ybtwdrwdfo7-n33_wb9d">네트워크 없음!!!</string>
+  <string mz="text_reconnectStatus" name="06ybtwdrwdfo7-n22_b72q">네트워크 없음!!!</string>
+  <string mz="text_status" name="06ybtwdrwdfo7-n24_b72q">상태 : 초기화</string>
+  <string mz="n31" name="06ybtwdrwdfo7-n31_mdwa">앗, 뭔가 그런 것 같다.
+잘못됐다!</string>
+  <string mz="text_code" name="06ybtwdrxeq4i-n58_rcj0">ㅋㅋㅋ</string>
+  <string mz="title" name="9euvtldhlh5y3j-n1_lh5y">예</string>
+  <string mz="btn_exit" name="9euvtldhlh5y3i-n3_lh5y">아니</string>
+  <string mz="text_title" name="9euvtldhlh5y3i-n5_lh5y">게임을 시작하시겠습니까?</string>
+  <string mz="text_tips" name="9euvtldhlh5y3i-n6_lh5y">&lt;Privacy Policy&gt; 동의 후
+ 및 &lt;Terms of Use&gt;을 제공할 수 있습니까?
+게임 서비스를 제공합니다. 확인
+ 합의?</string>
+  <string mz="text_website" name="9euvtldhd4qv0-n14_c6nc">&lt;a href='xxx'&gt;개인정보 보호정책&lt;/a&gt; 및 &lt;a href2='xxx2'&gt;약관 또는 사용&lt;/a&gt;에 동의합니다.</string>
+  <string mz="n5" name="5tzgfbiwm9c27-n5_m9c2">다시는 나타나지 않음</string>
+  <string mz="title" name="5tzgfbiwp5cs11-n2_p3x0">확인</string>
+  <string mz="text_title" name="5tzgfbiws5oq1q-n1_s5oq">지도 시간</string>
+  <string mz="text_tips0" name="5tzgfbiws5oq1q-n2_s5oq">숫자 브릭을 1로 옮기세요.
+병합하려면 3개의 동일한 숫자를 일치시키십시오.</string>
+  <string mz="txt" name="sirjnrkkqj6mi-n54_ilew">영어</string>
+  <string mz="txt" name="sirjnrkkqj6mp-n61_ilew">영어</string>
+  <string mz="title" name="sirjnrkkqj6md-n2_waaa">지도 시간</string>
+  <string mz="title" name="sirjnrkkqj6m3-n2_waaa">재시작</string>
+  <string mz="title" name="sirjnrkkqj6m8-n2_waaa">사운드 ON</string>
+  <string mz="title" name="sirjnrkkqj6m8-n2_waaa-texts_0">사운드 ON</string>
+  <string mz="title" name="sirjnrkkqj6m8-n2_waaa-texts_1">음소거</string>
+  <string mz="title" name="sirjnrkku4s6t-n2_waaa">진동 ON</string>
+  <string mz="title" name="sirjnrkku4s6t-n2_waaa-texts_0">진동 ON</string>
+  <string mz="title" name="sirjnrkku4s6t-n2_waaa-texts_1">진동 꺼짐</string>
+  <string mz="text_title" name="sirjnrkkqj6m0-n14_e5ju">설정</string>
+  <string mz="title" name="rl7u9y2lmdwa0-n11_djob">&lt;img src=ui://9gpz896kdjob26&gt;계정</string>
+  <string mz="title" name="rl7u9y2ldjob27-n3_djob">&lt;img src=ui://rl7u9y2ldjob28&gt; [U]게임 변경[/U]</string>
+  <string mz="title" name="rl7u9y2lntzg30-n4_ntzg">펍지 모바일</string>
+  <string mz="title" name="rl7u9y2lmdwa8-n3_pxc1">확인하다</string>
+  <string mz="title" name="rl7u9y2lmdwa9-n17_pxdq">상환하다</string>
+  <string mz="title" name="rl7u9y2lmdwac-n3_pxc1">레이어 제출</string>
+  <string mz="text_target" name="rl7u9y2lmdwae-n66_djob">[color=#FF9000]{target=10,000}[/color] 통화 수집</string>
+  <string mz="text_target" name="rl7u9y2lmdwae-n66_djob-texts_0">[color=#FF9000]{target=10,000}[/color] 통화 수집</string>
+  <string mz="text_target" name="rl7u9y2lmdwae-n66_djob-texts_1">도달 수준 [color=#FF9000]{target=10,000}[/color]</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg">주문을 활성화하려면 더 많은 [color=#00CC00]{ad=500}[/color] 동영상을 시청해야 합니다.</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg-texts_0">보상을 받으려면 [color=#FF8700]{ad=500}[/color] 동영상을 시청하세요.</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg-texts_1">동영상을 시청하면 검토 시간이 [color=#00CC00]{minute=5}[/color]분 단축됩니다.</string>
+  <string mz="text_adTime" name="rl7u9y2lmdwae-n34_u5kg-texts_def">주문을 활성화하려면 더 많은 [color=#00CC00]{ad=500}[/color] 동영상을 시청해야 합니다.</string>
+  <string mz="text_queueText" name="rl7u9y2lmdwae-n69_ntzg">앞에 있는 플레이어 {queuePlayers=9999}명</string>
+  <string mz="text_queueMove" name="rl7u9y2lmdwae-n44_m6sp">주문을 활성화하려면 더 많은 [color=#00CC00]{ad=500}[/color] 동영상을 시청해야 합니다.</string>
+  <string mz="text_queueMove" name="rl7u9y2lmdwae-n44_m6sp-texts_0">동영상 하나로 [color=#FF8700]{movePlayers=50} [/color]장소로 이동합니다!</string>
+  <string mz="text_queueMove" name="rl7u9y2lmdwae-n44_m6sp-texts_def">주문을 활성화하려면 더 많은 [color=#00CC00]{ad=500}[/color] 동영상을 시청해야 합니다.</string>
+  <string mz="text_finish" name="rl7u9y2lmdwae-n70_ntzg">상환 성공!</string>
+  <string mz="text_finishWait" name="rl7u9y2lmdwae-n61_iqhi">이 보상은 영업일 기준 [color=#06FF00]7[/color]일 이내에 받게 됩니다.</string>
+  <string mz="text_successful" name="rl7u9y2lmdwae-n72_ntzg">성공적인</string>
+  <string mz="n1" name="rl7u9y2ll3r63l-n1_hm08">펍지 모바일</string>
+  <string mz="text_title" name="rl7u9y2lu4s63c-n4_u4s6">로딩 중</string>
+  <string mz="text_tips0" name="rl7u9y2lu4s63c-n5_u4s6">연결된 서버...</string>
+  <string mz="text_tips1" name="rl7u9y2lu4s63c-n6_u4s6">계정 제출...</string>
+  <string mz="text_tips2" name="rl7u9y2lu4s63c-n7_u4s6">변화시키다...</string>
+  <string mz="text_tips0" name="rl7u9y2lmdwau-n12_djob">실제 게임 계정을 입력하세요!</string>
+  <string mz="text_accouont" name="rl7u9y2lmdwau-n3_pxc1-prompt">[color=#818181]계정 입력[/color]</string>
+  <string mz="btn_guest" name="rl7u9y2lmdwau-n13_wb9d">게스트 액세스</string>
+  <string mz="btn_close" name="rl7u9y2lmdwau-n14_wb9d">변경 없음</string>
+  <string mz="text_title" name="rl7u9y2ll3r63j-n3_ntzg">무료 보상</string>
+  <string mz="text_tips0" name="rl7u9y2ll3r63j-n4_ntzg">보상을 받고 싶은 게임을 선택하세요!</string>
+  <string mz="text_tips1" name="rl7u9y2ll3r63j-n10_pjbr">확인하면 게임을 변경할 수 없습니다!</string>
+  <string mz="text_account" name="rl7u9y2lmdwaz-n53_wb9d">987654321@qq.com</string>
+  <string mz="text_guestAccount" name="rl7u9y2lmdwaz-n57_ntzg">게스트 계정</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981">원하는 게임을 변경할 수 있습니다.</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_0">원하는 게임을 변경할 수 있습니다.</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_1">주문을 제출하기 전에 계정을 변경할 수 있습니다.</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_2">보상을 얻기 위해 충분한 다이아몬드를 받고 보상을 얻기 위해 도전을 완료할 수도 있습니다.</string>
+  <string mz="info" name="rl7u9y2lmdwa13-n1_v981-texts_3">지금 게임을 플레이하고 보상을 받으세요!</string>
+  <string mz="text_title" name="rl7u9y2lmciw3z-n1_mciw">묶다</string>
+  <string mz="text_gameName" name="rl7u9y2lmciw3z-n9_pjbr">펍지</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw3z-n8_mciw">인출하는 통화가 계정에 정확하게 분배되도록 {gameName=PUBG} 계정을 바인딩합니다.</string>
+  <string mz="btn_bind" name="rl7u9y2lmciw3z-n5_mciw">묶다</string>
+  <string mz="btn_later" name="rl7u9y2lmciw3z-n6_mciw">나중에</string>
+  <string mz="text_title" name="rl7u9y2lmciw40-n1_mciw">성공</string>
+  <string mz="text_title" name="rl7u9y2lmciw40-n1_mciw-texts_0">실패한</string>
+  <string mz="text_title" name="rl7u9y2lmciw40-n1_mciw-texts_def">성공</string>
+  <string mz="text_gameName" name="rl7u9y2lmciw40-n10_pjbr">펍지</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw40-n8_mciw">바인딩 성공!
+이제 게임을 플레이하고 화폐를 모으세요!</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw40-n8_mciw-texts_0">바인딩 성공!
+이제 게임을 플레이하고 화폐를 수집하세요!</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw40-n8_mciw-texts_1">바인딩 실패!
+{gameName=PUBG} 앱이 감지되지 않았습니다. 나중에 결합하세요.</string>
+  <string mz="btn_confirm" name="rl7u9y2lmciw40-n5_mciw">확인하다</string>
+  <string mz="text_account" name="rl7u9y2lmdwa18-n15_x8xq">111@outlook.com</string>
+  <string mz="text_title" name="rl7u9y2lmdwa18-n19_w8q4">계정</string>
+  <string mz="text_tips0" name="rl7u9y2lmdwa18-n7_wlb4">연결 성공!
+지금 보상을 받으세요!</string>
+  <string mz="btn_continue" name="rl7u9y2lmdwa18-n3_pxc1">계속하다</string>
+  <string mz="text_tips0" name="rl7u9y2lmciw3y-n3_mciw">이 계정으로 사용하시겠습니까?</string>
+  <string mz="text_account" name="rl7u9y2lmciw3y-n5_mciw">helloworld@outlook.com</string>
+  <string mz="btn_confirm" name="rl7u9y2lmciw3y-n6_mciw">확인하다</string>
+  <string mz="btn_change" name="rl7u9y2lmciw3y-n7_mciw">계정 변경</string>
+  <string mz="text_title" name="rl7u9y2lmdwa1f-n18_navc">성공적인</string>
+  <string mz="text_tips0" name="rl7u9y2lmdwa1f-n8_nzkm">모든 작업을 완료하고 이 보상을 받으세요!</string>
+  <string mz="btn_next" name="rl7u9y2lmdwa1f-n1_pxc1">확인</string>
+  <string mz="text_title" name="rl7u9y2lu4s63e-n4_u4s6">상환하다</string>
+  <string mz="text_tips0" name="rl7u9y2lu4s63e-n5_u4s6">연결된 서버...</string>
+  <string mz="text_tips1" name="rl7u9y2lu4s63e-n6_u4s6">주문을 제출...</string>
+  <string mz="text_tips2" name="rl7u9y2lu4s63e-n7_u4s6">주문 검토...</string>
+  <string mz="title" name="3ajwo69pqj6mf4j-n4_lq0a">주장하다</string>
+  <string mz="title" name="3ajwo69pqj6mf47-n4_10cvf">고맙지 만 사양 할게</string>
+  <string mz="title" name="3ajwo69pqj6mf3x-n5_e8og">받다</string>
+  <string mz="text_value" name="3ajwo69pqj6mf42-n2_eimb">×{count=4}</string>
+  <string mz="text_title" name="3ajwo69pqj6mf3u-n33_ntzg">빅 콤보</string>
+  <string mz="text_rate" name="3ajwo69pqj6mf3u-n40_illt">{abc=RATE}</string>
+  <string mz="text_mutiple" name="3ajwo69pqj6mf3u-n36_ntzg">x5</string>
+  <string mz="btn_coliect" name="3ajwo69pqj6mf3u-n3_e8og">받다</string>
+  <string mz="text_pbTips" name="3ajwo69pqj6mf3u-n44_u4s6">교환할 만큼 충분히 모으세요!</string>
+  <string mz="text_title" name="3ajwo69pmciwf4u-n18_ntzg">콤보</string>
+  <string mz="btn_claim" name="3ajwo69pmciwf4u-n14_lq0a">주장하다</string>
+  <string mz="text_pbTips" name="3ajwo69pmciwf4u-n26_u4s6">교환할 만큼 충분히 모으세요!</string>
+  <string mz="text_title" name="3ajwo69pqj6mf48-n9_lq0a">레벨 업</string>
+  <string mz="text_pbTips" name="3ajwo69pqj6mf48-n19_u4s6">교환할 만큼 충분히 모으세요!</string>
+  <string mz="text_pbTips" name="3ajwo69pmciwf4t-n15_mciw">교환할 만큼 충분히 모으세요!</string>
+  <string mz="text_title" name="3ajwo69pqj6mf4k-n18_ntzg">축하해</string>
+  <string mz="btn_claim" name="3ajwo69pqj6mf4k-n14_lq0a">주장하다</string>
+  <string mz="text_pbTips" name="3ajwo69pqj6mf4k-n26_u4s6">교환할 만큼 충분히 모으세요!</string>
+  <string mz="title" name="ayq1m1qumciw0-n1_mciw">수집할 게임을 플레이하세요</string>
+  <string mz="title" name="ayq1m1qumciw2-n3_mciw">상환하다</string>
+  <string mz="text_title" name="ayq1m1qumciw41-n1_mciw">당신을 위한 서프라이즈</string>
+  <string mz="text_leftTips" name="ayq1m1qumciw41-n2_mciw">남은 시간:</string>
+  <string mz="text_timeShow" name="ayq1m1qumciw41-n6_mciw">이 보상은 [color=#FFD600]{time=48}시간[/color] 후에 받을 수 있습니다.</string>
+  <string mz="text_maxWin" name="ayq1m1qumciw41-n13_mciw">최대 승리 [color=#FFD600]{max=9999}[/color]</string>
+  <string mz="text_getTips" name="ayq1m1qumciw41-n15_mciw">모은 만큼 받기</string>
+  <string mz="text_title" name="ayq1m1qumciw42-n4_mciw">마치다</string>
+  <string mz="text_tips0" name="ayq1m1qumciw42-n14_mciw">지금 보상을 받으세요!
+그리고 더 많은 놀라움을 찾으십시오!</string>
+  <string mz="title" name="a1jbnm9hmciw2-n11_djob">&lt;img src=ui://9gpz896kdjob26&gt;계정</string>
+  <string mz="title" name="a1jbnm9hr4ip49-n4_r4ip">확인하다</string>
+  <string mz="title" name="a1jbnm9hmciw0-n17_pxdq">상환하다</string>
+  <string mz="title_value" name="a1jbnm9he31h3t-n4_e31h">{chip=999}&lt;img src=ui://9gpz896kpjbras width=32 height=32&gt;보상</string>
+  <string mz="title" name="a1jbnm9hmciw1-n3_pxc1">레이어 제출</string>
+  <string mz="text_tips0" name="a1jbnm9he31h3r-n5_lln7">영업일 기준 14일 이내에 귀하의 계정으로 발송</string>
+  <string mz="text_account" name="a1jbnm9he31h3u-n53_wb9d">987654321@qq.com</string>
+  <string mz="text_guestAccount" name="a1jbnm9he31h3u-n57_ntzg">게스트 ACCOUT</string>
+  <string mz="text_account" name="a1jbnm9hmciw3w-n5_mciw">helloworld@outlook.com</string>
+  <string mz="text_tips0" name="a1jbnm9hmciw3w-n3_mciw">이 계정으로 사용하시겠습니까?</string>
+  <string mz="btn_confirm" name="a1jbnm9hmciw3w-n6_mciw">확인하다</string>
+  <string mz="btn_change" name="a1jbnm9hmciw3w-n7_mciw">계정 변경</string>
+  <string mz="text_title" name="a1jbnm9hmciw3x-n10_lln7">성공적인</string>
+  <string mz="text_tips1" name="a1jbnm9hmciw3x-n3_mciw">보상은 영업일 기준 14일 이내에 귀하의 계정으로 발송됩니다.</string>
+  <string mz="text_title" name="a1jbnm9hmdwa1g-n9_w8q4">팁</string>
+  <string mz="text_tips0" name="a1jbnm9hmdwa1g-n8_wb9d">당신은 이제 손님입니다.</string>
+  <string mz="text_tips1" name="a1jbnm9hmdwa1g-n6_nzkm">보상을 사용하려면 계정을 연결해야 합니다.</string>
+  <string mz="btn_confirm" name="a1jbnm9hmdwa1g-n1_pxc1">링크</string>
+  <string mz="text_title" name="fmr5mo8pg5fl1k-n30_e5ju">소품</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3">마이너스 1까지 숫자 벽돌을 탭하세요.</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3-texts_0">숫자 벽돌을 탭하여 더하기 2</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3-texts_1">파괴하려면 숫자 벽돌을 탭하세요</string>
+  <string mz="text_tips0" name="fmr5mo8pg5fl1k-n6_kft3-texts_def">마이너스 1까지 숫자 벽돌을 탭하세요.</string>
+  <string mz="n4" name="tiosr750e9kl1-n4_e9kl">출구</string>
+  <string mz="title" name="tiosr750p3x0k1l-n1_p3x0">검토</string>
+  <string mz="text_title" name="tiosr750e9kl0-n34_e5ju">게임 끝</string>
+  <string mz="text_title" name="7xruccmafntl0-n36_mfgs">피드백</string>
+  <string mz="text_tips0" name="7xruccmafntl0-n28_nop9">우리를 평가하고 더 나은</string>
+  <string mz="title" name="94fbq9npw8q42q-n1_w8q4">확인하다</string>
+  <string mz="title" name="94fbq9nppjbr2c-n1_pjbr">망치</string>
+  <string mz="title" name="94fbq9nppjbr2c-n1_pjbr-texts_0">증가하다</string>
+  <string mz="title" name="94fbq9nppjbr2c-n1_pjbr-texts_1">망치</string>
+  <string mz="title" name="94fbq9nppjbr2b-n1_pjbr">상환하다</string>
+  <string mz="title" name="94fbq9nppjbr27-n1_pjbr">피부</string>
+  <string mz="text_level" name="94fbq9nppjbr27-n4_pjbr">LEVEL{unlockSkinLevel=5}</string>
+  <string mz="info" name="94fbq9npw8q42p-n9_ht85">당신은 무료로 게임 스킨을 얻을 수 있습니다</string>
+  <string mz="text_title" name="zrdho07jotfn34-n17_sulh">팁</string>
+  <string mz="text_content" name="zrdho07jotfn34-n2_naor">이 기능은 아직 사용할 수 없습니다!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2">이 보상을 받으려면 작업을 완료하세요!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_0">이 보상을 받으려면 작업을 완료하세요!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_1">다른 보상을 교환하기 위해 통화를 수집할 수도 있습니다!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_2">좋아하는 스킨을 교환할 수 있는 만큼의 파편을 수집하세요!</string>
+  <string mz="info" name="usopam3mxewn1-n2_lix2-texts_3">지금 게임을 플레이하여 무료로 파편을 수집하세요!</string>
+  <string mz="txt" name="v5jd19r68d5zh-n54_ilew">영어</string>
+  <string mz="txt" name="v5jd19r68d5zo-n61_ilew">영어</string>
+  <string mz="title" name="v5jd19r6fi6if-n1_fi6i">광고</string>
+  <string mz="on" name="v5jd19r6fi6i2-n8_wwb2">开启</string>
+  <string mz="off" name="v5jd19r6fi6i2-n9_wwb2">关闭</string>
+  <string mz="title" name="v5jd19r6fi6i2-n12_fi6i">广告过滤</string>
+  <string mz="n14" name="v5jd19r6fi6i1-n14_l0se">도구</string>
+  <string mz="btn_adSetting" name="v5jd19r6fi6i1-n4_waaa">广告过滤</string>
+  <string mz="btn_open_exchange" name="v5jd19r6fi6i1-n49_8d5z">兑换开启</string>
+  <string mz="btn_addGold1" name="v5jd19r6fi6i1-n21_fi6i">+5000金币、+500碎片</string>
+  <string mz="btn_addGold2" name="v5jd19r6fi6i1-n27_fi6i">+50000金币</string>
+  <string mz="btn_addLevel" name="v5jd19r6fi6i1-n37_fi6i">+1等级</string>
+  <string mz="btn_addVideo" name="v5jd19r6fi6i1-n36_fi6i">+1视频</string>
+</resources>

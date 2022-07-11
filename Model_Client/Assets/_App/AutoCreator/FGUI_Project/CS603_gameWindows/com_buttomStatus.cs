@@ -8,7 +8,7 @@ namespace UI.CS603_gameWindows
     public partial class com_buttomStatus : GComponent
     {
         public Controller cont_showStatus;
-        public GButton btn_cancel;
+        public GImage btn_cancel;
         public GButton btn_update;
         public const string URL = "ui://06ybtwdrfd20c";
 
@@ -22,8 +22,8 @@ namespace UI.CS603_gameWindows
             base.ConstructFromXML(xml);
 
             cont_showStatus = GetControllerAt(0);
-            btn_cancel = (GButton)GetChildAt(1);
-            btn_update = (GButton)GetChildAt(2);
+            btn_cancel = (GImage)GetChildAt(0);
+            btn_update = (GButton)GetChildAt(1);
         }
     }
 }

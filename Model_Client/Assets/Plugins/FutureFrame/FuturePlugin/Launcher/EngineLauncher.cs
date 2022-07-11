@@ -59,7 +59,7 @@ namespace FuturePlugin
 
         public void InitAssistSetting()
         {
-            LogUtil.LogObject($"InitAssistSetting : {LauncherConst.IsEnabledDebugLog}");  
+            LogUtil.EnableLog(LauncherConst.IsEnabledDebugLog, JsonConvert.SerializeObject);
 
             if (LauncherConst.IsShowUnityLogsViewerReporter)
             {

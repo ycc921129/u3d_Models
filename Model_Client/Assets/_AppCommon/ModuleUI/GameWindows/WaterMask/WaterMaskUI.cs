@@ -6,6 +6,7 @@
 using UnityEngine;
 using FutureCore;
 using FuturePlugin;
+using System;
 
 namespace ProjectApp
 {
@@ -46,7 +47,8 @@ namespace ProjectApp
         protected override void OnOpen(object args)
         {
             SetCode();
-            SetNetState();            
+            SetNetState();
+            ui.text_code.visible = Channel.Current.buildType != AppBuildType.Release;  
         }
 
         protected override void OnClose()
@@ -101,6 +103,25 @@ namespace ProjectApp
                     break;
             }
         }
+
+        public void UpdateCode()
+        {
+            TimerUtil.Simple.AddTimer(0.5f, () =>
+            {
+
+                switch (Channel.CurrType)
+                {
+                    case ChannelType.LocalDebug:
+                        ui.text_code.text = "TestServer_" + CommonGlobal.Instance.InvitedCode;
+                        break;
+                    case ChannelType.NetCheck:
+                    case ChannelType.NetRelease:
+                        ui.text_code.text = CommonGlobal.Instance.InvitedCode;
+                        break;
+                }
+            });  
+        }
+
         /// <summary>
         /// 设置
         /// </summary>
@@ -110,54 +131,6 @@ namespace ProjectApp
             {
                 SetColor(Color.red);
                 return;
-            }
-
-            switch (WSNetMgr.Instance.State)
-            {
-                case WSNetState.None:
-                case WSNetState.NoNetwork:
-                case WSNetState.Closed:
-                case WSNetState.Exception:
-                case WSNetState.LoginFailed_MustDelay:
-                case WSNetState.SendLoginError:
-                case WSNetState.PreferencesParseError:
-                case WSNetState.ConfigParseError:
-                case WSNetState.ConfigSerializeError:
-                    SetColor(Color.red);
-                    return;
-                case WSNetState.Connecting:
-                case WSNetState.Connected:
-                case WSNetState.Logining:
-                    SetColor(Color.yellow);
-                    return;
-                case WSNetState.LoginSuccess:
-                    if (AppGlobal.IsLoginSucceed)
-                    {
-                        SetColor(Color.green);
-                        return;
-                    }
-                    else
-                    {
-                        SetColor(Color.red);
-                        return;
-                    }
-                default:
-                    SetColor(Color.red);
-                    return;
-            }
-
-            if (netStateColor == Color.white)
-            {
-                if (AppGlobal.IsLoginSucceed)
-                {
-                    SetColor(Color.green);
-                    return;
-                }
-                else
-                {
-                    SetColor(Color.red);
-                    return;
-                }
             }
         }
 

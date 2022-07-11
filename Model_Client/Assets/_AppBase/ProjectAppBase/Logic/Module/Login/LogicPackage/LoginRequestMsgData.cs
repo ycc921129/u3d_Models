@@ -55,13 +55,9 @@ namespace ProjectApp
                     reqData.device.network_plugin[1] = "VPN";
                 }
                 reqData.device.is_root = Channel.Current.isRoot ? 1 : 0;
-                reqData.device.resolution = ScreenConst.CurrResolutionInfo;
+                reqData.device.resolution = ScreenConst.CurrResolutionInfo; 
 
-                bool isWss = WSNetMgr.Instance.IsAppWssUrl();
-                if (isWss)
-                {
-                    LoginWssConfig.ReadLocalWssGameConfig(reqData);
-                }
+                LoginWssConfig.ReadLocalWssGameConfig(reqData);
             }
             catch (System.Exception e)
             {
