@@ -10,7 +10,7 @@ namespace ProjectApp
 {
     public class UpdateUIData
     {
-        public Update update;
+        public UnityEngine.PlayerLoop.Update update;
         public Action cancelFunc;
     }
 }

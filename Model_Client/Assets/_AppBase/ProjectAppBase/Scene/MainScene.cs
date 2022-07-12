@@ -129,7 +129,6 @@ namespace ProjectApp
               
             App.SetLoadingUI(ProgressState.ConnectLogin_30, AppConst.IsLoadingDelay);
             LoginCtrl.Instance.InitLogin();
-            LoginCtrl.Instance.ConnectLogin();
 
             if (App.GetIsWeakNetwork())
             {
@@ -242,13 +241,7 @@ namespace ProjectApp
         }
 
         private void OperationGameStartStatistic()
-        {
-            // 统计Firebase
-            InfoCtrl.Instance.SendFirebaseTokenToServer();
-
-            // 统计SdkChannel
-            ChannelMgr.Instance.StatisticSdkChannel();
-
+        {            
             // 统计进入游戏时长
             int upperLimit = 120 * 1000;
             ChannelMgr.Instance.EndStatisticTimeEvent(StatisticConst.loading_time, upperLimit);

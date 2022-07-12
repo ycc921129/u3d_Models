@@ -31,7 +31,7 @@ namespace ProjectApp
             return null;
         }
 
-        public static void ReadLocalWssGameConfig(C2S_reg_login_data reqData)
+        public static void ReadLocalWssGameConfig()
         {
             bool ls_hasWssServerConfig = false;
             string ls_wssServerConfigHash = null;
@@ -71,14 +71,12 @@ namespace ProjectApp
             {
                 AppConst.ConfigServerHash = ls_wssServerConfigHash;
                 AppConst.ConfigServerVersion = ls_wssServerConfigVersion;
-                reqData.pg_settingex_version = AppConst.ConfigServerHash;
                 LogUtil.Log("[LoginWssConfig]Curr WssServerConfigVersion: " + AppConst.ConfigServerHash);
             }
             else if (AppConst.ConfigInternalVersion != VOModelConst.ErrorConfigVersion)
             {
                 AppConst.ConfigServerHash = AppConst.ConfigInternalVersion;
                 AppConst.ConfigServerVersion = PathConst.WssGameConfigFilePrefix + AppConst.ConfigServerHash;
-                reqData.pg_settingex_version = AppConst.ConfigServerHash;
                 LogUtil.Log("[LoginWssConfig]Curr ConfigInternalVersion: " + AppConst.ConfigServerHash);
             }
             else
@@ -117,38 +115,7 @@ namespace ProjectApp
             object configObject = JsonEncryptUtil.ReadFormLocalFile<object>(path, wssServerConfigHash);
             bool isCan = configObject != null;
             return isCan;
-        }
-
-        /// <summary>
-        /// 更新设置Wss游戏配置
-        /// </summary>  
-        public static void UpdateWssGameConfig(S2C_reg_login resp, Action completeFunc)
-        {
-            if (resp.data.pg_settingex == null)
-            {
-                LogUtil.Log("[LoginWssConfig]Login to the server and cancel the offline login");
-                completeFunc();
-                return;
-            }
-
-            try
-            {
-                JObject jsonObj = SerializeUtil.GetJObjectByObject(resp.data.pg_settingex);
-                if (jsonObj == null || jsonObj["version"] == null)
-                {
-                    LogUtil.Log("[LoginWssConfig]Login to the server and info is null.");
-                    completeFunc();
-                    return;
-                }
-
-                SaveLocalWssGameConfig(jsonObj);
-                completeFunc();
-            }
-            catch (Exception e)
-            {
-                LogUtil.Log("[LoginWssConfig]Login to the server and info is null.");
-            }
-        }
+        }        
 
         /// <summary>
         /// 保存Wss游戏配置    

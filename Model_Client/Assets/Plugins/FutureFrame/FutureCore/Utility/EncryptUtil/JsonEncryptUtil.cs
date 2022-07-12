@@ -25,49 +25,7 @@ namespace FutureCore
         public const byte LZ4_BeenCompressedFlag = 0x01;
         private readonly static byte[] LZ4_UnCompressionFlagBytes = { LZ4_UnCompressionFlag };
         private readonly static byte[] LZ4_BeenCompressedFlagBytes = { LZ4_BeenCompressedFlag };
-
-        public static string NoEncryptJsonProto(BaseJsonProto jsonProtoMsg, Type type)
-        {
-            string json = SerializeUtil.ToJson(jsonProtoMsg, type);
-            return json;
-        }       
-
-        public static byte[] NoEncryptLZ4JsonProto(BaseJsonProto jsonProtoMsg, Type type)
-        {
-            byte[] sendBytes = null;
-            string json = SerializeUtil.ToJson(jsonProtoMsg, type);
-            byte[] jsonBytes = Encoding.UTF8.GetBytes(json);
-
-            int jsonLength = jsonBytes.Length;
-            if (jsonLength > LZ4_SKIP_SIZE)
-            {
-                byte[] jsonLengthBytes = BitConverter.GetBytes(jsonLength);
-                if (!BitConverter.IsLittleEndian)
-                {
-                    Array.Reverse(jsonLengthBytes);
-                }
-
-                byte[] lz4CompressBytes;
-                int lz4CompressLength = LZ4Helper.CompressBufferPartialFixed(jsonBytes, 0, out lz4CompressBytes);
-                //LogUtil.LogFormat("[JsonEncryptUtil]LZ4测试压缩比: {0}/{1} {2} level:{3}", lz4CompressLength, jsonLength, lz4CompressLength / (float)jsonLength * 100.0f + "%", LZ4Helper.Level);
-                if (lz4CompressLength > 0)
-                {
-                    sendBytes = BytesUtil.Combine(jsonLengthBytes, lz4CompressBytes, lz4CompressLength);
-                    sendBytes = BytesUtil.Combine(LZ4_BeenCompressedFlagBytes, sendBytes);
-                }
-                else
-                {
-                    sendBytes = BytesUtil.Combine(LZ4_UnCompressionFlagBytes, jsonBytes);
-                    LogUtil.LogError("[JsonEncryptUtil]NoEncryptLZ4JsonProto Fail!");
-                }
-            }
-            else
-            {
-                sendBytes = BytesUtil.Combine(LZ4_UnCompressionFlagBytes, jsonBytes);
-            }
-            return sendBytes;
-        }
-
+        
         public static string DecompressNoEncryptLZ4JsonProto(byte[] bytes)
         {
             int rawSize = BitConverter.ToInt32(bytes, LZ4_CompressionFlagOffset);
@@ -87,13 +45,7 @@ namespace FutureCore
         public static string NoDecompressNoEncryptLZ4JsonProto(byte[] bytes)
         {
             return Encoding.UTF8.GetString(bytes, LZ4_CompressionFlagOffset, bytes.Length - LZ4_CompressionFlagOffset);
-        }
-
-        public static byte[] EncryptJsonProto(BaseJsonProto jsonProtoMsg, Type type)
-        {
-            string json = SerializeUtil.ToJson(jsonProtoMsg, type);
-            return Encrypt(json, jsonProtoMsg.type.Length);
-        }
+        }        
 
         public static string DecryptJsonProto(byte[] data)
         {

@@ -10,7 +10,6 @@ namespace ProjectApp
 {
     public class LoginModel : BaseModel
     {
-        public S2C_reg_login_data loginData;
         public int launchAppTime;
         public int loginDays;
         public int loginCount;

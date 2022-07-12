@@ -1,8 +1,9 @@
-﻿/****************************************************************************
+/****************************************************************************
 * ScriptType: 框架 - 基础业务
 * 请勿修改!!!
 ****************************************************************************/
 
+using Beebyte.Obfuscator;
 using ProjectApp.Protocol;
 
 namespace ProjectApp.Data
@@ -45,6 +46,16 @@ namespace ProjectApp.Data
         {
             return string.Format("id:{0} islocal:{1} outlineRun:{2} startTimeStamp:{3} timeout:{4} elapsed:{5} data:{6}",
                 id, isLocal, outlineRun, startTimeStamp, timeout, elapsed, data == null ? "null" : data.ToString());
+        }
+
+        /// <summary>
+        /// 定时器数据
+        /// </summary>
+        [Skip]
+        public class TimerCallBackData
+        {
+            public string tag;
+            public object data;
         }
     }
 }

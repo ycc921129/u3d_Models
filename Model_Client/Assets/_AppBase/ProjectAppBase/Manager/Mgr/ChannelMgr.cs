@@ -64,9 +64,7 @@ namespace ProjectApp
             #endregion
 
             #region Channel回调
-            ChannelDispatcher.Instance.AddListener(ChannelRawMsg.OnSdkChannel, OnSdkChannel);
             ChannelDispatcher.Instance.AddListener(ChannelRawMsg.OnLoginBindToken, OnLoginBindToken);
-            ChannelDispatcher.Instance.AddListener(ChannelRawMsg.OnSendAdwords, OnSendAdwords);
             ChannelDispatcher.Instance.AddListener(ChannelRawMsg.OnInterstitialAdClose, OnInterstitialAdClose);
             ChannelDispatcher.Instance.AddListener(ChannelRawMsg.OnVideoAdLoadStart, OnVideoAdLoadStart);
             ChannelDispatcher.Instance.AddListener(ChannelRawMsg.OnVideoAdLoaded, OnVideoAdLoaded);
@@ -91,9 +89,7 @@ namespace ProjectApp
             #endregion
 
             #region Channel回调
-            ChannelDispatcher.Instance.RemoveListener(ChannelRawMsg.OnSdkChannel, OnSdkChannel);
             ChannelDispatcher.Instance.RemoveListener(ChannelRawMsg.OnLoginBindToken, OnLoginBindToken);
-            ChannelDispatcher.Instance.RemoveListener(ChannelRawMsg.OnSendAdwords, OnSendAdwords);
             ChannelDispatcher.Instance.RemoveListener(ChannelRawMsg.OnInterstitialAdClose, OnInterstitialAdClose);
             ChannelDispatcher.Instance.RemoveListener(ChannelRawMsg.OnVideoAdLoadStart, OnVideoAdLoadStart);
             ChannelDispatcher.Instance.RemoveListener(ChannelRawMsg.OnVideoAdLoaded, OnVideoAdLoaded);
@@ -202,18 +198,7 @@ namespace ProjectApp
 
         #endregion 封装: 视频广告状态
 
-        #region 调用
-
-        #region 调用: SDK
-        public void StatisticSdkChannel()
-        {
-            string sdkChannel = PrefsUtil.ReadString(PrefsKeyConst.ChannelMgr_sdkChannel);
-            if (!string.IsNullOrEmpty(sdkChannel))
-            {
-                UserSessionCtrl.Instance.StatisticState("sdkChannel", sdkChannel);
-            }
-        }
-        #endregion        
+        #region 调用      
 
         #region 调用: 插屏广告
         /// <summary>
@@ -435,8 +420,8 @@ namespace ProjectApp
         /// </summary>
         public void Share() 
         {
-            string url = CommonGlobal.Instance.LoginData.info.invite_url;
-            string code = CommonGlobal.Instance.LoginData.info.invite_code;
+            string url = "";
+            string code = "";
             LogUtil.Log("[ChannelMgr]分享 url:" + url);
             LoginModel userModel = ModuleMgr.Instance.GetModel(ModelConst.LoginModel) as LoginModel;
 
@@ -597,22 +582,7 @@ namespace ProjectApp
 
         #endregion
 
-        #region 回调
-
-        #region 回调: SDK
-        /// <summary>
-        /// 响应SDK渠道回调
-        /// </summary>
-        public void OnSdkChannel(object param)
-        {
-            string sdkChannel = (string)param;
-            if (!string.IsNullOrEmpty(sdkChannel) && sdkChannel.ToLower() != "organic")
-            {
-                PrefsUtil.WriteString(PrefsKeyConst.ChannelMgr_sdkChannel, sdkChannel);
-                StatisticSdkChannel();
-            }
-        }
-        #endregion
+        #region 回调        
 
         #region 回调: 验证登录
         private void OnLoginBindToken(object param)
@@ -620,19 +590,6 @@ namespace ProjectApp
             string info = param as string;
             FirebaseUserInfo userInfo = SerializeUtil.ToObject<FirebaseUserInfo>(info);
             ChannelDispatcher.Instance.Dispatch(ChannelMsg.OnLoginBindToken, userInfo);
-        }
-        #endregion
-
-        #region 回调: 平台相关
-        public void OnSendAdwords(object param = null)
-        {
-            string adwords = Channel.Current.getAdWords();
-            if (string.IsNullOrEmpty(adwords)) return;
-
-            C2S_adwords req = new C2S_adwords();
-            req.data = new C2S_adwords_data();
-            req.data.referrer = adwords;
-                       
         }
         #endregion
 

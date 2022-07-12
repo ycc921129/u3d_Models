@@ -17,9 +17,7 @@ namespace ProjectApp
     {
         public ObscuredInt credit;
         private Preferences preferences;
-        private DataDispatcher dataDispatcher;
-
-        private C2S_preferences c2s_preferencesMsg;
+        private DataDispatcher dataDispatcher;        
 
         private ObjectPool<KeyValue> keyValuePool;
         private List<KeyValue> autoSaveList;
@@ -31,10 +29,7 @@ namespace ProjectApp
         public override void Init()
         {  
             base.Init();
-            AddListener();              
-
-            c2s_preferencesMsg = new C2S_preferences();
-            c2s_preferencesMsg.data = new C2S_preferences_data();
+            AddListener();                          
 
             keyValuePool = new ObjectPool<KeyValue>();
             autoSaveList = new List<KeyValue>();
@@ -77,7 +72,6 @@ namespace ProjectApp
         {  
             LoginModel loginModel = ModuleMgr.Instance.GetModel(ModelConst.LoginModel) as LoginModel; 
             
-            preferences = loginModel.loginData.pref;    
             if (preferences == null)
             {
                 preferences = new Preferences();
@@ -85,7 +79,6 @@ namespace ProjectApp
             OnInitPreferences();  
 
             // 登录漏斗统计5
-            LoginStatistics.AddFunnelData_preferencesinitcomplete_5();
         }
 
         private void OnAutoDelaySave(TimerTask timerInfo)
@@ -132,28 +125,20 @@ namespace ProjectApp
 
         private void Save<T>(string key, T data)
         {
-            Dictionary<string, object> dic = c2s_preferencesMsg.data.set;
-            if (!dic.ContainsKey(key))
-            {
-                dic.Add(key, data);
-            }
-            else
-            {
-                dic[key] = data;
-            }
+
         }
 
         #endregion 保存方法
         private void ClearPreferencesDic() 
         {
-            c2s_preferencesMsg.data.set.Clear();
+
         }
 
         private void PreferencesSendSave()
         {
-            if (c2s_preferencesMsg == null || c2s_preferencesMsg.data.set.Count == 0) return;
+            //TODO preference存储
+            return; 
 
-            AddDataVer();
             WeakNetworkCtrl.Instance.UpdatePreferences();
             ClearPreferencesDic();
         }

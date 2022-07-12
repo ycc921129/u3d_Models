@@ -76,7 +76,6 @@ namespace ProjectApp
             taskSequence.Add(GameStartConst.openCheckIn, ShowCheckInView);
             taskSequence.Add(GameStartConst.openOffine, ShowOffineView);
             ProbabilityShowSubscribeOrReferralCode();
-            taskSequence.Add(GameStartConst.OpenRaffle, ShowRaffleView);
             taskSequence.Add(true, GameStartProcessEnd);
             taskSequence.Run();
         }
@@ -157,20 +156,7 @@ namespace ProjectApp
             //    NextGameStartProcess(null);
             //}         
         }
-
-        private void ShowRaffleView(TaskProcedure obj)
-        {
-            procedure = obj;
-            if (CommonGlobal.Instance.Is_open_exchange && PreferencesMgr.Instance.LoginGameTodayTimes == 2)
-            {
-                ctrlDispatcher.Dispatch(CtrlMsg.OpenRaffle);
-            }
-            else
-            {
-                NextGameStartProcess(null);
-            }
-        }
-
+        
         private void GameStartProcessEnd(TaskProcedure obj)
         {
             procedure = null;

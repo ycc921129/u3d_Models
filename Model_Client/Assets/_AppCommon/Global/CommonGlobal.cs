@@ -22,87 +22,9 @@ namespace ProjectApp
             loginModel = ModuleMgr.Instance.GetModel(ModelConst.LoginModel) as LoginModel;
 
             Vibration = PrefsUtil.ReadBool(PrefsKeyConst.Common_isOpenVibration, VibrationHelper.IsOpenVibration);
-        }
+        }                
 
-        public S2C_reg_login_data LoginData
-        {
-            get
-            {
-                return loginModel.loginData;
-            }
-        }
-
-        #region currency
-        private const float DEFULTCOEFFICIENT = 0.0000463591f;
-        private float curCoefficient = 0;
-        private const string DEFULTCURRENCY = "R$";
-        public string curCurrency = string.Empty;
-
-        /// <summary>
-        /// 金币换算倍率
-        /// </summary>
-        public float Coefficient
-        {
-            get
-            {
-                if (curCoefficient != 0) return curCoefficient;
-                var voList = CardLocalVOModel.Instance.GetVOList();
-                if (voList == null) return DEFULTCOEFFICIENT;
-                for (int i = 0; i < voList.Count; i++)
-                {
-                    for (int j = 0; j < voList[i].Codename.Length; j++)
-                    {
-                        if (reg_country.Contains(voList[i].Codename[j]))
-                        {
-                            curCoefficient = voList[i].Value;
-                            return curCoefficient;
-                        }
-                    }
-                }
-
-                return DEFULTCOEFFICIENT;
-            }
-        }
-
-        public string Currency
-        {
-            get
-            {
-                if (curCurrency != string.Empty) return curCurrency;
-                var voList = CardLocalVOModel.Instance.GetVOList();
-                for (int i = 0; i < voList.Count; i++)
-                {
-                    for (int j = 0; j < voList[i].Codename.Length; j++)
-                    {
-                        if (reg_country.Contains(voList[i].Codename[j]))
-                        {
-                            curCurrency = voList[i].currency;
-                            return curCurrency;
-                        }
-                    }
-                }
-
-                return DEFULTCURRENCY;
-            }
-        }
-        #endregion currency
-
-        #region property
-
-        /// <summary>
-        /// 邀请码
-        /// </summary>
-        public string InvitedCode
-        {
-            get
-            {
-                if (loginModel == null
-                    || loginModel.loginData == null
-                    || loginModel.loginData.info == null) return "";
-
-                return loginModel.loginData.info.invite_code;
-            }
-        }
+        #region property        
 
         public bool CanShowOffline()
         {
@@ -206,79 +128,7 @@ namespace ProjectApp
             UICtrlDispatcher.Instance.Dispatch(UICtrlMsg.C_OpenTipsUI, content);
         }
 
-        #endregion 提示                 
-
-        #region 货币
-        public long Coin
-        {
-            get
-            {
-                if (loginModel == null
-                    || loginModel.loginData == null
-                    || loginModel.loginData.acct == null) return 0;
-
-                return loginModel.loginData.acct.coin;
-            }
-        }
-        #endregion
-
-        #region 敏感功能和兑换
-        /// <summary>
-        /// 是否启用敏感功能
-        /// </summary>
-        public bool GetModulesConf_EnableFuns()
-        {
-            if (loginModel == null
-                || loginModel.loginData == null
-                || loginModel.loginData.info == null
-                || loginModel.loginData.info.is_open_sensfunc == null
-                || !loginModel.loginData.info.is_open_sensfunc.Contains("funs"))
-            {
-                return false;
-            }
-
-            return true;
-        }
-
-        /// <summary>
-        /// 是否开启兑换  
-        /// </summary>
-        public bool Is_open_exchange
-        {
-            get
-            {
-                if (loginModel == null
-                   || loginModel.loginData == null
-                   || loginModel.loginData.info == null)
-                {
-                    return false;
-                }
-
-                return loginModel.loginData.info.is_open_exchange;
-            }
-        }
-        #endregion
-
-        #region 平台兑换
-        public string reg_country
-        {
-            get
-            {
-#if UNITY_EDITOR
-                return "US";
-#else                
-                if (loginModel == null
-                  || loginModel.loginData == null
-                  || loginModel.loginData.info == null
-                  || loginModel.loginData.info.reg_country == null)
-                {
-                    return "US";
-                }
-                else
-                    return loginModel.loginData.info.reg_country;
-#endif
-            }
-        }
-        #endregion
+        #endregion 提示                
+        
     }
 }

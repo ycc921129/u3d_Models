@@ -21,7 +21,6 @@ namespace ProjectApp
         private bool isNeedNetLogin;
 
         private LoginModel loginModel;
-        private C2S_preferences c2s_preferencesMsg;
         private JObject jCacheServerPreferences;
 
         /// <summary>
@@ -32,10 +31,7 @@ namespace ProjectApp
         protected override void OnInit()
         {
             Instance = this;
-
-            loginModel = ModuleMgr.Instance.GetModel(ModelConst.LoginModel) as LoginModel;
-            c2s_preferencesMsg = new C2S_preferences();
-            c2s_preferencesMsg.data = new C2S_preferences_data();
+            loginModel = ModuleMgr.Instance.GetModel(ModelConst.LoginModel) as LoginModel;          
         }
         protected override void OnDispose()
         {
@@ -74,30 +70,22 @@ namespace ProjectApp
             }
         }
 
-        public void InitCache(S2C_reg_login resp)
+        public void InitCache()
         {
-            InitSaveLoginCache(resp);
-            InitSavePreferencesCache(resp);
+            InitSaveLoginCache();
+            InitSavePreferencesCache();
         }
 
-        private void InitSaveLoginCache(S2C_reg_login resp)
+        private void InitSaveLoginCache()
         {
-            if (!App.GetIsWeakNetwork()) return;
-
-            // 缓存登录消息
-            LoginLocalCache.SaveS2CLoginMsgLocalCache(resp);
+            if (!App.GetIsWeakNetwork()) return;            
         }
 
-        private void InitSavePreferencesCache(S2C_reg_login resp)
+        private void InitSavePreferencesCache()
         {
             if (!App.GetIsWeakNetwork()) return;
-
-            // 缓存服务器游戏数据            
-            Preferences serverPreferences = resp.data.pref;
-            if (serverPreferences == null)
-            {
-                serverPreferences = new Preferences();
-            }
+            
+            Preferences serverPreferences = new Preferences();
             LoginLocalCache.SaveServerPreferencesCache(serverPreferences);
             jCacheServerPreferences = SerializeUtil.GetJObjectByObject(serverPreferences);
 
@@ -109,14 +97,12 @@ namespace ProjectApp
                 {
                     // 使用服务器为最新
                     LogUtil.Log("[WeakNetworkCtrl]使用服务器的Preferences为最新");
-                    resp.data.pref = serverPreferences;
                     LoginLocalCache.SaveLocalPreferencesCache(serverPreferences);
                 }
                 else
                 {
                     // 使用客户端为最新, 更新服务器的Preferences
                     LogUtil.Log("[WeakNetworkCtrl]使用客户端的Preferences为最新");
-                    resp.data.pref = clientCachePreferences;
                     JObject jCacheClientPreferences = SerializeUtil.GetJObjectByObject(clientCachePreferences);
                     bool updateRes = ComparisonUpdateServerPreferences(jCacheServerPreferences, jCacheClientPreferences);
                     if (updateRes)
@@ -131,7 +117,6 @@ namespace ProjectApp
             {
                 // 使用服务器为最新
                 LogUtil.Log("[WeakNetworkCtrl]没有本地缓存Preferences, 使用服务器的Preferences为最新");
-                resp.data.pref = serverPreferences;
                 LoginLocalCache.SaveLocalPreferencesCache(serverPreferences);
             }
         }
@@ -160,7 +145,7 @@ namespace ProjectApp
         {
             if (!AppGlobal.IsLoginSucceed) return false;
 
-            c2s_preferencesMsg.data.set.Clear();
+            //c2s_preferencesMsg.data.set.Clear();
             foreach (JProperty newItem in newData.Children())
             {
                 string newKey = newItem.Name;
@@ -179,39 +164,23 @@ namespace ProjectApp
                     else
                     {
                         // 修改
-                        c2s_preferencesMsg.data.set.Add(newKey, newValue);
+                        //c2s_preferencesMsg.data.set.Add(newKey, newValue);
                     }
                 }
                 else
                 {
                     // 新增
-                    c2s_preferencesMsg.data.set.Add(newKey, newValue);
+                    //c2s_preferencesMsg.data.set.Add(newKey, newValue);
                 }
             }
             return true;
-            //if (c2s_preferencesMsg.data.set.Count != 0)
-            //{
-            //    return WSNetMgr.Instance.Send(c2s_preferencesMsg);  
-            //}
-            //else
-            //{
-            //    return true;
-            //}
-        }
-
-        public S2C_reg_login ReadLocalCacheS2CRegLoginMsg()
-        {
-            if (App.GetIsWeakNetwork())
-            {
-                S2C_reg_login resp = LoginLocalCache.ReadS2CLoginMsgLocalCache();
-                resp.data.pref = LoginLocalCache.ReadServerPreferencesCache();
-                return resp;
-            }
-            return null;
         }
 
         public bool IsCanOfflineLogin()
         {
+            //TODO 离线游戏
+            return true; 
+
             bool isCanOfflineLogin = false;
 
             // 不启用弱联网
@@ -229,27 +198,8 @@ namespace ProjectApp
             {
                 isCanOfflineLogin = true;
                 return isCanOfflineLogin;
-            }
-
-            if (LoginObsoleteConfig.IsExistObsoleteConfig())
-            {
-                if (!LoginObsoleteConfig.IsCanReadObsoleteConfig())
-                {
-                    return isCanOfflineLogin;
-                }
-            }
-
-            // 运营配置 登录缓存 游戏数据缓存
-            if (LoginLocalCache.IsExistOperationConfigLocalCache()
-                && LoginLocalCache.IsExistS2CLoginMsgLocalCache())
-            {
-                if (LoginLocalCache.IsCanReadOperationConfigLocalCache()
-                    && LoginLocalCache.IsCanReadS2CLoginMsgLocalCache())
-                {
-                    isCanOfflineLogin = true;
-                    return isCanOfflineLogin;
-                }
-            }
+            }            
+            
             return isCanOfflineLogin;
         }
 
@@ -263,26 +213,7 @@ namespace ProjectApp
                 isCanOfflineMode = true;
                 return isCanOfflineMode;
             }
-
-            if (LoginObsoleteConfig.IsExistObsoleteConfig())
-            {
-                if (!LoginObsoleteConfig.IsCanReadObsoleteConfig())
-                {
-                    return isCanOfflineMode;
-                }
-            }
-
-            // 运营配置 登录缓存 游戏数据缓存
-            if (LoginLocalCache.IsExistOperationConfigLocalCache()
-                && LoginLocalCache.IsExistS2CLoginMsgLocalCache())
-            {
-                if (LoginLocalCache.IsCanReadOperationConfigLocalCache()
-                    && LoginLocalCache.IsCanReadS2CLoginMsgLocalCache())
-                {
-                    isCanOfflineMode = true;
-                    return isCanOfflineMode;
-                }
-            }
+            
             return isCanOfflineMode;
         }
 
@@ -293,7 +224,8 @@ namespace ProjectApp
 
         public bool IsCanShowReconnectUI()
         {
-            if (!App.GetIsWeakNetwork()) return true;
+            //TODO 弱联网
+             return false;
 
             if (isNeedNetLogin)
             {
@@ -304,37 +236,7 @@ namespace ProjectApp
                 return true;
             }
             return false;
-        }
-
-        /// <summary>
-        /// 是否离线
-        /// </summary>
-        public bool IsOffline()
-        {
-            if (App.GetIsWeakNetwork())
-            {
-                if (!AppGlobal.IsLoginSucceed)
-                {
-                    // 离线
-                    NetworkErrorModel model = ModuleMgr.Instance.GetModel(ModelConst.NetworkErrorModel) as NetworkErrorModel;
-                    if (!model.isNoLongerPrompt)
-                    {
-                        // 需要提醒
-                        CtrlDispatcher.Instance.Dispatch(CtrlMsg.WeakNetwork_ShowConnectUI);
-                    }
-                    else
-                    {
-                        // 不需要提醒
-                        if (model.isStrongConnect)
-                        {
-                            // 记住联网, 尝试连接
-                            NetConnectLogin();
-                        }
-                    }
-                }
-            }
-            return !AppGlobal.IsLoginSucceed;
-        }
+        }         
 
         /// <summary>
         /// 开启保持网络在线
@@ -344,8 +246,7 @@ namespace ProjectApp
             holdNetOnlineRefCount++;
             if (holdNetOnlineRefCount > 0)
             {
-                isNeedNetLogin = true;               
-                NetConnectLogin();
+                isNeedNetLogin = true;         
             }
         }
 
@@ -360,15 +261,7 @@ namespace ProjectApp
                 holdNetOnlineRefCount = 0;
                 isNeedNetLogin = false;
             }
-        }
-
-        /// <summary>
-        /// 进行联网登录
-        /// </summary>
-        private void NetConnectLogin()
-        {
-            LoginCtrl.Instance.ConnectLogin();
-        }
+        }        
 
         /// <summary>
         /// 联网通知UI点击

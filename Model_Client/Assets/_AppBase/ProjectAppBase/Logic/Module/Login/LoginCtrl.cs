@@ -78,17 +78,7 @@ namespace ProjectApp
         /// websocket连接成功,新用户只能调用一次
         /// </summary>
         private bool isFirstWebSocketConnectFinish = true;
-        public bool ConnectLogin()
-        {
-            if (isDelayLogining)
-            {
-                LogUtil.Log("[LoginCtrl]ConnectLogin Fail: Need DelayLogin");
-                return false;
-            }            
-            
-            return true;
-        }
-
+     
         private void SendLoginReq(bool isWeakNetworkMode)
         {
             // 统计连接时长
@@ -96,27 +86,8 @@ namespace ProjectApp
             // 设置弱联网状态
             WeakNetworkCtrl.Instance.IsInWeakNetworkMode = isWeakNetworkMode;
 
-            C2S_reg_login loginReq = new C2S_reg_login();
-            loginReq.data = new C2S_reg_login_data();  
-            // 初始化登录协议  
-            LoginRequestMsgData.Init(loginReq.data, c2s_infoExtraFields);
-            LoginLocalCache.ReadOperationConfigLocalCache(loginReq.data);
-
-            // 登录  
-            if (!isWeakNetworkMode)
-            {
-                // 回置状态
-                ReconnectCtrl.Instance.ResumeAutoReConnectState();
-                
-                bool isReLogin = loginCompleteTimes > 0; 
-                loginReq.data.is_reconnect = isReLogin ? 1 : 0;    
-            }
-            else  
-            {
-                // 登录成功
-                S2C_reg_login loginResp = WeakNetworkCtrl.Instance.ReadLocalCacheS2CRegLoginMsg();
-                OnLoginResp(loginResp);
-            }
+            // 登录成功
+            OnLoginResp();
         }
 
         private void SendNetLoginReq()
@@ -129,198 +100,21 @@ namespace ProjectApp
             SendLoginReq(true);
         }
 
-        private void OnLoginResp(BaseS2CJsonProto respMsg)
+        private void OnLoginResp()
         {  
-            S2C_reg_login loginResp = respMsg as S2C_reg_login;
-            // 异常处理
-            if (!string.IsNullOrEmpty(loginResp.err))
-            {
-                LogUtil.LogError("[LoginCtrl]Login Resp Error: " + loginResp.err);
-                App.ShowTipsUI("Login server error!");
-                return; 
-            }
-
-            // 登录成功
-            LogUtil.Log("[LoginCtrl]Login Succeed");
-            loginCompleteTimes++;
-            loginResp.sequenceNumber = loginCompleteTimes;
-            if (!isFullLoginSucceed && loginResp.sequenceNumber != 1)
-            {
-                // 未完成完整登录游戏，仅做恢复连接  
-                return;
-            }
-            
-            // 统计统计登录时长
-            if (loginResp.sequenceNumber == 1)
-            {
-                // 登录漏斗统计3
-                LoginStatistics.AddFunnelData_loginsucceed_3();
-
-                int upperLimit = 120 * 1000;
-                ChannelMgr.Instance.EndStatisticTimeEvent(StatisticConst.login_succeed, upperLimit);
-                if (ProjectApplication.Instance.IsNewInstall)
-                {
-                    ChannelMgr.Instance.EndStatisticTimeEvent(StatisticConst.new_user_login_succeed, upperLimit);
-                }
-            }
-
-            // Apk升级弹窗
-            if (AppConst.IsNeedPromptAppUpdate)
-            {
-                if (!CheckApkUpdate(loginResp))
-                {
-                    LoginProcess(loginResp);
-                }
-            }
-            else
-            {
-                LoginProcess(loginResp);
-            }
-        }
-
-        private bool CheckApkUpdate(S2C_reg_login loginResp)
-        {
-            if (loginResp.data.upgrade != null)
-            {
-                Update update = loginResp.data.upgrade;
-                if (update.mode != 3)
-                {
-                    if (update.mode == 1) return false; 
-
-                    if (AppGlobal.IsGameStart)
-                    {
-                        return false;
-                    }
-                    if (loginResp.sequenceNumber == 1)
-                    {
-                        // 需要更新
-                        LogUtil.Log("[LoginCtrl]Need Update Apk");
-                        hasUpdateApkUIDisplay = true;
-                        AppHelper.ShowNeedUpdateUI(update, () => LoginProcess(loginResp));
-                        return true;
-                    }
-                }
-                else
-                {
-                    // 强制更新
-                    LogUtil.Log("[LoginCtrl]Must Need Update Apk");
-                    hasUpdateApkUIDisplay = true;
-                    AppHelper.ShowMustUpdateUI(update);
-                    return true;
-                }
-            }
-            return false;
-        }
+            LoginProcess();
+        }        
           
-        private void LoginProcess(S2C_reg_login loginResp)
+        private void LoginProcess()
         {
-            // 登录流程
-            LogUtil.Log("[LoginCtrl]LoginProcess SequenceNumber: " + loginResp.sequenceNumber);
-            // 邀请码
-            LogUtil.Log("[LoginCtrl]InvitedCode: " + loginResp.data.info.invite_code);
-
-            hasUpdateApkUIDisplay = false;
-
-            if (App.GetIsWeakNetwork())
-            {
-                WeakNetworkCtrl.Instance.InitCache(loginResp);
-            }
-
-            App.UserInfo = new UserInfo();
-            App.UserInfo.userId = loginResp.data.uid.ToString();
-
-            // 保存本地Uid
-            LoginLocalCache.SetLocalUid(loginResp.data.uid);
-            // 保存Token
-            LoginLocalCache.SetToken(loginResp.data.token);  
-            // 设置运营配置
-            LoginLocalCache.SetOperationConfigLocalCache(loginResp);
-
-            // 初始化SDK
-            InitSDK(loginResp);
-            // 初始化模块数据
-            InitModelData(loginResp);
+            hasUpdateApkUIDisplay = false;      
             // 初始化用户配置完成消息
             ctrlDispatcher.Dispatch(CtrlMsg.UserConfiguration_Init);
 
-            LoginLogicComplete(loginResp);
-        }
+            LoginLogicComplete();
+        }        
 
-        private void InitSDK(S2C_reg_login loginResp)
-        {  
-            try
-            {
-                // 发送UID给安卓 -> (因为需求改变，发送邀请码给安卓) -> (因为积分墙需求，修改为发送UID给安卓)
-                Channel.Current.sendUID(loginResp.data.uid.ToString());
-
-                //HACK Adwords广告来源-暂时不需要用到 
-                //ChannelMgr.Instance.OnSendAdwords();   
-
-                // 统计玩家登陆 发送邀请码 （注: SDK存在问题，需要注释SDK实现)
-                Channel.Current.onProfileSignIn(loginResp.data.info.invite_code);
-
-                if (loginResp.data.ltv_24h != null)
-                {
-                    Channel.Current.onUpdateLtv24HJson(loginResp.data.ltv_24h.ToString());
-                }
-
-                if (loginResp.data.pg_setting != null)
-                {                      
-                    JObject jobj = SerializeUtil.GetJObjectByObject(loginResp.data.pg_setting);  
-                    if (jobj == null) return;                     
-                    if (jobj["ads_video"] != null)
-                    {
-                        Channel.Current.setAdsNewConfig(jobj["ads_video"].ToString());
-                    }
-                    if (jobj["ads_icon"] != null)
-                    {
-                        Channel.Current.setAdsIconConfig(jobj["ads_icon"].ToString());
-                    }
-                    if (jobj["adjust_event"] != null)
-                    {
-                        Channel.Current.setTrackEventTokenMap(jobj["adjust_event"].ToString());
-                    }
-                    if (jobj["ads_interstitial"] != null)
-                    {
-                        Channel.Current.setAdsInterstitialConfig(jobj["ads_interstitial"].ToString());
-                    }  
-                    if (loginResp.data.info != null  
-                        && loginResp.data.info.is_open_exchange)  
-                    {
-                        if(jobj["net_opt_v1"] != null)
-                            Channel.Current.setNetOptConfig(jobj["net_opt_v1"].ToString(), loginResp.data.uid.ToString());   
-                        else if (jobj["net_opt"] != null)
-                            Channel.Current.setNetOptConfig(jobj["net_opt"].ToString(), loginResp.data.uid.ToString());
-                    }
-                }
-            }
-            catch (Exception e)
-            {
-                LogUtil.LogError("[LoginCtrl]InitSDK Exception: " + e.ToString());
-            }
-        }
-
-        private void InitModelData(S2C_reg_login loginResp)
-        {
-            try
-            {
-                loginModel.loginData = loginResp.data;
-                loginModel.launchAppTime = (int)DateTimeMgr.Instance.GetCurrTimestamp(); 
-                if(loginResp.data != null && loginResp.data.statis != null)
-                {
-                    loginModel.loginDays = loginResp.data.statis.online_day;
-                    loginModel.loginCount = loginResp.data.statis.online_count;
-                    loginModel.isNewUser = (loginResp.data.statis.online_day == 1) && (loginResp.data.statis.online_count == 1);
-                }
-                InfoCtrl.Instance.InitInfoData(loginResp);
-            }
-            catch (Exception e)
-            {
-                LogUtil.LogError("[LoginCtrl]InitModelData Exception: " + e.ToString());
-            }
-        }
-
-        private void LoginLogicComplete(S2C_reg_login loginResp)
+        private void LoginLogicComplete()
         {
             if (WeakNetworkCtrl.Instance.IsInWeakNetworkMode)
             {
@@ -329,16 +123,8 @@ namespace ProjectApp
             }
             else
             {
-                if (loginResp.sequenceNumber == 1)
-                {
-                    CtrlDispatcher.Instance.Dispatch(CtrlMsg.Login_Succeed);
-                    isFullLoginSucceed = true;
-                }
-                else
-                {
-                    CtrlDispatcher.Instance.Dispatch(CtrlMsg.Login_ReloginSucceed, loginCompleteTimes);
-                }
-            }
+                CtrlDispatcher.Instance.Dispatch(CtrlMsg.Login_Succeed);
+            }  
 
             if (WeakNetworkCtrl.Instance.IsCanOfflineMode())
             {

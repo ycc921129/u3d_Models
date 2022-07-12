@@ -11,7 +11,7 @@ namespace ProjectApp
 {
     public static class AppHelper
     {
-        public static void ShowNeedUpdateUI(Update update, Action cancelFunc)
+        public static void ShowNeedUpdateUI(UnityEngine.PlayerLoop.Update update, Action cancelFunc)
         {
             UpdateUIData updateUIData = new UpdateUIData();
             updateUIData.update = update;
@@ -19,7 +19,7 @@ namespace ProjectApp
             UICtrlDispatcher.Instance.Dispatch(UICtrlMsg.UpdateUI_ShowNeed, updateUIData);
         }
 
-        public static void ShowMustUpdateUI(Update update)
+        public static void ShowMustUpdateUI(UnityEngine.PlayerLoop.Update update)
         {
             UICtrlDispatcher.Instance.Dispatch(UICtrlMsg.UpdateUI_ShowMust, update);
         }
