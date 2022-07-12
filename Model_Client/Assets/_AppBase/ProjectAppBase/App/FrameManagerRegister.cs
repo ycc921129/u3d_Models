@@ -61,8 +61,6 @@ namespace ProjectApp
             SceneMgrRegister.AutoRegisterScene();
             // ConfigMgr
             ConfigMgrRegister.AutoRegisterConfig();
-            // WSNetMgr
-            WSNetMgrRegister.AutoRegisterProtoType();
             // ModuleMgr
             ModuleMgrRegister.AutoRegisterModel();
             ModuleMgrRegister.AutoRegisterUIType();

@@ -8,6 +8,5 @@ namespace ProjectApp
     public static class ModelConst
     {
         public const string LoginModel = "LoginModel";
-        public const string NetworkErrorModel = "NetworkErrorModel";
     }
 }

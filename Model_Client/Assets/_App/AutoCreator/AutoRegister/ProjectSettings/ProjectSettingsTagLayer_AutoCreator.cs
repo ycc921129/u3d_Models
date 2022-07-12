@@ -19,7 +19,6 @@ namespace ProjectApp
         Player = 5,
         GameController = 6,
         Entity = 7,
-        bg = 8,
     }
 
     public enum ProjectSortLayer : int
