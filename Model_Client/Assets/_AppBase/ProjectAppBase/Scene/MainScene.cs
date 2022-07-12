@@ -76,18 +76,7 @@ namespace ProjectApp
         private void StartUpAppProcess()
         {
             LogUtil.Log("[MainScene]Start Up App Process");
-            AppDispatcher.Instance.Dispatch(AppMsg.App_StartUp);
-
-            // 启动Bugly
-            if (Channel.Current.debug)
-            {
-                BuglySDK.SetInfo("debug_" + Channel.Current.lang, Channel.Current.ver, Channel.Current.aid);
-            }
-            else
-            {
-                BuglySDK.SetInfo(Channel.Current.lang, Channel.Current.ver, Channel.Current.aid);
-            }
-            BuglySDK.Init(AppFacade.BuglyAppIDForAndroid, AppFacade.BuglyAppIDForiOS);
+            AppDispatcher.Instance.Dispatch(AppMsg.App_StartUp);            
 
             // 初始化资源
             if (!AppConst.IsDevelopMode)
