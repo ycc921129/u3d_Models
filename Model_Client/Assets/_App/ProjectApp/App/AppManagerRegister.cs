@@ -38,9 +38,6 @@ namespace ProjectApp
             permanentAssets.Add("Shader/FairyGUI/FairyGUI-Image", UAssetType.Shader);
             permanentAssets.Add("Shader/FairyGUI/FairyGUI-Text", UAssetType.Shader);
             permanentAssets.Add("Shader/FairyGUI/AddOn/FairyGUI-BlurFilter", UAssetType.Shader);
-            // DragonBones
-            permanentAssets.Add("Shader/DragonBones/DB_BlendMode_Grab", UAssetType.Shader);
-            permanentAssets.Add("Shader/DragonBones/DB_BlendMode_UIGrab", UAssetType.Shader);
 
             ResMgr resMgr = ResMgr.Instance;
             resMgr.SetPermanentAssets(permanentAssets);
