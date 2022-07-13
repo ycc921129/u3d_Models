@@ -59,51 +59,11 @@ namespace ProjectApp
         protected override void OnBind()
         {
             ui = baseUI as com_loading;
-            ui.btn_choose.onClick.Set(() =>
-            {  
-                isAgree = !isAgree;
-                UpdateBtnChooseState();
-            });
         }
 
         protected override void OnOpenBefore(object args)
-        {
-            AddBtnEvent();  
-            UpdateBtnChooseState();          
+        {     
         }
-
-        private void AddBtnEvent()
-        {
-            try
-            {
-                var cnt = ui.text_website.richTextField.htmlElementCount;
-                int childIndex = 10;
-                for (int i = 0; i < cnt; i++)
-                {
-                    HtmlElement element = ui.text_website.richTextField.GetHtmlElementAt(i);
-                    HtmlLink link = element.htmlObject as HtmlLink;
-                    if (link == null || link.displayObject == null) continue;
-                    if (element.charIndex <= childIndex) childIndex = element.charIndex;
-
-                    link.displayObject.onClick.Add(() =>
-                    {
-                        Channel.Current.openWebPage(childIndex == element.charIndex ? AppCommonVOStatic.PrivacyPolicyLink : AppCommonVOStatic.ServiceAgreement);
-                    });
-                }
-            }
-            catch (Exception e)
-            {
-                LogUtil.LogError("[LoadingUI] add event is error. ");
-                throw;
-            }
-        }
-
-        private void UpdateBtnChooseState()
-        {
-            ui.btn_choose.cont_select.selectedIndex = isAgree ? btn_choose.Select_select : btn_choose.Select_unselect;
-            if (isAgree) return;
-        }
-
 
         protected override void OnOpen(object args)
         {
@@ -130,19 +90,6 @@ namespace ProjectApp
                 }
                 FGUIHelper.ShowLoopSpineObject(spineGGraph, spine, spineAnimName);
             }
-        }
-
-        public void SetAgree()
-        {
-            isAgree = true;
-            UpdateBtnChooseState();
-            if (currValue >= 100) ctrl.CloseUI();  
-        }
-
-        public void CheckAgree()
-        {
-            if (!isAgree) return;
-            ctrl.CloseUI();  
         }
 
         protected override void OnClose()

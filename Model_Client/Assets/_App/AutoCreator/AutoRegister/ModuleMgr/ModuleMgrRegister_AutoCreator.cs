@@ -18,9 +18,6 @@ namespace ProjectApp
         public static void AutoRegisterUIType()
         {
             ModuleMgr moduleMgr = ModuleMgr.Instance;
-            moduleMgr.AddUIType(UIConst.GameLoadingUI, typeof(GameLoadingUI));
-            moduleMgr.AddUIType(UIConst.LoginUI, typeof(LoginUI));
-            moduleMgr.AddUIType(UIConst.ReconnectUI, typeof(ReconnectUI));
             moduleMgr.AddUIType(UIConst.LoadingUI, typeof(LoadingUI));
             moduleMgr.AddUIType(UIConst.TipsUI, typeof(TipsUI));
         }
@@ -43,9 +40,6 @@ namespace ProjectApp
         public static void AutoRegisterUICtrl()
         {
             ModuleMgr moduleMgr = ModuleMgr.Instance;
-            moduleMgr.AddUICtrl(UICtrlConst.GameLoadingUICtrl, new GameLoadingUICtrl());
-            moduleMgr.AddUICtrl(UICtrlConst.LoginUICtrl, new LoginUICtrl());
-            moduleMgr.AddUICtrl(UICtrlConst.ReconnectUICtrl, new ReconnectUICtrl());
             moduleMgr.AddUICtrl(UICtrlConst.LoadingUICtrl, new LoadingUICtrl());
             moduleMgr.AddUICtrl(UICtrlConst.TipsUICtrl, new TipsUICtrl());
         }

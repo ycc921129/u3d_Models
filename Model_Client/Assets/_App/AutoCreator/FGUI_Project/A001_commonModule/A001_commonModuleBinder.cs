@@ -9,8 +9,6 @@ namespace UI.A001_commonModule
         public static void BindAll()
         {
             UIObjectFactory.SetPackageItemExtension(btn_mask.URL, typeof(btn_mask));
-            UIObjectFactory.SetPackageItemExtension(com_light.URL, typeof(com_light));
-            UIObjectFactory.SetPackageItemExtension(btn_large.URL, typeof(btn_large));
         }
     }
 }

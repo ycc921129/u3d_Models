@@ -70,7 +70,7 @@ namespace ProjectApp
 
             AppDispatcher.Instance.AddListener(AppMsg.UI_DisplayLoadingUI, OpenUI);
             AppDispatcher.Instance.AddListener(AppMsg.UI_SetLoadingUIProgress, SetLoadingValue);
-            AppDispatcher.Instance.AddListener(AppMsg.UI_HideLoadingUI, OnHideLoading);
+            AppDispatcher.Instance.AddListener(AppMsg.UI_HideLoadingUI, CloseUI);
 
             AppDispatcher.Instance.AddListener(AppMsg.WebSocketServer_PreferencesParseError, SetPreferencesParseError);
             AppDispatcher.Instance.AddListener(AppMsg.System_ConfigInitError, SetConfigInitFailed);
@@ -87,7 +87,7 @@ namespace ProjectApp
 
             AppDispatcher.Instance.RemoveListener(AppMsg.UI_DisplayLoadingUI, OpenUI);
             AppDispatcher.Instance.RemoveListener(AppMsg.UI_SetLoadingUIProgress, SetLoadingValue);
-            AppDispatcher.Instance.RemoveListener(AppMsg.UI_HideLoadingUI, OnHideLoading);
+            AppDispatcher.Instance.RemoveListener(AppMsg.UI_HideLoadingUI, CloseUI);
 
             AppDispatcher.Instance.RemoveListener(AppMsg.WebSocketServer_PreferencesParseError, SetPreferencesParseError);
             AppDispatcher.Instance.RemoveListener(AppMsg.System_ConfigInitError, SetConfigInitFailed);
@@ -134,18 +134,6 @@ namespace ProjectApp
         private void OpenReconnectUI()
         {
             uiCtrlDispatcher.Dispatch(UICtrlMsg.C_OpenReconnectUI);
-        }
-
-        private void OnHideLoading(object obj)
-        {
-            if (ui == null) return;
-            ui.CheckAgree();
-        }
-
-        private void OnAgree(object obj)
-        {
-            if (ui == null) return;
-            ui.SetAgree();
         }
         #endregion
     }

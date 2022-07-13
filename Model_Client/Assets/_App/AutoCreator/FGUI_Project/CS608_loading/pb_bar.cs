@@ -7,7 +7,6 @@ namespace UI.CS608_loading
 {
     public partial class pb_bar : GProgressBar
     {
-        public com_pbAni com_pbAni;
         public Transition jump;
         public const string URL = "ui://9euvtldhpjc9p";
 
@@ -20,7 +19,6 @@ namespace UI.CS608_loading
         {
             base.ConstructFromXML(xml);
 
-            com_pbAni = (com_pbAni)GetChildAt(2);
             jump = GetTransitionAt(0);
         }
     }
