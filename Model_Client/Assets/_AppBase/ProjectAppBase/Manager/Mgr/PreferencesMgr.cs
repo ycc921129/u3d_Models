@@ -17,14 +17,12 @@ namespace ProjectApp
     {
         public ObscuredInt credit;
         private Preferences preferences;
-        private DataDispatcher dataDispatcher;        
+        private DataDispatcher dataDispatcher;
 
+        private Dictionary<string, object> mSet = new Dictionary<string, object>();
         private ObjectPool<KeyValue> keyValuePool;
         private List<KeyValue> autoSaveList;
-
-        private TimerTask autoSaveTimer;  
-
-        private CommonMsgData ppCardChangeMsgData = new CommonMsgData(CtrlCommonMsg.PPCardChange);
+        private TimerTask autoSaveTimer;          
 
         public override void Init()
         {  
@@ -67,18 +65,16 @@ namespace ProjectApp
         {
             AppDispatcher.Instance.RemoveListener(AppMsg.App_Pause_True, ImmediateSendSave);
         }
-
+          
         public void InitPreferences()
         {  
-            LoginModel loginModel = ModuleMgr.Instance.GetModel(ModelConst.LoginModel) as LoginModel; 
-            
+            LoginModel loginModel = ModuleMgr.Instance.GetModel(ModelConst.LoginModel) as LoginModel;
+            preferences = LoginLocalCache.ReadLocalPreferencesCache();   
             if (preferences == null)
             {
                 preferences = new Preferences();
             }
             OnInitPreferences();  
-
-            // 登录漏斗统计5
         }
 
         private void OnAutoDelaySave(TimerTask timerInfo)
@@ -96,11 +92,6 @@ namespace ProjectApp
                 keyValuePool.Release(item);
             }
             autolist.Clear();
-        }
-
-        private void AddDataVer()
-        {
-            ++Data_ver;
         }
 
         /// <summary>
@@ -125,24 +116,28 @@ namespace ProjectApp
 
         private void Save<T>(string key, T data)
         {
-
-        }
+            if (!mSet.ContainsKey(key))
+            {
+                mSet.Add(key, data);
+            }
+            else
+            {
+                mSet[key] = data;
+            }
+        }  
 
         #endregion 保存方法
-        private void ClearPreferencesDic() 
+        private void ClearPreferencesDic()
         {
-
+            mSet.Clear();
         }
 
         private void PreferencesSendSave()
         {
-            //TODO preference存储
-            return; 
-
             WeakNetworkCtrl.Instance.UpdatePreferences();
             ClearPreferencesDic();
         }
-
+          
         #endregion 远程存储        
 
         #region 封装

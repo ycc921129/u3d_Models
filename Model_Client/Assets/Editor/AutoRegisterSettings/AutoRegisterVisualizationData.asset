@@ -46,8 +46,6 @@ MonoBehaviour:
   gameData: []
   preferences:
   - {fileID: 11500000, guid: 349cfdcb609e0ba4a9aab7f04e592690, type: 3}
-  - {fileID: 11500000, guid: c34c8841d1cd50a418c0b0db8155c106, type: 3}
-  - {fileID: 11500000, guid: 28bea5e48b397bb4ea7e94994531903d, type: 3}
   scene:
   - {fileID: 11500000, guid: 0442afcac56ae1d41a080d0942ec58a9, type: 3}
   - {fileID: 11500000, guid: 653848e74b0e25b4bbf30b506fd2393e, type: 3}
@@ -62,7 +60,6 @@ MonoBehaviour:
   - {fileID: 102900000, guid: a6b7eefa96ce11143a047fd93ecb84f9, type: 3}
   - {fileID: 102900000, guid: 6954a06fdbe9bfa40aee949574388630, type: 3}
   - {fileID: 102900000, guid: 7d6ad84c97c0be94d8cdb048a02f2fe5, type: 3}
-  - {fileID: 102900000, guid: acf190c790f7c354db9a5dc6d0848e41, type: 3}
   - {fileID: 102900000, guid: a3d6853dadf13b54db90913e2be592fb, type: 3}
   - {fileID: 102900000, guid: e8473126346fb904c807ecbba848b196, type: 3}
   - {fileID: 102900000, guid: 97688d2cc63cc1840981bb0ab0189ab6, type: 3}

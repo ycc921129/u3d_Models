@@ -252,14 +252,7 @@ namespace ProjectApp
             CtrlDispatcher.Instance.Dispatch(CtrlMsg.Game_StartBefore);
             CtrlDispatcher.Instance.Dispatch(CtrlMsg.Game_Start);
             CtrlDispatcher.Instance.Dispatch(CtrlMsg.Game_StartLater);
-            AppGlobal.IsGameStart = true;
-
-            // 记录是否曾经进入过游戏
-            if (!PreferencesMgr.Instance.HaveBeenGameStart) 
-            {
-                PreferencesMgr.Instance.HaveBeenGameStart = true;
-                PreferencesMgr.Instance.ImmediateSendSave();
-            }
+            AppGlobal.IsGameStart = true;            
         }
 
         public override void Dispose()

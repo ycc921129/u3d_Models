@@ -10,7 +10,6 @@ namespace ProjectApp
         public const string ChannelMsg_CommonCtrl = "ChannelMsg_CommonCtrl";
         public const string CommonInitCtrl = "CommonInitCtrl";
         public const string PreferencesDataReadyCtrl = "PreferencesDataReadyCtrl";
-        public const string InterstitialCtrl = "InterstitialCtrl";
         public const string LangueConfigCtrl = "LangueConfigCtrl";
         public const string LangueCtrl = "LangueCtrl";
         public const string LangueGameCtrl = "LangueGameCtrl";

@@ -31,7 +31,6 @@ namespace ProjectApp
             moduleMgr.AddCtrl(CtrlConst.ChannelMsg_CommonCtrl, new ChannelMsg_CommonCtrl());
             moduleMgr.AddCtrl(CtrlConst.CommonInitCtrl, new CommonInitCtrl());
             moduleMgr.AddCtrl(CtrlConst.PreferencesDataReadyCtrl, new PreferencesDataReadyCtrl());
-            moduleMgr.AddCtrl(CtrlConst.InterstitialCtrl, new InterstitialCtrl());
             moduleMgr.AddCtrl(CtrlConst.LangueConfigCtrl, new LangueConfigCtrl());
             moduleMgr.AddCtrl(CtrlConst.LangueCtrl, new LangueCtrl());
             moduleMgr.AddCtrl(CtrlConst.LangueGameCtrl, new LangueGameCtrl());
