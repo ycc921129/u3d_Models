@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="g7l3moc6" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="anuhn" name="com_tipContent.xml" path="/"/>
+    <component id="anuho" name="com_tips.xml" path="/" exported="true"/>
+  </resources>
+  <publish name="C505_tips" genCode="true" extractAlpha="true"/>
+</packageDescription>

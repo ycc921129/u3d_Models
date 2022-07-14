@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="603,53" extention="ProgressBar">
+  <displayList>
+    <image id="n4_pjc9" name="n4" src="wb9d3c" fileName="pic/laoding.png" xy="24,5"/>
+    <image id="n1_pjc9" name="bar" src="wb9d3b" fileName="pic/laoding(1)(1).png" xy="32,13"/>
+    <text id="n2_pjc9" name="title" xy="213,5" pivot="0.5,0.5" size="177,42" font="ui://9gpz896kdjobad" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" strokeColor="#5b2414" singleLine="true" text="50%">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <ProgressBar/>
+  <transition name="jump" autoPlay="true" frameRate="30"/>
+</component>

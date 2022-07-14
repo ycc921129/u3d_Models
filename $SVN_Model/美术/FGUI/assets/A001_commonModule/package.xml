@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="9gpz896k">
+  <resources>
+    <component id="8igg1" name="btn_mask.xml" path="/projectCom/" exported="true"/>
+    <font id="djobad" name="BoltBoldITCbyBT-Regular.ttf" path="/res/font/" exported="true" renderMode="" samplePointSize="16"/>
+    <font id="djobae" name="Radnika-Bold_0.otf" path="/res/font/" exported="true" renderMode="" samplePointSize="16"/>
+  </resources>
+  <publish name="A000_common" genCode="true" extractAlpha="true"/>
+</packageDescription>

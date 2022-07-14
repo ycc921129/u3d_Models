@@ -19,11 +19,6 @@
 */fontconfig.bmfc
 **/*~
 
-**/$SVN/
-$SVN/
-**/$SVN*/
-$SVN*/
-
 .vscode
 .idea
 

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="9euvtldh">
+  <resources>
+    <component id="d4qv0" name="com_loading.xml" path="/" exported="true"/>
+    <component id="pjc9p" name="pb_bar.xml" path="/com/" exported="true"/>
+    <image id="wb9d3a" name="logo.png" path="/pic/"/>
+    <image id="wb9d3b" name="laoding(1)(1).png" path="/pic/" scale="9grid" scale9grid="11,0,514,30"/>
+    <image id="wb9d3c" name="laoding.png" path="/pic/"/>
+  </resources>
+  <publish name="CS608_loading" genCode="true" extractAlpha="true"/>
+</packageDescription>

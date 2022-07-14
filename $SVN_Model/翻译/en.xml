@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- C505_tips/com_tip_01.xml -->
+  <string name="g7l3moc6iw6dp-n46_u7at" mz="text_tip">No Video,Please Try Later!</string>
+  <!-- CS603_gameWindows/btn/btn_cancel.xml -->
+  <string name="06ybtwdrgki4a-n4_gki4" mz="n4">Cancel</string>
+  <!-- CS603_gameWindows/btn/btn_facebookLogin.xml -->
+  <string name="06ybtwdrunhvg-n2_u7at" mz="n2">SIGN IN WITH FACEBOOK</string>
+  <!-- CS603_gameWindows/btn/btn_googleLogin.xml -->
+  <string name="06ybtwdrunhvh-n1_g7u0" mz="n1">SIGN IN WITH GOOGLE</string>
+  <!-- CS603_gameWindows/btn/btn_help.xml -->
+  <string name="06ybtwdrgki4b-n2_pnsc" mz="n2">Help</string>
+  <!-- CS603_gameWindows/btn/btn_retry.xml -->
+  <string name="06ybtwdrwdfo9-n2_pnsc" mz="n2">Retry</string>
+  <!-- CS603_gameWindows/btn/btn_update.xml -->
+  <string name="06ybtwdrwdfo5-n3_mccl" mz="n3">Update</string>
+  <!-- CS603_gameWindows/btn_calcel.xml -->
+  <string name="06ybtwdriw6dj-n4_gki4" mz="n4">CALCEL</string>
+  <!-- CS603_gameWindows/com_buttomStatus.xml -->
+  <string name="06ybtwdrfd20c-n15_vw9h" mz="n15">Please update!</string>
+  <!-- CS603_gameWindows/com_gameUpdate.xml -->
+  <string name="06ybtwdrwdfo0-n25_scox" mz="n25">UPDATE</string>
+  <!-- CS603_gameWindows/com_login.xml -->
+  <string name="06ybtwdrunhvf-n7_kmcp" mz="n7">LOGIN</string>
+  <!-- CS603_gameWindows/com_retry.xml -->
+  <string name="06ybtwdrwdfo7-n29_scox" mz="n29">CONNECT ERROR</string>
+  <string name="06ybtwdrwdfo7-n22_b72q" mz="text_reconnectStatus">Connect Problem occur!</string>
+  <string name="06ybtwdrwdfo7-n24_b72q" mz="text_status">Status : Init</string>
+  <!-- CS603_gameWindows/com_waterMask.xml -->
+  <string name="06ybtwdrxeq4i-n58_rcj0" mz="text_code">RRRRRR</string>
+  <!-- CS608_loading/com_loading.xml -->
+  <string name="0yiuh9unbdyo0-n7_l0kd" mz="text_loading">Init...</string>
+  <string name="0yiuh9unbdyo0-n5_ri1d" mz="text_severStatus">IsTestSever</string>
+</resources>

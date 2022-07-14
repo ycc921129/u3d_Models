@@ -1,0 +1,25 @@
+{
+  "font": "ui://9gpz896kdjobae",
+  "fontSize": 24,
+  "textColor": "#000000",
+  "fontAdjustment": false,
+  "colorScheme": [
+    "描边 #1F7F7F"
+  ],
+  "fontSizeScheme": [
+    "自定义字体大小 30"
+  ],
+  "fontScheme": [
+    "a ARIALBD",
+    "c Comic"
+  ],
+  "scrollBars": {
+    "horizontal": "",
+    "vertical": "",
+    "defaultDisplay": "visible"
+  },
+  "tipsRes": "",
+  "buttonClickSound": "",
+  "pivot": "center",
+  "fileName": "Common"
+}

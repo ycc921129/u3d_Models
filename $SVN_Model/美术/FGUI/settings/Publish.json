@@ -1,0 +1,35 @@
+{
+  "path": "F:\\Project_test\\u3d_Models\\Model_Client\\Assets\\_Res\\Resources\\UI",
+  "branchPath": "",
+  "fileExtension": "bytes",
+  "packageCount": 2,
+  "compressDesc": true,
+  "binaryFormat": true,
+  "jpegQuality": 80,
+  "compressPNG": false,
+  "codeGeneration": {
+    "allowGenCode": true,
+    "codePath": "F:\\Project_test\\u3d_Models\\Model_Client\\Assets\\_App\\AutoCreator\\FGUI_Project",
+    "classNamePrefix": "",
+    "memberNamePrefix": "",
+    "packageName": "UI",
+    "ignoreNoname": true,
+    "getMemberByName": false,
+    "codeType": ""
+  },
+  "includeHighResolution": 0,
+  "branchProcessing": 0,
+  "seperatedAtlasForBranch": false,
+  "atlasSetting": {
+    "maxSize": 2048,
+    "paging": true,
+    "sizeOption": "pot",
+    "forceSquare": false,
+    "allowRotation": false,
+    "trimImage": false
+  },
+  "include2x": false,
+  "include3x": false,
+  "include4x": false,
+  "fileName": "Publish"
+}

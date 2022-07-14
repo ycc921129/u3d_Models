@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="z8mgys64">
+  <resources>
+    <image id="qws75" name="frame_homepage.png" path="/" exported="true" atlas="alone_npot"/>
+  </resources>
+  <publish name="A002_bigBackground"/>
+</packageDescription>
